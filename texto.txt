@@ -1,5 +1,0 @@
-
- oeg.fi.upm.es/hascollege is property 
- -------/hascollegue range person
- -------/hascollegue domain person:w
-
