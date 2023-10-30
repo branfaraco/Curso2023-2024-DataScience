@@ -23,3 +23,4 @@
 
 ## Comments on the self-assessment
 _(If required)_
+2 personas de nuestro grupo aun no se apañar bien con GIT pero han sacado ellos el csv y han hecho un html, para que se tenga en cuenta se trabajo
