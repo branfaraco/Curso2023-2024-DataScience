@@ -1,0 +1,84 @@
+ @prefix : <http://base.namespace.com/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:Accesibilidad a owl:DatatypeProperty ;
+    rdfs:label "accesibilidad" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:datatype .
+
+ns:Codigo a owl:DatatypeProperty ;
+    rdfs:label "codigo" ;
+    rdfs:domain ns:Localidad .
+
+ns:Descripcion a owl:DatatypeProperty ;
+    rdfs:label "descripcion" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:datatype .
+
+ns:Equipamiento a owl:DatatypeProperty ;
+    rdfs:label "equipamiento" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:datatype .
+
+ns:Horario a owl:DatatypeProperty ;
+    rdfs:label "horario" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:str .
+
+ns:Latitud a owl:DatatypeProperty ;
+    rdfs:label "latitud" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:str .
+
+ns:Longitud a owl:DatatypeProperty ;
+    rdfs:label "longitud" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:str .
+
+ns:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain ns:Parque ;
+    rdfs:range xsd:str .
+
+ns:objectProperty a owl:ObjectProperty ;
+    rdfs:label "object property" ;
+    rdfs:domain ns:Barrio,
+        ns:Districto,
+        ns:Localidad,
+        ns:Parque,
+        ns:Via ;
+    rdfs:range ns:Barrio,
+        ns:Districto,
+        ns:Localidad,
+        ns:Provincia,
+        ns:Tipo,
+        ns:Via .
+
+ns:Provincia a owl:Class ;
+    rdfs:label "Provincia" .
+
+ns:Tipo a owl:Class ;
+    rdfs:label "Tipo" .
+
+ns:Barrio a owl:Class ;
+    rdfs:label "Barrio" .
+
+ns:Districto a owl:Class ;
+    rdfs:label "Districto" .
+
+ns:Via a owl:Class ;
+    rdfs:label "Via" .
+
+ns:Localidad a owl:Class ;
+    rdfs:label "Localidad" .
+
+ns:Parque a owl:Class ;
+    rdfs:label "Parque" .
+

@@ -1,0 +1,162 @@
+ @prefix db: <http://dbpedia.org/resource/classes#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix m3: <http://purl.org/iot/vocab/m3-lite#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://pittsburgh.linkeddata.es/traffic/ontology/ont1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix w3: <https://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns:BikeTraffic a owl:Class ;
+    rdfs:label "Bike Traffic" ;
+    rdfs:subClassOf ns:Traffic .
+
+ns:CarTraffic a owl:Class ;
+    rdfs:label "Car Traffic" ;
+    rdfs:subClassOf ns:Traffic .
+
+ns:IntersectionStudy a owl:Class ;
+    rdfs:label "Intersection Study" ;
+    rdfs:subClassOf m3:SpeedSensor .
+
+ns:MaxSpeed a owl:Class ;
+    rdfs:label "Max Speed" ;
+    rdfs:subClassOf m3:Speed .
+
+ns:MedianSpeed a owl:Class ;
+    rdfs:label "Median Speed" ;
+    rdfs:subClassOf m3:Speed .
+
+ns:SpeedLimit a owl:Class ;
+    rdfs:label "Speed Limit" ;
+    rdfs:subClassOf m3:Speed .
+
+ns:StatTrak a owl:Class ;
+    rdfs:label "Stat Trak" ;
+    rdfs:subClassOf m3:SpeedSensor .
+
+ns:Tube a owl:Class ;
+    rdfs:label "Tube" ;
+    rdfs:subClassOf m3:SpeedSensor .
+
+ns:hasDuration a owl:ObjectProperty ;
+    rdfs:label "has duration" ;
+    rdfs:domain ns:Measurements ;
+    rdfs:range w3:TemporalEntity .
+
+ns:hasLocation a owl:ObjectProperty ;
+    rdfs:label "has location" ;
+    rdfs:domain m3:SpeedSensor ;
+    rdfs:range geo:Point .
+
+ns:isDeterminedBy a owl:ObjectProperty ;
+    rdfs:label "is determined by" ;
+    rdfs:domain m3:SpeedSensor ;
+    rdfs:range ns:Id .
+
+ns:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" ;
+    rdfs:domain m3:SpeedSensor ;
+    rdfs:range db:CityDistrict .
+
+ns:measures a owl:ObjectProperty ;
+    rdfs:label "measures" ;
+    rdfs:domain ns:Measurements ;
+    rdfs:range ns:Statistics,
+        ns:Traffic,
+        m3:Speed .
+
+ns:takes a owl:ObjectProperty ;
+    rdfs:label "takes" ;
+    rdfs:domain m3:SpeedSensor ;
+    rdfs:range ns:Measurements .
+
+dc:contributor a owl:AnnotationProperty .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:description a owl:AnnotationProperty .
+
+dc:isPartOf a owl:ObjectProperty ;
+    rdfs:label "is part of" ;
+    rdfs:domain db:CityDistrict ;
+    rdfs:range ns:FireZone,
+        ns:PoliceZone,
+        ns:PublicWorksDivision .
+
+dc:license a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+geo:lat a owl:DatatypeProperty ;
+    rdfs:label "lat" ;
+    rdfs:domain geo:Point ;
+    rdfs:range xsd:string .
+
+geo:long a owl:DatatypeProperty ;
+    rdfs:label "long" ;
+    rdfs:domain geo:Point ;
+    rdfs:range xsd:string .
+
+<https://w3id.org/example#> a owl:Ontology ;
+    dc:contributor "Alba Lozano",
+        "Carmen Estévez",
+        "Javier González",
+        "Miguel Gallego" ;
+    dc:creator "Mario Fernández Blanco" ;
+    dc:description "Lightweight ontology to represent the data collected by traffic sensors in Pittsburgh."@en ;
+    dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dc:title "The Group01 ontology"@en ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+w3:hasBeggining a owl:DatatypeProperty ;
+    rdfs:label "has beggining" ;
+    rdfs:domain w3:TemporalEntity ;
+    rdfs:range w3:Instant .
+
+w3:hasEnd a owl:DatatypeProperty ;
+    rdfs:label "has end" ;
+    rdfs:domain w3:TemporalEntity ;
+    rdfs:range w3:Instant .
+
+ns:FireZone a owl:Class ;
+    rdfs:label "Fire Zone" .
+
+ns:Id a owl:Class ;
+    rdfs:label "Id" .
+
+ns:PoliceZone a owl:Class ;
+    rdfs:label "Police Zone" .
+
+ns:PublicWorksDivision a owl:Class ;
+    rdfs:label "Public Works Division" .
+
+ns:Statistics a owl:Class ;
+    rdfs:label "Statistics" .
+
+db:CityDistrict a owl:Class ;
+    rdfs:label "City District" .
+
+ns:Measurements a owl:Class ;
+    rdfs:label "Measurements" .
+
+ns:Traffic a owl:Class ;
+    rdfs:label "Traffic" .
+
+geo:Point a owl:Class ;
+    rdfs:label "Point" .
+
+w3:TemporalEntity a owl:Class ;
+    rdfs:label "Temporal Entity" .
+
+m3:Speed a owl:Class ;
+    rdfs:label "Speed" .
+
+m3:SpeedSensor a owl:Class ;
+    rdfs:label "Speed Sensor" .
+

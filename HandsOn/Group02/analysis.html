@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ANALYSE DATA</title>
+</head>
+<body>
+<font face="Arial">
+	<h1 align="center" style="color:#33A7B7">ANALYSE LICENSING OF THE DATA SOURCE</h1>
+	<p> Todos los datasets tienen la misma licencia</p>
+	<h4 style="color:#33A7B7">PUBLISHER:</h4>
+	<p> Comunidad Autónoma de País Vasco</p>
+	<h4 style="color:#33A7B7">RIGHTSHOLDER:</h4>
+	<p> Creative Commons</p>
+	<h4 style="color:#33A7B7">LICENSE:
+		<a href="https://creativecommons.org/licenses/by/4.0/">creative commons</a>	</h4>
+	<li> You are free to share: copy and redistribute the material in any medium or format for any purpose, even commercially</li>
+	<li> You are free to adapt: remix, transform, and build upon the material for any purpose, even commercially</li>
+	<p> Para poder compartir y adaptar los datos deben de seguirse los siguientes términos:</p>
+	<li> Attribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use</li>
+	<li> No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits</li>
+	<p> You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation .
+
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material</p>
+	<h4 style="color:#33A7B7">OUR LICENSE:</h4>
+	<p>Como todos los datasets tienen la misma licencia, el dataset que generemos tendrá la misma licencia</p>
+	<li style="color:#33A7B7">LICENSE:
+		<a href="https://creativecommons.org/licenses/by/4.0/">creative commons</a>	</li>
+	<h1 align="center" style="color:#33A7B7">ANALYSE DATASET</h1>
+	<h3 style="color:#33A7B7">DATASET 1, SEGURIDAD DE LA ZONA</h3>
+		<table class="egt">
+		<tbody style="background: rgba(224, 249, 30, 0.3); border: 1px solid rgba(0, 0, 0, 1);">
+			<tr>
+				<th></th>
+				<th>Tipo</th>
+				<th>Descripción</th>
+			</tr>
+		</tbody>
+		<tbody style="background: rgba(2, 199, 254, 0.3); border: 1px solid rgba(0, 0, 0, 0.3);">
+			<tr>
+				<td>PROVINCIA</td>
+				<td>string</td>
+				<td>Contiene el nombre de la provincia</td>
+			</tr>
+			<tr>
+				<td>SEXO</td>
+				<td>string</td>
+				<td>Contiene el género</td>
+			</tr>
+			<tr>
+				<td>AÑO</td>
+				<td>float</td>
+				<td>Contiene la proporción de personas que se sienten seguras en su zona en el año indicado</td>
+			</tr>
+			<tr>
+				<td>RANGO(valor de los datos)</td>
+				<td>float</td>
+				<td>58-87</td>
+			</tr>
+		</body>
+		</table>
+	<h3 style="color:#33A7B7">DATASET 2, DOTACIÓN POLICIAL</h3>
+		<table class="egt">
+		<tbody style="background: rgba(224, 249, 30, 0.3); border: 1px solid rgba(0, 0, 0, 1);">
+			<tr>
+				<th></th>
+				<th>Tipo</th>
+				<th>Descripción</th>
+			</tr>
+		</tbody>
+		<tbody style="background: rgba(2, 199, 254, 0.3); border: 1px solid rgba(0, 0, 0, 0.3);">
+			<tr>
+				<td>CÓDIGO DE MUNICIPIO</td>
+				<td>float</td>
+				<td>Contiene el número del municipio</td>
+			</tr>
+			<tr>
+				<td>MUNICIPIO</td>
+				<td>string</td>
+				<td>Contiene el nombre del municipio</td>
+			</tr>
+			<tr>
+				<td>AÑO</td>
+				<td>float</td>
+				<td>Contiene la dotación policial de la zona en el año indicado</td>
+			</tr>
+			<tr>
+				<td>RANGO(valor de los datos)</td>
+				<td>float</td>
+				<td>0-3.96</td>
+			</tr>
+		</tbody>
+		</table>
+	<h3 style="color:#33A7B7">DATASET 3, ÍNDICE DE DELITOS</h3>
+		<table class="egt">
+		<tbody style="background: rgba(224, 249, 30, 0.3); border: 1px solid rgba(0, 0, 0, 1);">
+			<tr>
+				<th></th>
+				<th>Tipo</th>
+				<th>Descripción</th>
+			</tr>
+		</tbody>
+		<tbody style="background: rgba(2, 199, 254, 0.3); border: 1px solid rgba(0, 0, 0, 0.3);">
+			<tr>
+				<td>CÓDIGO DE MUNICIPIO</td>
+				<td>float</td>
+				<td>Contiene el número del municipio</td>
+			</tr>
+			<tr>
+				<td>MUNICIPIO</td>
+				<td>string</td>
+				<td>Contiene el nombre del municipio</td>
+			</tr>
+			<tr>
+				<td>AÑO</td>
+				<td>float</td>
+				<td>Contiene el índice de criminalidad de la zona en el año indicado</td>
+			</tr>
+			<tr>
+				<td>RANGO(valor de los datos)</td>
+				<td>float</td>
+				<td>0-170</td>
+			</tr>
+		</tbody>
+		</table>
+	<h1 align="center" style="color:#33A7B7">RESOURCE NAMING STRATEGY</h1>
+	<h4 style="color:#33A7B7">DOMINIO</h4>
+	<b style="color:#33A7B7">https://www.vascomap.com/</b>
+	<p> Las uris se dividen en dos tipos:</p>
+	<li> Uris para definir la ontología</li>
+	<li> Uris para definir los recursos inicializados</li>
+	<h4 style="color:#33A7B7">URIS DE LA ONTOLOGÍA</h4>
+	<p> El dominio elegido para nuestras URIs propias es <b style="color:#33A7B7">https://www.vascomap.com/</b>, el cual hemos verificado que no está en uso.</p>
+	<p> Todas las ontologías(propias) comienzan por: <b style="color:#33A7B7">https://www.vascomap.com/ontology/</b></p>
+	<p> A su vez, este tipo de uris pueden dividirse en:
+	<li> Uris para definir las clases:</li>			
+		<ul>
+			<li style="color:#33A7B7"> https://www.vascomap.com/ontology/class#</li>
+			<li>Municipality</li>
+			<li>Province</li>
+			<li>SecurityIndex</li>
+			<li>PoliceStaff</li>
+			<li>CrimeIndex</li>
+		</ul>
+		<ul>
+			<li style="color:#33A7B7"> https://dbpedia.org/ontology/class#</li>
+			<li>Person</li>
+			<li>Year</li>
+			<li>Man</li>
+			<li>Woman</li>
+			<li>Police Officer</li>
+		</ul>
+	<li> Uris para definir propiedades de objeto: https://www.vascomap.com/ontology/Property#</li>
+		<ul>
+			<li>conforms</li>
+			<li>has</li>
+			<li>throughout</li>
+			<li>livesIn</li>
+			<li>belongsTo</li>
+		</ul>
+	<li> Uris para definir propiedades de datatype: https://www.vascomap.com/ontology/Property#</li>
+		<ul>
+			<li>code</li>
+			<li>value</li>
+		</ul>
+	</li>
+	</p>
+	<h4 style="color:#33A7B7">URIS DE LOS RECURSOS</h4>
+	<li> https://www.vascomap.com/resource/</li>
+		<ul>
+			<li>Municipality/SanSebastian</li>
+			<li>Province/Gipuzkoa</li>
+			<li>SecurityIndex/seguridad2020</li>
+			<li>PoliceStaff/dpSanSebastian</li>
+			<li>CrimeIndex/delitoSanSebastian</li>
+			<li>Woman/nombreUsuario</li>
+			<li>Man/nombreUsuario</li>
+			<li>Year/2020</li>
+			<li>PoliceOfficer/policeofficer1</li>
+		</ul>		
+</font>
+</body>
+</html>	

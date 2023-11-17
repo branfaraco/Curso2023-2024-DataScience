@@ -1,0 +1,101 @@
+City Name,Zone Name,Ward Name,Ward No.,Length of Roads (in km),Length of Tar Roads (in km),Length of Concrete Roads (in km),Length of Roads with footpaths on both sides (in km),Length of Roads with footpaths on one side (in km)
+Agra ,EAST,Kajipara,1,5.97,NA,NA,NA,NA
+Agra ,SOUTH,Gummat Takh Pahalwan,2,5.274,NA,NA,NA,NA
+Agra ,WEST,Jagdish Pura,3,3.18,NA,NA,NA,NA
+Agra ,SOUTH,Sewla Jat,4,5.4,NA,NA,NA,NA
+Agra ,SOUTH,Himachal Colony,5,5.96,NA,NA,NA,NA
+Agra ,WEST,Jagdish pura Purv,6,7.077,NA,NA,NA,NA
+Agra ,WEST,Khatena,7,2.23,NA,NA,NA,NA
+Agra ,EAST,Idgah,8,6.975,NA,NA,NA,NA
+Agra ,WEST,Ghas ki mandi,9,5.745,NA,NA,NA,NA
+Agra ,WEST,Prakash Nagar,10,2.915,NA,NA,NA,NA
+Agra ,NORTH,Charsu Darwaza,11,3.731,NA,NA,NA,NA
+Agra ,WEST,Nagla Mohan,12,2.33,NA,NA,NA,NA
+Agra ,NORTH,Nagla Harmuk,13,2.493,NA,NA,NA,NA
+Agra ,EAST,Kachpura,14,10.96,NA,NA,NA,NA
+Agra ,SOUTH,Saray Malukchand,15,14.161,NA,NA,NA,NA
+Agra ,EAST,Dholikhar,16,10.36,NA,NA,NA,NA
+Agra ,NORTH,Ratanpura,17,11.25,NA,NA,NA,NA
+Agra ,WEST,Rajnagar,18,2.172,NA,NA,NA,NA
+Agra ,SOUTH,Bundu Katra,19,7.47,NA,NA,NA,NA
+Agra ,NORTH,Freeganj,20,7.95,NA,NA,NA,NA
+Agra ,WEST,Barah Kambha,21,5.6,NA,NA,NA,NA
+Agra ,SOUTH,Souhalla,22,4.36,NA,NA,NA,NA
+Agra ,EAST,Mohanpura,23,5.54,NA,NA,NA,NA
+Agra ,WEST,Gadhi Bhadouriya,24,10.51,NA,NA,NA,NA
+Agra ,NORTH,Bag Muzaffar Khan,25,5.164,NA,NA,NA,NA
+Agra ,NORTH,Jageshwar Nagar,26,7.6,NA,NA,NA,NA
+Agra ,SOUTH,Ajeet Nagar,27,7.82,NA,NA,NA,NA
+Agra ,EAST,Nayi Ki Saray,28,26.9,NA,NA,NA,NA
+Agra ,NORTH,Khandari,29,19.015,NA,NA,NA,NA
+Agra ,WEST,Ram Nagar,30,10.02,NA,NA,NA,NA
+Agra ,NORTH,Lawyers Colony,31,18.168,NA,NA,NA,NA
+Agra ,EAST,Dera Saras,32,9,NA,NA,NA,NA
+Agra ,SOUTH,Dhandhupura,33,12.85,NA,NA,NA,NA
+Agra ,WEST,Bhogipura,34,10.075,NA,NA,NA,NA
+Agra ,SOUTH,Mustafa Quarter,35,3.395,NA,NA,NA,NA
+Agra ,SOUTH,Mahadev Nagar,36,13.87,NA,NA,NA,NA
+Agra ,WEST,Nagla Ajeeta,37,10.875,NA,NA,NA,NA
+Agra ,NORTH,Gailana,38,10.48,NA,NA,NA,NA
+Agra ,EAST,Namner,39,6.47,NA,NA,NA,NA
+Agra ,EAST,Baluganj,40,6.233,NA,NA,NA,NA
+Agra ,WEST,Azampara,41,4.904,NA,NA,NA,NA
+Agra ,EAST,Bhagwati Bag,42,9.481,NA,NA,NA,NA
+Agra ,NORTH,Ghatwasan,43,8.155,NA,NA,NA,NA
+Agra ,SOUTH,Katra Fulel,44,4.69,NA,NA,NA,NA
+Agra ,WEST,Ashok Nagar,45,10.14,NA,NA,NA,NA
+Agra ,WEST,Avas Vikas Poorva,46,30.525,NA,NA,NA,NA
+Agra ,NORTH,Ghatiya Azam Khan,47,4.205,NA,NA,NA,NA
+Agra ,SOUTH,Naripura,48,5.906,NA,NA,NA,NA
+Agra ,WEST,Rahul Nagar,49,9.415,NA,NA,NA,NA
+Agra ,EAST,Sita Nagar,50,9.625,NA,NA,NA,NA
+Agra ,NORTH,Vijay Nagar,51,7.475,NA,NA,NA,NA
+Agra ,NORTH,Dev Nagar,52,8.22,NA,NA,NA,NA
+Agra ,EAST,Mantola,53,10.63,NA,NA,NA,NA
+Agra ,EAST,Trans Yamuna Colony,54,12.253,NA,NA,NA,NA
+Agra ,EAST,Shahdara,55,9.99,NA,NA,NA,NA
+Agra ,NORTH,Lohiya Nagar,56,6.565,NA,NA,NA,NA
+Agra ,EAST,Ukharra,57,12.36,NA,NA,NA,NA
+Agra ,EAST,Narayach Pachim,58,21.35,NA,NA,NA,NA
+Agra ,EAST,Narayach Poorva,59,16.171,NA,NA,NA,NA
+Agra ,NORTH,Khwaspura,60,14.025,NA,NA,NA,NA
+Agra ,NORTH,Sarla Bag,61,16.407,NA,NA,NA,NA
+Agra ,SOUTH,Telipara,62,9.202,NA,NA,NA,NA
+Agra ,SOUTH,Chavali,63,8.085,NA,NA,NA,NA
+Agra ,EAST,Belanganj,64,10.07,NA,NA,NA,NA
+Agra ,EAST,Prakash Nagar,65,3.2,NA,NA,NA,NA
+Agra ,EAST,Nawal Ganj,66,10.91,NA,NA,NA,NA
+Agra ,WEST,Alvatiya,67,12.03,NA,NA,NA,NA
+Agra ,EAST,Noori Darwaza,68,6.48,NA,NA,NA,NA
+Agra ,WEST,Awas Vikas South,69,11.71,NA,NA,NA,NA
+Agra ,SOUTH,Tal Firoz Khan,70,12.965,NA,NA,NA,NA
+Agra ,NORTH,Nagla Padi,71,19.54,NA,NA,NA,NA
+Agra ,SOUTH,Nagla Mewati,72,16.92,NA,NA,NA,NA
+Agra ,WEST,Sikandra,73,16.52,NA,NA,NA,NA
+Agra ,WEST,Jaipur House,74,17.285,NA,NA,NA,NA
+Agra ,WEST,Awas Vikas West,75,8.825,NA,NA,NA,NA
+Agra ,EAST,Dhakran,76,8.11,NA,NA,NA,NA
+Agra ,WEST,Kedar Nagar,77,9.295,NA,NA,NA,NA
+Agra ,SOUTH,Shaheed Nagar,78,16.02,NA,NA,NA,NA
+Agra ,EAST,Motiganj,79,3.535,NA,NA,NA,NA
+Agra ,WEST,Jatpura,80,5.61,NA,NA,NA,NA
+Agra ,NORTH,Kamla Nagar,81,14.42,NA,NA,NA,NA
+Agra ,WEST,Bheem Nagar,82,10.35,NA,NA,NA,NA
+Agra ,EAST,Tedi Bagiya,83,10.195,NA,NA,NA,NA
+Agra ,WEST,Raja Mandi,84,10.85,NA,NA,NA,NA
+Agra ,NORTH,Kaveri Kunj,85,12.05,NA,NA,NA,NA
+Agra ,WEST,Khati Para,86,8.825,NA,NA,NA,NA
+Agra ,NORTH,Bhood ka Bag,87,8.65,NA,NA,NA,NA
+Agra ,SOUTH,Hajjupura,88,5.075,NA,NA,NA,NA
+Agra ,WEST,Rammohan Nagar,89,18.495,NA,NA,NA,NA
+Agra ,NORTH,Balkeshwar,90,9.585,NA,NA,NA,NA
+Agra ,EAST,Rawatpara,91,7.785,NA,NA,NA,NA
+Agra ,CENTRAL,Wajirpura,92,20.69,NA,NA,NA,NA
+Agra ,NORTH,Kamla Nagar,93,11.915,NA,NA,NA,NA
+Agra ,NORTH,Bagh Farzana,94,12.624,NA,NA,NA,NA
+Agra ,EAST,Dhankot,95,10.39,NA,NA,NA,NA
+Agra ,NORTH,Maharshipuram,96,14.436,NA,NA,NA,NA
+Agra ,SOUTH,Gover chawki,97,17.68,NA,NA,NA,NA
+Agra ,SOUTH,Vibhav Nagar,98,21.925,NA,NA,NA,NA
+Agra ,EAST,Pipal Mandi,99,7.32,NA,NA,NA,NA
+Agra ,EAST,Nai ki Mandi,100,11.3,NA,NA,NA,NA

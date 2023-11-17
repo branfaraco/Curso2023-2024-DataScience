@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuente para perros</title>
+  <link rel="shortcut icon" href="images/dog.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fuentes de agua - Comunidad de Madrid</h1> <br><br>
+    <div class="menu">
+      <p data-target="#fuente">Fuente para perros</p>
+      <p data-target="#rns">Resource Naming Strategy</p>
+      <a href="https://datos.madrid.es/egob/catalogo/aviso-legal" target="_blank">Licencias</a>
+      <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target="_blank">Condiciones de uso</a>
+    </div>
+
+    <div class="content">
+      <div data-content id="fuente" class="active">
+        <!-- <h1>Fuente para perros</h1> -->
+        <h2>Info Database:</h2> <br>
+        <p>
+          Se presenta la relación total de fuentes de agua potable de beber tanto para mascotas, como las destinadas a mascotas y a personas de la ciudad de Madrid. Estas fuentes están situadas tanto en vía pública como en zonas verdes, parques y jardines. <br><br>
+
+          Puede consultar si las fuentes se encuentran o no operativas, y cerradas temporalmente y dispone además de información por barrio, distrito y dirección. <br><br>
+          La relación de fuentes de beber “en servicio” puede sufrir variaciones temporales por averías, bien por desapariciones de grifos o cortes por averías en la red de agua potable de las que se suministran. <br><br>
+          La información proporcionada se actualiza diariamente.
+          Puede consultar también información sobre las fuentes de agua potable para beber  para la ciudadanía de la ciudad de Madrid, tantos las situadas en vía pública como aquellas que están en zonas verdes, parques y jardines, en el conjunto de datos. <br><br><br>
+        </p>
+        <div class="table">
+          <table>
+            <tr class="t-head">
+              <th>Column</th>
+              <th>Type</th>
+              <th>Comments</th>
+              <th>Problems</th>
+            </tr>
+            <tr class="t-body">
+              <td>ID</td>
+              <td>Integer</td>
+              <td>Número de identificación de la papelera, tiene 6 dígitos y es un número positivo.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Estado</td>
+              <td>String</td>
+              <td>Nos dice el estado en el que se encuentra.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Cod_Barrio</td>
+              <td>Integer</td>
+              <td>Número de 3 cifras positivo, identifica al barrio.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Barrio</td>
+              <td>String</td>
+              <td>Nombre del barrio en donde se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Distrito</td>
+              <td>String</td>
+              <td>El distrito donde se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Coord_gis_x</td>
+              <td>Float</td>
+              <td>Es la coordenada x de la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Coord_gis_y</td>
+              <td>Float</td>
+              <td>Es la coordenada y de la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Sistema_Coord</td>
+              <td>String</td>
+              <td>Es el sistema de coordenadas usado para ubicar la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Latitud</td>
+              <td>Float</td>
+              <td>La latitud en la que se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Tipo_Via</td>
+              <td>String</td>
+              <td>Nos indica el tipo de vía en la que se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Nom_Via</td>
+              <td>String</td>
+              <td>Nombre de la vía.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Num_Via</td>
+              <td>String</td>
+              <td>Identifica la vía.</td>
+              <td>Presenta números y caracteres.</td>
+            </tr>
+            <tr class="t-body">
+              <td>Codigo_Postal</td>
+              <td>Integer</td>
+              <td>El código postal donde esta ubicada la fuente, son números enteros positivos de 5 cifras.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Fecha_Instalacion</td>
+              <td>Fecha</td>
+              <td>La fecha de la instalación de la fuente.</td>
+              <td>Varias casillas se encuentran en blanco.</td>
+            </tr>
+            <tr class="t-body">
+              <td>Uso</td>
+              <td>String</td>
+              <td>Nos indica para quien esta destinado el uso de la fuente ej. Personas, mascotas o ambas.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Modelo</td>
+              <td>String</td>
+              <td>Modelo de la fuente.</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div data-content id="rns">
+        <!-- <h1>Resource Naming Strategy</h1> -->
+        <div class="classes resources">
+          <h3>Classes</h3>
+          <ol>
+            <li>Fuente: https://www.wikidata.org/wiki/Q16870041#Fuentes</li>
+            <li>Distrito: https://www.wikidata.org/wiki/Q149621#District</li>
+            <li>Barrio: https://www.wikidata.org/wiki/Q123705#Neighborhood</li>
+            <li>Vía: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Via</li>
+          </ol>
+          <h4>Subclases</h4>
+          <ul>
+            <li>Avenida: https://www.wikidata.org/wiki/Q54114#Boulevard</li>
+            <li>Calle: https://www.wikidata.org/wiki/Q79007#Street</li>
+            <li>Camino: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Camino</li>
+            <li>Parque: https://www.wikidata.org/wiki/Q22698#Park</li>
+            <li>Paseo: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Paseo</li>
+            <li>Plaza: https://www.wikidata.org/wiki/Q2997369#Plaza</li>
+            <li>Ronda: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Ronda</li>
+          </ul>
+          <ol start="5" class="continuous">
+            <li>Fecha: https://www.wikidata.org/wiki/Q205892#CalendarDate</li>
+            <li>Uso: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Uso</li>
+          </ol>
+        </div>
+        <div class="properties-fuente resources">
+          <h3>Properties Fuente</h3>
+          <ol>
+            <li>idFuente: https://www.wikidata.org/wiki/Q853614#id</li>
+            <li>estadoFuente: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#EstadoFuente</li>
+            <li>coordxFuente: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#CoordxFuente</li>
+            <li>coordyFuente: 5.	https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#CoordyFuente</li>
+            <li>latitudFuente: https://www.wikidata.org/wiki/Q34027#Latitude</li>
+            <li>longitudFuente: https://www.wikidata.org/wiki/Q36477#Longitude</li>
+          </ol>
+        </div>
+        <div class="properties-distrito resources">
+          <h3>Properties Distrito</h3>
+          <ol>
+            <li>codigoDistrito: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#CodigoDistrito</li>
+            <li>codigoPostalDistrito: https://www.wikidata.org/wiki/Q37447#PostalCode</li>
+          </ol>
+        </div>
+        <div class="properties-barrio resources">
+          <h3>Properties Barrio</h3>
+          <ol>
+            <li>codigoBarrio: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#CodigoBarrio</li>
+          </ol>
+        </div>
+        <div class="relations resources">
+          <h3>Relations</h3>
+          <ol>
+              <li>locatedViaIn: https://www.wikidata.org/wiki/Property:P276#locatedIn</li>
+              <li>partOf: https://www.wikidata.org/wiki/Q66305721#partOf</li>
+              <li>locationDistricIn: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#locationDistritctIn</li>
+              <li>locationBarrio: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#locationBarrio</li>
+              <li>use: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#use</li>
+              <li>whenInstalation: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#whenInstalation</li>
+              <li>subclassOf: https://www.wikidata.org/wiki/Q21514624#subclassOf</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- <div id="licencias">
+        <h1><a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Licencias</a></h1>
+      </div> -->
+
+      <!-- <div id="condiciones">
+        <h1><a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Condisiones de uso</a></h1>
+      </div> -->
+    </div>
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>

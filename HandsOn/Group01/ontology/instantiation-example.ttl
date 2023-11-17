@@ -1,0 +1,75 @@
+@prefix db: <http://dbpedia.org/resource/classes#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix m3: <http://purl.org/iot/vocab/m3-lite#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://pittsburgh.linkeddata.es/traffic/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix w3: <https://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns:Sensor1 a ns:StatTrak;
+	ns:isDeterminedBy ns:Id1;
+	ns:locatedIn ns:Location1;
+	ns:takes ns:Measurements1;
+	ns:hasLocation ns:Point1.
+
+ns:Point1 a geo:Point;
+	geo:lat "40.45573295";
+	geo:long "-79.96777201	".
+
+ns:Measurements1 a ns:Measurements;
+	ns:measures ns:Speed1,
+		    ns:Speed2,
+		    ns:Traffic1,
+		    ns:Statistics1,
+		    ns:Statistics2,
+		    ns:Statistics3;
+	ns:hasDuration ns:Duration1.
+
+ns:Statistics1 a ns:Statistics;
+	rdfs:label "percent_over_limit -> 77".
+
+ns:Statistics2 a ns:Statistics;
+	rdfs:label "speed85_percent -> 34".
+
+ns:Statistics3 a ns:Statistics;
+	rdfs:label "speed95_percent -> 37".
+
+ns:Speed1 a ns:MedianSpeed;
+	rdfs:label "29".
+
+ns:Speed1 a ns:MedianSpeed;
+	rdfs:label "25".
+
+ns:Traffic1 a ns:CarTraffic;
+	rdfs:label "4949".
+
+ns:Duration1 a w3:TemporalEntity;
+	w3:hasBeggining ns:StartDate1;
+	w3:hasEnd ns:EndDate1.
+
+ns:StartDate1 a w3:Instant;
+	rdfs:label "2019-04-18".
+
+ns:EndDate1 a w3:Instant;
+	rdfs:label "2019-04-26".
+
+ns:Id1 a ns:Id;
+	rdfs:label "1011743669".
+
+ns:District1 a db:CityDistrict;
+	dc:isPartOf ns:PWD6,
+		    ns:PZ2,
+		    ns:FZ2-6;
+	rdfs:label "Polish Hill".
+
+ns:PWD6 a ns:PublicWorksDepartment;
+	rdfs:label "6".
+
+ns:PZ2 a ns:PoliceZone;
+	rdfs:label "2".
+
+ns:FZ2-6 a ns:FireZone;
+	rdfs:label "2-6".

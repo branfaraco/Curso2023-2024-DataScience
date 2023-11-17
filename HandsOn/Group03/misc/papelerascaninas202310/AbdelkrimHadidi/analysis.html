@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <meta charset="utf-8" />
+    <title>Analysis</title>
+</head>
+
+<body>
+
+    <h1>Mobiliario urbano. Papeleras con dispensador de bolsas de excrementos para perros.</h1>
+    <h2>
+        <p><a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Licencias.</a></p>
+        <p><a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">
+            Condiciones de uso.</a></p>     
+    </h2>
+    <p>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.</p>
+
+    <table border="1">
+        <tr>
+            <td>Column</td>
+            <td>Type</td>
+            <td>Comments</td>
+            <td>Problems</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Integer</td>
+            <td>En el caso de la papelera son 6 dígitos, para el barrio son 3 y para el distrito 2.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>GarbageBin</td>
+            <td>String</td>
+            <td>Es la clase papelera cuya propiedad es el ID, latitude y longitude.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Neighborhood</td>
+            <td>String</td>
+            <td>Neighborhood representa a la clase barrio con propiedad ID.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td>String</td>
+            <td>District representa a la clase distrito con propiedad ID.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Latitude</td>
+            <td>String</td>
+            <td>Latitude es una propiedad de papelera.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Longitude</td>
+            <td>String</td>
+            <td>Longitude es una propiedad de papelera.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thoroughfare type</td>
+            <td>String</td>
+            <td>Es el tipo de vía.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thoroughfare</td>
+            <td>String</td>
+            <td>Es el nombre de la vía.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Number</td>
+            <td>String</td>
+            <td>Es el número de la vía que puede contener una letra.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Postal Code</td>
+            <td>Integer</td>
+            <td>Es un número de 5 dígitos.</td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <h2>Resource Naming Strategy</h2>
+    <h3>Classes</h3>
+    <ol>
+        <li>District: https://www.wikidata.org/wiki/Q149621#District</li>
+        <li>GarbageBin: https://www.wikidata.org/wiki/Q30600486#GarbageBin</li>
+        <li>Neighborhood: https://www.wikidata.org/wiki/Q123705#Neighborhood</li>
+        <li>Thoroughfare: https://www.wikidata.org/wiki/Q83620#Thoroughfare</li>
+    </ol>
+    <h3>Properties</h3>
+    <ol>
+        <li>id: https://www.wikidata.org/wiki/Q853614#id</li>
+        <li>latitude: https://www.wikidata.org/wiki/Q34027#latitude</li>
+        <li>longitude: https://www.wikidata.org/wiki/Q36477#longitude</li>
+        <li>number: https://www.wikidata.org/wiki/Q18915527#number</li>
+        <li>postalcode: https://www.wikidata.org/wiki/Q37447#postalcode</li>
+        <li>Thoroughfaretype: https://www.wikidata.org/wiki/Q36477#thoroughfaretype</li>
+    </ol>
+    <h3>Relations</h3>
+    <ol>
+        <li>locatedIn: https://www.wikidata.org/wiki/Property:P276#locatedIn</li>
+        <li>partOf: https://www.wikidata.org/wiki/Q66305721#partOf</li>
+    </ol>
+</body>

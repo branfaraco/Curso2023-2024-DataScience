@@ -1,0 +1,94 @@
+@prefix : <http://www.semanticweb.org/prestamo/ontologies/2023/10/papeleras_caninas/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/prestamo/ontologies/2023/10/papeleras_caninas/> .
+
+<http://www.semanticweb.org/prestamo/ontologies/2023/10/papeleras_caninas> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.wikidata.org/wiki/Property:P276#locatedIn
+<https://www.wikidata.org/wiki/Property:P276#locatedIn> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <https://www.wikidata.org/wiki/Q30600486#GarbageBin> ;
+                                                        rdfs:range <https://www.wikidata.org/wiki/Q83620#Thoroughfare> .
+
+
+###  https://www.wikidata.org/wiki/Q66305721#partOf
+<https://www.wikidata.org/wiki/Q66305721#partOf> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                 rdfs:domain <https://www.wikidata.org/wiki/Q123705#Neighborhood> ,
+                                                             <https://www.wikidata.org/wiki/Q83620#Thoroughfare> ;
+                                                 rdfs:range <https://www.wikidata.org/wiki/Q123705#Neighborhood> ,
+                                                            <https://www.wikidata.org/wiki/Q149621#District> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.wikidata.org/wiki/Q18915527#number
+<https://www.wikidata.org/wiki/Q18915527#number> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <https://www.wikidata.org/wiki/Q83620#Thoroughfare> ;
+                                                 rdfs:range xsd:string .
+
+
+###  https://www.wikidata.org/wiki/Q34027#latitude
+<https://www.wikidata.org/wiki/Q34027#latitude> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <https://www.wikidata.org/wiki/Q30600486#GarbageBin> ;
+                                                rdfs:range xsd:string .
+
+
+###  https://www.wikidata.org/wiki/Q36477#longitude
+<https://www.wikidata.org/wiki/Q36477#longitude> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                 rdfs:domain <https://www.wikidata.org/wiki/Q30600486#GarbageBin> ;
+                                                 rdfs:range xsd:string .
+
+
+###  https://www.wikidata.org/wiki/Q36477#thoroughfaretype
+<https://www.wikidata.org/wiki/Q36477#thoroughfaretype> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <https://www.wikidata.org/wiki/Q83620#Thoroughfare> ;
+                                                        rdfs:range xsd:string .
+
+
+###  https://www.wikidata.org/wiki/Q37447#postalcode
+<https://www.wikidata.org/wiki/Q37447#postalcode> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                  rdfs:domain <https://www.wikidata.org/wiki/Q83620#Thoroughfare> ;
+                                                  rdfs:range xsd:integer .
+
+
+###  https://www.wikidata.org/wiki/Q853614#id
+<https://www.wikidata.org/wiki/Q853614#id> rdf:type owl:DatatypeProperty ;
+                                           rdfs:domain <https://www.wikidata.org/wiki/Q123705#Neighborhood> ,
+                                                       <https://www.wikidata.org/wiki/Q149621#District> ,
+                                                       <https://www.wikidata.org/wiki/Q30600486#GarbageBin> ;
+                                           rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.wikidata.org/wiki/Q123705#Neighborhood
+<https://www.wikidata.org/wiki/Q123705#Neighborhood> rdf:type owl:Class .
+
+
+###  https://www.wikidata.org/wiki/Q149621#District
+<https://www.wikidata.org/wiki/Q149621#District> rdf:type owl:Class .
+
+
+###  https://www.wikidata.org/wiki/Q30600486#GarbageBin
+<https://www.wikidata.org/wiki/Q30600486#GarbageBin> rdf:type owl:Class .
+
+
+###  https://www.wikidata.org/wiki/Q83620#Thoroughfare
+<https://www.wikidata.org/wiki/Q83620#Thoroughfare> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

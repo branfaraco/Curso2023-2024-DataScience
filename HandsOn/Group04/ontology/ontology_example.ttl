@@ -1,0 +1,58 @@
+ @prefix apar: <http://deportesMadrid/ontologies/aparcabicis#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <http://deportesMadrid/ontologies/polideportivos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://deportesMadrid/relations#> .
+
+apar:28049 a owl:Class ;
+    rdfs:label "28049" .
+
+apar:458178 a owl:Class ;
+    rdfs:label "458178" .
+
+apar:Fuencarral-ElPardo a owl:Class ;
+    rdfs:label "Fuencarral- El Pardo" .
+
+apar:Mirasierra a owl:Class ;
+    rdfs:label "Mirasierra" .
+
+apar:Nombre_Barrio a owl:Class ;
+    rdfs:label "Nombre_ Barrio" .
+
+apar:Nombre_Distrito a owl:Class ;
+    rdfs:label "Nombre_ Distrito" .
+
+pol: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://deportesMadrid/ontologies/polideportivos#InstalaciónDeportivaMunicipalBásicaMontecarmeloMcDonald´s> a owl:Class ;
+    rdfs:label "Instalación Deportiva Municipal Básica Montecarmelo Mc Donald´s" .
+
+rel:cuenta_con a owl:ObjectProperty ;
+    rdfs:label "cuenta_con" ;
+    rdfs:domain pol:Nombre_polideportivo ;
+    rdfs:range pol:Equipamiento,
+        pol:Pistapolideportiva .
+
+rel:se_encuentra_en a owl:ObjectProperty ;
+    rdfs:label "se_encuentra_en" ;
+    rdfs:domain apar:ID_aparcabicis,
+        pol:Nombre_polideportivo ;
+    rdfs:range apar:Codigo_Postal .
+
+apar:Codigo_Postal a owl:Class ;
+    rdfs:label "Codigo_ Postal" .
+
+apar:ID_aparcabicis a owl:Class ;
+    rdfs:label "I D_aparcabicis" .
+
+pol:Equipamiento a owl:Class ;
+    rdfs:label "Equipamiento" .
+
+pol:Pistapolideportiva a owl:Class ;
+    rdfs:label "Pistapolideportiva" .
+
+pol:Nombre_polideportivo a owl:Class ;
+    rdfs:label "Nombre_polideportivo" .
+

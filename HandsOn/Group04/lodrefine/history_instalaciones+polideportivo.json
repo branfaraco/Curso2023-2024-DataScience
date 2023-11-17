@@ -1,0 +1,868 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "description": "Remove column DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORARIO",
+    "description": "Remove column HORARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPCION",
+    "description": "Remove column DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PLANTA",
+    "description": "Remove column PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUERTA",
+    "description": "Remove column PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESCALERAS",
+    "description": "Remove column ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ORIENTACION",
+    "description": "Remove column ORIENTACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOCALIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MADRID"
+      }
+    ],
+    "description": "Mass edit cells in column LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LOCALIDAD",
+    "description": "Remove column LOCALIDAD"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PROVINCIA",
+          "expression": "value",
+          "columnName": "PROVINCIA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PROVINCIA",
+    "description": "Remove column PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO-NUM",
+    "description": "Remove column TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-X",
+    "description": "Remove column COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-Y",
+    "description": "Remove column COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD",
+    "description": "Remove column LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD",
+    "description": "Remove column LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TELEFONO",
+    "description": "Remove column TELEFONO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FAX",
+    "description": "Remove column FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "EMAIL",
+    "description": "Remove column EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPO",
+          "expression": "value",
+          "columnName": "TIPO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "calle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CALLE"
+      }
+    ],
+    "description": "Mass edit cells in column CLASE-VIAL"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Instalación Deportiva Municipal Básica Parque Cerro Almodovar",
+          "Instalación Deportiva Municipal Básica Parque Cerro Almodóvar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Instalación Deportiva Municipal Básica Parque Cerro Almodovar"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1 Pista de baloncesto",
+          "1 Pista de Baloncesto",
+          "1 Pista de baloncesto.",
+          "1 pista de baloncesto",
+          "1 pista de baloncesto."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de baloncesto"
+      },
+      {
+        "from": [
+          "Pista de baloncesto",
+          "Pista de baloncesto.",
+          "Pista de Baloncesto",
+          "Pista de baloncesto*"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pista de baloncesto"
+      },
+      {
+        "from": [
+          "1 Pista polideportiva",
+          "1 Pista Polideportiva",
+          "1 pista polideportiva",
+          "1 pista polideportiva."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista polideportiva"
+      },
+      {
+        "from": [
+          "1 Pista de fútbol sala",
+          "1 Pista de fútbol sala.",
+          "1 Pista de Fútbol Sala",
+          "1 Pista de fútbol - sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de fútbol sala"
+      },
+      {
+        "from": [
+          "1 Campo de fútbol 11 de césped artificial",
+          "1 Campo de fútbol 11 césped artificial",
+          "1 Campo de Fútbol 11 césped artificial",
+          "1 Campo de fútbol 11 (césped artificial)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Campo de fútbol 11 de césped artificial"
+      },
+      {
+        "from": [
+          "Pista polideportiva",
+          "Pista polideportiva.",
+          "Pista Polideportiva"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista polideportiva"
+      },
+      {
+        "from": [
+          "1 Pista de patinaje",
+          "1 Pista de patinaje.",
+          "1 Pista de Patinaje"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de patinaje"
+      },
+      {
+        "from": [
+          "1 Pista de futbol sala1 Pista de baloncesto",
+          "1 Pista de fútbol sala1 Pista de baloncesto",
+          "1 Pista de fútbol sala1 Pista de baloncesto."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de futbol sala1 Pista de baloncesto"
+      },
+      {
+        "from": [
+          "2 Pistas de bolos y petanca",
+          "2 Pistas de bolos y petanca.",
+          "2 pistas de bolos y petanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de bolos y petanca"
+      },
+      {
+        "from": [
+          "2 Pistas de baloncesto",
+          "2 Pistas de baloncesto.",
+          "2 Pistas de Baloncesto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de baloncesto"
+      },
+      {
+        "from": [
+          "2 Campos de Fútbol (césped artificial)",
+          "2 Campos de fútbol (césped artificial)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Campos de Fútbol (césped artificial)"
+      },
+      {
+        "from": [
+          "1 Patinódromo",
+          "1 patinódromo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Patinódromo"
+      },
+      {
+        "from": [
+          "Pista de baloncesto. Pista polideportiva (marcajes de fútbol sala y balonmano).",
+          "Pista polideportiva (marcajes de fútbol sala y balonmano) Pista baloncesto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de baloncesto. 1 Pista polideportiva (marcajes de fútbol sala y balonmano)."
+      },
+      {
+        "from": [
+          "1 Campo de fútbol",
+          "1 Campo de Fútbol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Campo de fútbol"
+      },
+      {
+        "from": [
+          "2 Tenis de mesa",
+          "2 Tenis de mesa."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Tenis de mesa"
+      },
+      {
+        "from": [
+          "Pista de minibaloncesto y minifútbol",
+          "Pista de minibaloncesto y minifútbol."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de minibaloncesto y minifútbol"
+      },
+      {
+        "from": [
+          "1 Pista Polideportiva1 Pista Baloncesto",
+          "1 Pista polideportiva1 Pista baloncesto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista Polideportiva. 1 Pista Baloncesto"
+      },
+      {
+        "from": [
+          "2 Pistas de baloncestoPista de fútbol sala",
+          "2 Pistas de baloncestoPista de fútbol sala."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de baloncesto. 1 Pista de fútbol sala"
+      },
+      {
+        "from": [
+          "Pista de patinaje",
+          "Pista de patinaje."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de patinaje"
+      },
+      {
+        "from": [
+          "Pistas de Tenis",
+          "Pistas de tenis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pistas de Tenis"
+      },
+      {
+        "from": [
+          "2 Pistas de baloncesto1 Pista de fútbol - sala",
+          "2 Pistas de baloncesto1 Pista de fútbol sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de baloncesto. 1 Pista de fútbol - sala"
+      },
+      {
+        "from": [
+          "2 Pistas de petanca1 Pista de Chito",
+          "2 Pistas de petanca1 Pista de chito."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de petanca. 1 Pista de Chito"
+      },
+      {
+        "from": [
+          "2 Pistas de petanca",
+          "2 Pistas de petanca."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de petanca"
+      },
+      {
+        "from": [
+          "1 Pista de Petanca",
+          "1 Pista de petanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de Petanca"
+      },
+      {
+        "from": [
+          "2 Pistas polideportivas",
+          "2 Pistas Polideportivas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas polideportivas"
+      },
+      {
+        "from": [
+          "1 Campo de fútbol 7",
+          "1 campo de Fútbol 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Campo de fútbol 7"
+      },
+      {
+        "from": [
+          "1 Pista de baloncesto1 Pista de fútbol sala",
+          "1 Pista de Baloncesto1 Pista de Fútbol sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de baloncesto. 1 Pista de fútbol sala"
+      },
+      {
+        "from": [
+          "1 Pista de Fútbol-Sala",
+          "1 Pista de fútbol-sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de Fútbol-Sala"
+      },
+      {
+        "from": [
+          "1 Pista polideportiva.1 Pista de baloncesto.1 Pista de petanca.",
+          "1 Pista polideportiva1 Pista de baloncesto1 Pista de petanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista polideportiva.1 Pista de baloncesto.1 Pista de petanca."
+      }
+    ],
+    "description": "Mass edit cells in column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1 Pista de baloncesto. 1 Pista de fútbol sala",
+          "1 Pista de baloncesto  1 Pista de fútbol sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1 Pista de baloncesto. 1 Pista de fútbol sala"
+      },
+      {
+        "from": [
+          "2 Pistas de baloncesto. 1 Pista de fútbol - sala",
+          "2 Pistas de baloncesto. 1 Pista de fútbol sala"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2 Pistas de baloncesto. 1 Pista de fútbol - sala"
+      }
+    ],
+    "description": "Mass edit cells in column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Mar de Cristal.Bus: 87 , 104 , 112 , 120 , 125 , 172.",
+          "Metro: Mar de CristalBus: 87 , 104 , 112 , 120 , 125 , 172"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Mar de Cristal. Bus: 87 , 104 , 112 , 120 , 125 , 172."
+      },
+      {
+        "from": [
+          "Metro: Marqués de VadilloBus:  23 , 34 , 35 , 116 , 118 , 119",
+          "Metro: Marqués de VadilloBus: 23 , 34 , 35 , 116 , 118 , 119"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Marqués de Vadillo. Bus:  23 , 34 , 35 , 116 , 118 , 119"
+      },
+      {
+        "from": [
+          "Bus: 137, 66",
+          "Bus: 66 , 137"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 137, 66"
+      },
+      {
+        "from": [
+          "Metro: Marqués de Vadillo",
+          "Metro: Marqués de Vadillo."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Marqués de Vadillo"
+      },
+      {
+        "from": [
+          "Bus: 160 , 161 , I",
+          "Bus: 160 , 161 , I."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 160 , 161 , I"
+      },
+      {
+        "from": [
+          "Bus: 58 , 63 , 145Renfe: Santa Eugenia",
+          "Bus: 58, 63, 145Renfe: Santa Eugenia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 58 , 63 , 145. Renfe: Santa Eugenia"
+      },
+      {
+        "from": [
+          "Bus: 17 , 34 , 39 , 117, 139",
+          "Bus: 17 , 34 , 39, 117, 139"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 17 , 34 , 39 , 117, 139"
+      },
+      {
+        "from": [
+          "Metro: ValdebernardoBus: 8 , 71 , 130",
+          "Metro: ValdebernardoBus: 8, 71, 130"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdebernardo. Bus: 8 , 71 , 130"
+      },
+      {
+        "from": [
+          "Metro: ManoterasBus: 7 , 29 , 129",
+          "Metro: Manoteras.Bus: 7 , 29 , 129"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Manoteras. Bus: 7 , 29 , 129"
+      },
+      {
+        "from": [
+          "Metro: CongostoBus: 54 , 142",
+          "Metro: CongostoBus: 54 , 142."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Congosto. Bus: 54 , 142"
+      },
+      {
+        "from": [
+          "Metro: El Capricho.Bus: 77 , 101 , 112 , 114 , 115 , 151.",
+          "Metro: El CaprichoBus: 77 , 101 , 112 , 114 , 115 , 151"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: El Capricho. Bus: 77 , 101 , 112 , 114 , 115 , 151."
+      },
+      {
+        "from": [
+          "Metro: ArtillerosBus: 30 , 32 , 71",
+          "Metro: ArtillerosBus: 30 , 32 , 71."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Artilleros. Bus: 30 , 32 , 71"
+      },
+      {
+        "from": [
+          "Metro: Antonio Machado.Bus: 42 , 49 , 126 , 128.",
+          "Metro: Antonio MachadoBus: 126, 128, 42, 49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Antonio Machado. Bus: 42 , 49 , 126 , 128."
+      },
+      {
+        "from": [
+          "Metro: EstrellaBus: 8 , 20 , 30 , 32 , 113",
+          "Metro: Estrella.Bus: 8 , 20 , 30 , 32 , 113."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Estrella. Bus: 8 , 20 , 30 , 32 , 113"
+      },
+      {
+        "from": [
+          "Bus: 41 , 46 , 75",
+          "Bus: 41 , 46 , 75."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 41 , 46 , 75"
+      },
+      {
+        "from": [
+          "Bus: 17 , 34 , 39 , 117 , 139.Renfe: Las Águilas",
+          "Bus: 17 , 34 , 39 , 117 , 139Renfe: Las Águilas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 17 , 34 , 39 , 117 , 139. Renfe: Las Águilas"
+      },
+      {
+        "from": [
+          "Bus: 17 , 25.",
+          "Bus: 17, 25"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 17 , 25."
+      },
+      {
+        "from": [
+          "Metro: UseraBus: 23 , 55 , 60",
+          "Metro: Usera.Bus: 23 , 55 , 60."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Usera. Bus: 23 , 55 , 60"
+      },
+      {
+        "from": [
+          "Metro: LacomaBus: 49",
+          "Metro: LACOMABus: 49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lacoma. Bus: 49"
+      },
+      {
+        "from": [
+          "Bus: 105 , 112 , 115 , 151.",
+          "Bus: 105 , 112 , 115 , 151"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 105 , 112 , 115 , 151."
+      },
+      {
+        "from": [
+          "Bus: 30 , 100 , 140",
+          "Bus:  30 , 100 , 140"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 30 , 100 , 140"
+      },
+      {
+        "from": [
+          "Metro: HortalezaBus: 9 , 72 , 107 , 125 , 172",
+          "Metro: Hortaleza.Bus: 9 , 72 , 107 , 125 , 172"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Hortaleza. Bus: 9 , 72 , 107 , 125 , 172"
+      },
+      {
+        "from": [
+          "Metro: Pirámides.Bus: 18 , 34 , 36 , 116 , 118 , 119Renfe: Pirámides.",
+          "Metro: PirámidesBus: 18 , 34 , 36 , 116 , 118 , 119Renfe: Pirámides"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pirámides. Bus: 18 , 34 , 36 , 116 , 118 , 119. Renfe: Pirámides."
+      },
+      {
+        "from": [
+          "Metro: Almendrales.Bus: 6 , 18 , 22 , 23 , 59 , 76 , 78 , 79 , 85 , 86 , 123.",
+          "Metro: AlmendralesBus: 6, 18 , 22 , 23 , 59 , 76 , 78 , 79 , 85 , 86 , 123."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Almendrales. Bus: 6 , 18 , 22 , 23 , 59 , 76 , 78 , 79 , 85 , 86 , 123."
+      },
+      {
+        "from": [
+          "Bus: 6 , 60 , 78 , 81 , 116 , 121 , 131",
+          "Bus: 6 , 60 , 78 , 81 , 116 , 121 , 131."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 6 , 60 , 78 , 81 , 116 , 121 , 131"
+      },
+      {
+        "from": [
+          "Metro:  Alameda de OsunaBus: 101 , 105 , 112 , 114 , 115 , 151",
+          "Metro: Alameda de OsunaBus: 101 , 105 , 112 ,  114 , 115 , 151"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Alameda de Osuna. Bus: 101 , 105 , 112 , 114 , 115 , 151"
+      },
+      {
+        "from": [
+          "Metro: Lago , Puerta del Ángel.  Bus: 31 , 33 , 36 , 39 , 65 , 138.  Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 10 bicicletas.   Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones.",
+          "Metro: Lago, Puerta del Ángel.  Bus:  31, 33, 36, 39, 65, 138.   Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 10 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lago, Puerta del Ángel. Bus: 31 , 33 , 36 , 39 , 65 , 138."
+      },
+      {
+        "from": [
+          "Metro: CanillasBus: 73 , 112 , 120 , 122 , 153.",
+          "Metro: CanillasBus: 73 , 112 , 120 , 122 , 153"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Canillas. Bus: 73 , 112 , 120 , 122 , 153."
+      },
+      {
+        "from": [
+          "Bus: 25 , 55, 138",
+          "Bus: 25, 55 , 138"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 25 , 55, 138"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 58 , 63 , 145. Renfe: Santa Eugenia",
+          "Bus: 58, 63, 145  Renfe: Santa Eugenia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 58 , 63 , 145. Renfe: Santa Eugenia"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MONOVAR",
+          "MONÓVAR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MONOVAR"
+      },
+      {
+        "from": [
+          "NICOLAS SALMERON",
+          "NICOLAS SALMERÓN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NICOLAS SALMERON"
+      },
+      {
+        "from": [
+          "JAZMIN",
+          "JAZMÍN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "JAZMIN"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CIUDAD JARDIN",
+          "CIUDAD JARDÍN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CIUDAD JARDIN"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  }
+]

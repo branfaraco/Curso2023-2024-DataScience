@@ -9,7 +9,7 @@ Nombre y apellidos de los miembros del grupo:
 
 Usuarios de GitHub de los miembros (respectivamente):
 - mfblanco
-- d444rkfire
+- gallegomiguel
 - carmenestevez
 - JavierGSorli
 - ALBALOZANOG

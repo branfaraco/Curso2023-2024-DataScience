@@ -1,0 +1,55 @@
+ @prefix id: <http://www.owl-ontologies.com/id#> .
+@prefix latitud: <http://www.owl-ontologies.com/latitud#> .
+@prefix longitude: <http://www.owl-ontologies.com/longitude#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix name: <http://www.owl-ontologies.com/name#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+id:integrer a ns:DogLibertySpaces,
+        owl:NamedIndividual .
+
+latitud:string a owl:NamedIndividual .
+
+longitude:string a owl:NamedIndividual .
+
+name:string a owl:DatatypeProperty ;
+    rdfs:label "string" .
+
+ns: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:SituationVia a owl:ObjectProperty ;
+    rdfs:label "situation via" .
+
+ns:SubclassOf a owl:ObjectProperty ;
+    rdfs:label "subclass of" ;
+    rdfs:domain ns:Avenue,
+        ns:Garden,
+        ns:GreenZone,
+        ns:Park,
+        ns:Street ;
+    rdfs:range ns:Via .
+
+ns:Avenue a owl:Class ;
+    rdfs:label "Avenue" .
+
+ns:DogLibertySpaces a owl:Class ;
+    rdfs:label "Dog Liberty Spaces" .
+
+ns:Garden a owl:Class ;
+    rdfs:label "Garden" .
+
+ns:GreenZone a owl:Class ;
+    rdfs:label "Green Zone" .
+
+ns:Park a owl:Class ;
+    rdfs:label "Park" .
+
+ns:Street a owl:Class ;
+    rdfs:label "Street" .
+
+ns:Via a owl:Class ;
+    rdfs:label "Via" .
+
