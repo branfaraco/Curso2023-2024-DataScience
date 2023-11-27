@@ -1,0 +1,341 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_codigo",
+    "newColumnName": "CENTRE_CODE",
+    "description": "Rename column centro_codigo to CENTRE_CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_nombre",
+    "newColumnName": "CENTRE_NAME",
+    "description": "Rename column centro_nombre to CENTRE_NAME"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_tipo_codigo",
+    "description": "Remove column centro_tipo_codigo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_tipo_desc_abreviada",
+    "newColumnName": "SHORT_DESCRIPTION",
+    "description": "Rename column centro_tipo_desc_abreviada to SHORT_DESCRIPTION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_tipo_descripcion",
+    "newColumnName": "DESCRIPTION",
+    "description": "Rename column centro_tipo_descripcion to DESCRIPTION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_titularidad",
+    "newColumnName": "OWNERSHIP",
+    "description": "Rename column centro_titularidad to OWNERSHIP"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_titular",
+    "newColumnName": "OWNER",
+    "description": "Rename column centro_titular to OWNER"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "dat_codigo",
+    "description": "Remove column dat_codigo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "dat_nombre",
+    "description": "Remove column dat_nombre"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direccion_via_nombre",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column direccion_via_nombre using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direccion_via_tipo",
+    "expression": "join ([cells['direccion_via_tipo'].value,cells['direccion_via_nombre'].value],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column direccion_via_tipo using expression join ([cells['direccion_via_tipo'].value,cells['direccion_via_nombre'].value],' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "direccion_via_nombre",
+    "description": "Remove column direccion_via_nombre"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "direccion_via_tipo",
+    "newColumnName": "COMPLETE_ADDRESS",
+    "description": "Rename column direccion_via_tipo to COMPLETE_ADDRESS"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COMPLETE_ADDRESS",
+    "expression": "join ([cells['COMPLETE_ADDRESS'].value,cells['direccion_numero'].value],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COMPLETE_ADDRESS using expression join ([cells['COMPLETE_ADDRESS'].value,cells['direccion_numero'].value],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "direccion_numero",
+    "description": "Remove column direccion_numero"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COMPLETE_ADDRESS",
+    "expression": "join ([cells['COMPLETE_ADDRESS'].value,cells['direccion_codigo_postal'].value],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COMPLETE_ADDRESS using expression join ([cells['COMPLETE_ADDRESS'].value,cells['direccion_codigo_postal'].value],', ')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "direccion_codigo_postal",
+    "newColumnName": "CP_CODE",
+    "description": "Rename column direccion_codigo_postal to CP_CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "municipio_codigo",
+    "newColumnName": "MUNICIPALITY_CODE",
+    "description": "Rename column municipio_codigo to MUNICIPALITY_CODE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CP_CODE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column CP_CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "municipio_nombre",
+    "newColumnName": "MUNICIPALITY_NAME",
+    "description": "Rename column municipio_nombre to MUNICIPALITY_NAME"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "distrito_codigo",
+    "newColumnName": "DISTRICT_CODE",
+    "description": "Rename column distrito_codigo to DISTRICT_CODE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRICT_CODE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRICT_CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "distrito_nombre",
+    "newColumnName": "DISTRICT_NAME",
+    "description": "Rename column distrito_nombre to DISTRICT_NAME"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRICT_NAME",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRICT_NAME"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "contacto_telefono1",
+    "newColumnName": "TELEPHONE_CONTACT",
+    "description": "Rename column contacto_telefono1 to TELEPHONE_CONTACT"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TELEPHONE_CONTACT",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column TELEPHONE_CONTACT"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TELEPHONE_CONTACT",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column TELEPHONE_CONTACT"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "contacto_telefono2",
+    "description": "Remove column contacto_telefono2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "contacto_telefono3",
+    "description": "Remove column contacto_telefono3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "contacto_telefono4",
+    "description": "Remove column contacto_telefono4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "contacto_fax",
+    "description": "Remove column contacto_fax"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "contacto_web",
+    "newColumnName": "WEB_CONTACT",
+    "description": "Rename column contacto_web to WEB_CONTACT"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WEB_CONTACT",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column WEB_CONTACT"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "contacto_email1",
+    "newColumnName": "EMAIL_CONTACT",
+    "description": "Rename column contacto_email1 to EMAIL_CONTACT"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CP_CODE",
+    "newColumnName": "CP_DIRECTION",
+    "description": "Rename column CP_CODE to CP_DIRECTION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COMPLETE_ADDRESS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column COMPLETE_ADDRESS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EMAIL_CONTACT",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NaN"
+      }
+    ],
+    "description": "Mass edit cells in column EMAIL_CONTACT"
+  }
+]
