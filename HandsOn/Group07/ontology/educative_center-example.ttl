@@ -1,0 +1,34 @@
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <https://datos.comunidad.madrid/centros_educativos/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://datos.comunidad.madrid/centros_educativos/ontology> a owl:Ontology .
+
+<http://datos.comunidad.madrid/centros_educativos/resource/EducativeCenter/EducativeCenter2800029> rdfs:type  ns:EducativeCenter ;
+    foaf:name "SAN BLAS";
+    ns:hasCenterCode "28000029" ;
+    ns:hasDescription "COLEGIO DE EDUCACIÓN INFANTIL, PRIMARIA Y SECUNDARIA" ;
+    ns:hasShortDescription "CP INF-PRI-SEC" ;
+    ns:hasOwnership "PÚBLICO" ;
+  
+    ns:hasOwner <http://datos.comunidad.madrid/centros_educativos/resource/Owner/Owner2800029>;
+        foaf:name "COMUNIDAD DE MADRID" ;
+    ns:refersTo <http://datos.comunidad.madrid/centros_educativos/resource/OtherEntity/OtherEntity2800029>; 
+    ns:hasAdress <http://datos.comunidad.madrid/centros_educativos/resource/Adress/Adress2800029>;
+        ns:hasCompleteAdress 'CALLE VICTOR HURTADO, s/n, 28864';
+        geo:lat 40.53989856 ;
+        geo:long -3.48613787 ;
+        dbpediaowl:postalCode "28864" ;
+        ns:isInMunicipality <http://datos.comunidad.madrid/centros_educativos/resource/Municipality/Municipality2800029> ;
+            foaf:name "Ajalvir";
+            ns:hasMunicipalityNumber "002" ;           
+    ns:hasContact <http://datos.comunidad.madrid/centros_educativos/resource/Contact/Contact2800029>;
+        ns:hasWebsite " http://www.educa.madrid.org/cp.sanblas.ajalvir" ;
+        ns:hasTelefoneNumber "918844589" ;
+        ns:hasEmailContact "cp.sanblas.ajalvir@educa.madrid.org".

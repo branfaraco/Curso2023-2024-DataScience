@@ -1,0 +1,155 @@
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <https://datos.comunidad.madrid/centros_educativos/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#dc:contributor a owl:AnnotationProperty .
+
+#dc:creator a owl:AnnotationProperty .
+
+#dc:title a owl:AnnotationProperty .
+
+#ns: a owl:DatatypeProperty,
+#       owl:Ontology ;
+#    rdfs:label "" ;
+#    dc:contributor "Marcos de Miguel Vara",
+#        "Mendo Urraca Torrijos",
+#        "Moises Lujan Sanchez" ;
+#    dc:creator "Bran Faraco Llorente" ;
+#    dc:title "Ontology of EducativeCenters"@en ;
+#    rdfs:domain ns:Contact ;
+#    rdfs:range xsd:string ;
+#    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+#<https://datos.comunidad.madrid/centros_educativos/ontology#ns> a owl:DatatypeProperty ;
+#    rdfs:label "ns" ;
+#     rdfs:domain ns:EducativeCenter .
+
+## Clases ##
+
+geo:SpatialThing a owl:Class ;
+    rdfs:label "Spatial Thing" .
+
+ns:OtherEntity a owl:Class ;
+    rdfs:label "Other Entity" .
+
+ns:Municipality a owl:Class ;
+    rdfs:label "Municipality" .
+
+ns:Owner a owl:Class ;
+    rdfs:label "Owner" .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:Contact a owl:Class ;
+    rdfs:label "Contact" .
+
+ns:Address a owl:Class ;
+    rdfs:label "Address" .
+
+ns:EducativeCenter a owl:Class ;
+    rdfs:label "Educative Center" .
+
+
+## ObjectProperties ##
+ns:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range ns:Address .
+
+ns:hasContact a owl:ObjectProperty ;
+    rdfs:label "has contact" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range ns:Contact .
+
+ns:hasOwner a owl:ObjectProperty ;
+    rdfs:label "has owner" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range ns:Owner .
+
+ns:isInDistrict a owl:ObjectProperty ;
+    rdfs:label "is in district" ;
+    rdfs:domain ns:Address ;
+    rdfs:range ns:District .
+
+ns:isInMunicipality a owl:ObjectProperty ;
+    rdfs:label "is in municipality" ;
+    rdfs:domain ns:Address .
+
+ns:refersTo a owl:ObjectProperty ;
+    rdfs:label "refers to" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range ns:OtherEntity .
+
+## DatatypeProperties ##
+
+dbpediaowl:postalCode a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:domain ns:Address ;
+    rdfs:range xsd:string .
+
+geo:lat a owl:DatatypeProperty ;
+    rdfs:label "lat" ;
+    rdfs:domain ns:Address ;
+    rdfs:range xsd:decimal .
+
+geo:long a owl:DatatypeProperty ;
+    rdfs:label "long" ;
+    rdfs:domain ns:Address ;
+    rdfs:range xsd:decimal .
+
+foaf:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain ns:District,
+        ns:EducativeCenter,
+        ns:Municipality,
+        ns:Owner ;
+    rdfs:range xsd:string .
+
+ns:hasCenterCode a owl:DatatypeProperty ;
+    rdfs:label "has center code" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range xsd:string .
+
+ns:hasCompleteAddress a owl:DatatypeProperty ;
+    rdfs:label "has complete address" ;
+    rdfs:domain ns:Address ;
+    rdfs:range xsd:string .
+
+ns:hasDescription a owl:DatatypeProperty ;
+    rdfs:label "has description" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range xsd:string .
+
+ns:hasDistrictNumber a owl:DatatypeProperty ;
+    rdfs:label "has district number" ;
+    rdfs:domain ns:District ;
+    rdfs:range xsd:string .
+
+ns:hasEmailContact a owl:DatatypeProperty ;
+    rdfs:label "has email contact" ;
+    rdfs:domain ns:Contact ;
+    rdfs:range xsd:string .
+
+ns:hasMunicipalityNumber a owl:DatatypeProperty ;
+    rdfs:label "has municipality number" ;
+    rdfs:domain ns:Municipality ;
+    rdfs:range xsd:string .
+
+ns:hasShortDescription a owl:DatatypeProperty ;
+    rdfs:label "has short description" ;
+    rdfs:domain ns:EducativeCenter ;
+    rdfs:range xsd:string .
+
+ns:hasTelephoneNumber a owl:DatatypeProperty ;
+    rdfs:label "has telephone number" ;
+    rdfs:domain ns:Contact ;
+    rdfs:range xsd:string .
+
+
