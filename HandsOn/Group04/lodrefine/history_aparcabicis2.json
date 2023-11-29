@@ -1,0 +1,59 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "DESC_CLASIFICACION",
+    "description": "Remove column DESC_CLASIFICACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_BARRIO",
+    "description": "Remove column COD_BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_DISTRITO",
+    "description": "Remove column COD_DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO_VIA",
+    "newColumnName": "CLASE-VIAL",
+    "description": "Rename column TIPO_VIA to CLASE-VIAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOM_VIA",
+    "newColumnName": "NOMBRE-VIA",
+    "description": "Rename column NOM_VIA to NOMBRE-VIA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "join ([coalesce(cells['NOMBRE-VIA'].value,''),coalesce(cells['NUM_VIA'].value,'')],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-VIA using expression join ([coalesce(cells['NOMBRE-VIA'].value,''),coalesce(cells['NUM_VIA'].value,'')],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUM_VIA",
+    "description": "Remove column NUM_VIA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA_INSTALACION",
+    "newColumnName": "FECHA-INSTALACION",
+    "description": "Rename column FECHA_INSTALACION to FECHA-INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COD_POSTAL",
+    "newColumnName": "CODIGO-POSTAL",
+    "description": "Rename column COD_POSTAL to CODIGO-POSTAL"
+  }
+]

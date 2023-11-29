@@ -1,0 +1,299 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q110798863",
+        "name": "neighborhood of Pittsburgh"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q110798863"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhood",
+    "expression": "grel:\"http://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata",
+    "columnInsertIndex": 24,
+    "description": "Create column wikidata at index 24 based on column neighborhood using expression grel:\"http://www.wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q110798863",
+        "name": "neighborhood of Pittsburgh"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q110798863"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "Arlington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q107126",
+      "name": "Arlington County",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arlington County (Q107126) for cells containing \"Arlington\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "Arlington",
+    "description": "Clear recon data for cells containing \"Arlington\" in column neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q110798863",
+        "name": "neighborhood of Pittsburgh"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q110798863"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "Arlington",
+    "description": "Clear recon data for cells containing \"Arlington\" in column neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q110798863",
+        "name": "neighborhood of Pittsburgh"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q110798863"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "Arlington",
+    "description": "Clear recon data for cells containing \"Arlington\" in column neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q110798863",
+        "name": "neighborhood of Pittsburgh"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q110798863"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "neighborhood",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "Arlington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4792269",
+      "name": "Arlington",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arlington (Q4792269) for cells containing \"Arlington\" in column neighborhood"
+  }
+]

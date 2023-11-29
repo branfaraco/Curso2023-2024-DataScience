@@ -1,0 +1,28 @@
+prefix ns: https://datos.comunidad.madrid/centros_educativos/ontology#
+prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+prefix foaf: http://xmlns.com/foaf/0.1/
+
+Querie1
+SELECT ?x ?y
+WHERE
+{
+?x a ns:EducativeCenter.
+?x foaf:name ?y
+} LIMIT 100
+
+Querie2
+SELECT ?x ?y
+WHERE
+{
+?x a ns:EducativeCenter.
+?x ns:hasCenterCode ?y
+} LIMIT 100
+
+Querie3
+SELECT ?x ?z
+WHERE
+{
+?x a ns:EducativeCenter.
+?x ns:hasAddress ?y.
+?y ns:hasCompleteAddress ?z
+} LIMIT 100

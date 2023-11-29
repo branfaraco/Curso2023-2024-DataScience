@@ -1,0 +1,67 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column3",
+    "description": "Remove column Column3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column4",
+    "description": "Remove column Column4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column5",
+    "description": "Remove column Column5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column6",
+    "description": "Remove column Column6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column7",
+    "description": "Remove column Column7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column8",
+    "description": "Remove column Column8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column9",
+    "description": "Remove column Column9"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column10",
+    "description": "Remove column Column10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column11",
+    "description": "Remove column Column11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column12",
+    "description": "Remove column Column12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column13",
+    "description": "Remove column Column13"
+  }
+]

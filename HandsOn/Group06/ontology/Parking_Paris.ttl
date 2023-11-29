@@ -1,0 +1,240 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://paris.linkeddata.es/parkings/ontology/ont1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns: a owl:Ontology ;
+    dc:contributor "Alvaro Huisman",
+        "Boyuan Chen",
+        "Eduardo Alvarez Rey",
+        "Juan Bretones Moya" ;
+    dc:created "2023-10-03"^^xsd:date ;
+    dc:title "Parkings in Paris" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:canBeContactedWith a owl:ObjectProperty ;
+    rdfs:label "can be contacted with" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range ns:Contact .
+
+ns:has15mnMotoRate a owl:DatatypeProperty ;
+    rdfs:label "has15mn moto rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has1hCarRate a owl:DatatypeProperty ;
+    rdfs:label "has1h car rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has24hCarRate a owl:DatatypeProperty ;
+    rdfs:label "has24h car rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has24hMotoRate a owl:DatatypeProperty ;
+    rdfs:label "has24h moto rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has2hCarRate a owl:DatatypeProperty ;
+    rdfs:label "has2h car rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has30mnMotoRate a owl:DatatypeProperty ;
+    rdfs:label "has30mn moto rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has3hCarRate a owl:DatatypeProperty ;
+    rdfs:label "has3h car rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:has4hCarRate a owl:DatatypeProperty ;
+    rdfs:label "has4h car rate" ;
+    rdfs:domain ns:NonSubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasAddress a owl:DatatypeProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:String .
+
+ns:hasAnnualSubsCarRate a owl:DatatypeProperty ;
+    rdfs:label "has annual subs car rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasAnnualSubsElectricRate a owl:DatatypeProperty ;
+    rdfs:label "has annual subs electric rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasAnnualSubsMotoRate a owl:DatatypeProperty ;
+    rdfs:label "has annual subs moto rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasAnnualSubsPRMRate a owl:DatatypeProperty ;
+    rdfs:label "has annual subs p r m rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasBclCapacity a owl:DatatypeProperty ;
+    rdfs:label "has bcl capacity" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Integer .
+
+ns:hasElectricCapacity a owl:DatatypeProperty ;
+    rdfs:label "has electric capacity" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Integer .
+
+ns:hasElevator a owl:DatatypeProperty ;
+    rdfs:label "has elevator" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Boolean .
+
+ns:hasGeoPoint a owl:ObjectProperty ;
+    rdfs:label "has geo point" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range geo:Point .
+
+ns:hasId a owl:DatatypeProperty ;
+    rdfs:label "has id" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:String .
+
+ns:hasMaxHeight a owl:DatatypeProperty ;
+    rdfs:label "has max height" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Float .
+
+ns:hasMonthlySubsBiclRate a owl:DatatypeProperty ;
+    rdfs:label "has monthly subs bicl rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasMonthlySubsCarRate a owl:DatatypeProperty ;
+    rdfs:label "has monthly subs car rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasMonthlySubsElectricRate a owl:DatatypeProperty ;
+    rdfs:label "has monthly subs electric rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasMonthlySubsMotoRate a owl:DatatypeProperty ;
+    rdfs:label "has monthly subs moto rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasMonthlySubsPRMRate a owl:DatatypeProperty ;
+    rdfs:label "has monthly subs p r m rate" ;
+    rdfs:domain ns:SubsRate ;
+    rdfs:range xsd:Float .
+
+ns:hasName a owl:DatatypeProperty ;
+    rdfs:label "has name" ;
+    rdfs:domain ns:Parking,
+        ns:Thoroughfare ;
+    rdfs:range xsd:String .
+
+ns:hasNonSubsRate a owl:ObjectProperty ;
+    rdfs:label "has non subs rate" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range ns:NonSubsRate .
+
+ns:hasPRMCapacity a owl:DatatypeProperty ;
+    rdfs:label "has p r m capacity" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Integer .
+
+ns:hasPhoneNumber a owl:DatatypeProperty ;
+    rdfs:label "has phone number" ;
+    rdfs:domain ns:Contact ;
+    rdfs:range xsd:Integer .
+
+ns:hasSubsRate a owl:ObjectProperty ;
+    rdfs:label "has subs rate" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range ns:SubsRate .
+
+ns:hasTotalCapacity a owl:DatatypeProperty ;
+    rdfs:label "has total capacity" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Integer .
+
+ns:hasWebUrl a owl:DatatypeProperty ;
+    rdfs:label "has web url" ;
+    rdfs:domain ns:Contact ;
+    rdfs:range xsd:String .
+
+ns:idDistrict a owl:DatatypeProperty ;
+    rdfs:label "id district" ;
+    rdfs:domain ns:District ;
+    rdfs:range xsd:Integer .
+
+ns:isInDistrict a owl:ObjectProperty ;
+    rdfs:label "is in district" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range ns:District .
+
+ns:isInThoroughfare a owl:ObjectProperty ;
+    rdfs:label "is in thoroughfare" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range ns:Thoroughfare .
+
+ns:onlySubs a owl:DatatypeProperty ;
+    rdfs:label "only subs" ;
+    rdfs:domain ns:Parking ;
+    rdfs:range xsd:Boolean .
+
+ns:thoroughfareType a owl:DatatypeProperty ;
+    rdfs:label "thoroughfare type" ;
+    rdfs:domain ns:Thoroughfare ;
+    rdfs:range xsd:String .
+
+dc:contributor a owl:AnnotationProperty .
+
+dc:created a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+geo:lat a owl:DatatypeProperty ;
+    rdfs:label "lat" ;
+    rdfs:domain geo:Point ;
+    rdfs:range xsd:String .
+
+geo:long a owl:DatatypeProperty ;
+    rdfs:label "long" ;
+    rdfs:domain geo:Point ;
+    rdfs:range xsd:String .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:Contact a owl:Class ;
+    rdfs:label "Contact" .
+
+ns:Thoroughfare a owl:Class ;
+    rdfs:label "Thoroughfare" .
+
+geo:Point a owl:Class ;
+    rdfs:label "Point" .
+
+ns:NonSubsRate a owl:Class ;
+    rdfs:label "Non Subs Rate" .
+
+ns:SubsRate a owl:Class ;
+    rdfs:label "Subs Rate" .
+
+ns:Parking a owl:Class ;
+    rdfs:label "Parking" .
+

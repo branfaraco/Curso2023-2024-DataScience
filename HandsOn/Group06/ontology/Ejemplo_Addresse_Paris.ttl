@@ -1,0 +1,52 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://paris.linkeddata.es/streets/ontology/ont1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns: a owl:Ontology ;
+    dc:contributor "Alvaro Huisman",
+        "Boyuan Chen",
+        "Eduardo Alvarez Rey",
+        "Juan Bretones Moya" ;
+    dc:created "2023-10-03"^^xsd:date ;
+    dc:title "Addresses in Paris" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:hasId a owl:DatatypeProperty ;
+    rdfs:label "has id" ;
+    rdfs:domain ns:thoroughfare1 ;
+    rdfs:range xsd:750035426 .
+
+ns:hasName a owl:DatatypeProperty ;
+    rdfs:label "has name" ;
+    rdfs:domain ns:thoroughfare1 ;
+    rdfs:range xsd:AV .
+
+ns:idDistrict a owl:DatatypeProperty ;
+    rdfs:label "id district" ;
+    rdfs:domain ns:District1 ;
+    rdfs:range xsd:8 .
+
+ns:partOf a owl:ObjectProperty ;
+    rdfs:label "part of" ;
+    rdfs:range ns:District1 .
+
+ns:thoroughfareType a owl:DatatypeProperty ;
+    rdfs:label "thoroughfare type" ;
+    rdfs:domain ns:thoroughfare1 ;
+    rdfs:range xsd:Avenue .
+
+dc:contributor a owl:AnnotationProperty .
+
+dc:created a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+ns:District1 a owl:Class ;
+    rdfs:label "District1" .
+
+ns:thoroughfare1 a owl:Class ;
+    rdfs:label "thoroughfare1" .
+

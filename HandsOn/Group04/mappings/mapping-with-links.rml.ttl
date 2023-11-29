@@ -1,0 +1,190 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix transit: <http://vocab.org/transit/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix base: <http://deportesMadrid/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<#MapUbicacion> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/aparcabicis-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://deportesMadrid/ubicacion/{BARRIO}";
+    rr:class base:ubicacion
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate base:Barrio;
+    rr:objectMap [
+      rml:reference "BARRIO"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicateMap[ rr:constant owl:same_as; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "same_as_wikidata_barrio";
+      rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate base:Codigo-Postal;
+    rr:objectMap [
+      rml:reference "CODIGO-POSTAL"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Distrito;
+    rr:objectMap [
+      rml:reference "DISTRITO"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicateMap[ rr:constant owl:same_as; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "same_as_wikidata_distrito";
+      rr:termType rr:IRI
+      ]
+  ].
+
+<#MapPolideportivo> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/instalaciones-deportivas-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://deportesMadrid/instalaciones-deportivas/{PK}";
+    rr:class base:instalaciones-deportivas
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate base:Nombre;
+    rr:objectMap [
+      rml:reference "NOMBRE"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:PK;
+    rr:objectMap [
+      rml:reference "PK";
+      rr:datatype <http://www.w3.org/2001/XMLSchema#integer>
+    ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Tipo;
+    rr:objectMap [
+      rml:reference "TIPO"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Equipamiento;
+    rr:objectMap [
+      rml:reference "EQUIPAMIENTO"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Transporte;
+    rr:objectMap [
+      rml:reference "TRANSPORTE"
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate base:URL;
+    rr:objectMap [
+      rml:reference "CONTENT-URL";
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Nombre-via;
+    rr:objectMap [
+      rml:reference "NOMBRE-VIA"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:Clase-vial;
+    rr:objectMap [
+      rml:reference "CLASE-VIAL"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:se_encuentra_en;
+    rr:objectMap [
+      rr:template "http://deportesMadrid/ubicacion/{BARRIO}"
+    ]
+  ].
+
+  <#MapAparcabicis> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/aparcabicis-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://deportesMadrid/aparcabicis/{ID}";
+    rr:class base:aparcabicis
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate base:ID;
+    rr:objectMap [
+      rml:reference "ID";
+      rr:datatype <http://www.w3.org/2001/XMLSchema#integer>
+    ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate base:Estado;
+    rr:objectMap [
+      rml:reference "ESTADO";
+      rr:datatype xsd:string
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate base:Fecha-instalacion;
+    rr:objectMap [
+      rml:reference "FECHA-INSTALACION";
+      rr:datatype xsd:dateTime
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate base:Modelo;
+    rr:objectMap [
+      rml:reference "MODELO"
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate base:Nombre-via;
+    rr:objectMap [
+      rml:reference "NOMBRE-VIA"
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate base:Clase-vial;
+    rr:objectMap [
+      rml:reference "CLASE-VIAL"
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate base:se_encuentra_en;
+    rr:objectMap [
+      rr:template "http://deportesMadrid/ubicacion/{BARRIO}"
+    ]
+  ].
+
+
+

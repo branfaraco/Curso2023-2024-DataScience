@@ -1,0 +1,64 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ont: http://www.madrid.limpiezaurbana.es/
+ 
+mappings:
+  triplesmap1:
+    sources:
+      - [Actuaciones-limpieza-urbana-2022-cleaned.csv~csv]
+    s: http://www.madrid.limpiezaurbana.es/Distrito/$(ID)
+    po:
+      - [a, ont:Distrito]
+      - [ont:id,$(ID),xsd:string]
+      - [ont:basura,$(BASURA),xsd:string]
+      - [ont:mes,$(MES),xsd:string]
+      - [ont:codigo,$(CODIGO),xsd:int] 
+      - p: ont:basura
+        o:
+         - mapping: triplesmap2
+
+      - p: ont:mes
+        o:
+         - mapping: triplesmap3
+         
+      - p: ont:codigo
+        o:
+         - mapping: triplesmap4
+
+     
+
+  triplesmap2:
+    sources:
+      - [Actuaciones-limpieza-urbana-2022-cleaned.csv~csv]
+    s: http://www.madrid.limpiezaurbana.es/Basura/$(ID)
+    po:
+      - [a, ont:basura]
+      - [ont:basura,$(BASURA),xsd:string]
+      - [ont:total,$(TOTAL),xsd:int]
+     
+  triplesmap3:
+    sources:
+      - [Actuaciones-limpieza-urbana-2022-cleaned.csv~csv]
+    s: http://www.madrid.limpieza-urbana-2022-cleaned.es/Residuos/$(ID)
+    po:
+      - [a, ont:mes]
+      - [ont:mes,$(MES),xsd:string]
+
+
+  triplesmap4:
+    sources:
+      - [Actuaciones-limpieza-urbana-2022-cleaned.csv~csv]
+    s: http://www.madrid.limpieza-urbana-2022-cleaned.es/Codigo/$(ID)
+    po:
+      - [a, ont:codigo]
+      - [ont:codigo,$(CODIGO),xsd:int]
+ 

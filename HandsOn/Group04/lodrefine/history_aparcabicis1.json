@@ -1,0 +1,456 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ARGUELLES",
+          "ARGÜELLES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ARGUELLES"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOM_VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EL FERROL",
+          "el Ferrol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EL FERROL"
+      },
+      {
+        "from": [
+          "Puerta del Sol",
+          "PUERTA DEL SOL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PUERTA DEL SOL"
+      },
+      {
+        "from": [
+          "POBLADOS",
+          "Poblados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POBLADOS"
+      },
+      {
+        "from": [
+          "RETAMA",
+          "Retama"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RETAMA"
+      },
+      {
+        "from": [
+          "O'DONNELL",
+          "O''DONNELL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O'DONNELL"
+      },
+      {
+        "from": [
+          "MOLINA DE SEGURA",
+          "Molina de Segura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MOLINA DE SEGURA"
+      },
+      {
+        "from": [
+          "JOSE ORTEGA Y GASSET",
+          "José Ortega y Gasset"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "JOSE ORTEGA Y GASSET"
+      },
+      {
+        "from": [
+          "VALDERRIBAS",
+          "Valderribas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VALDERRIBAS"
+      },
+      {
+        "from": [
+          "ARGANDA",
+          "Arganda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ARGANDA"
+      },
+      {
+        "from": [
+          "PLATA Y CASTAÑAR",
+          "Plata y Castanar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PLATA Y CASTAÑAR"
+      },
+      {
+        "from": [
+          "ANGEL GANIVET",
+          "Ángel Ganivet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANGEL GANIVET"
+      }
+    ],
+    "description": "Mass edit cells in column NOM_VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FUENCARRAL - EL PARDO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FUENCARRAL-EL PARDO"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MONCLOA - ARAVACA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MONCLOA-ARAVACA"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SAN BLAS - CANILLEJAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SAN BLAS-CANILLEJAS"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CASCO HISTORICO DE BARAJAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CASCO H.BARAJAS"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO - CASCO HISTORICO DE VILLAVERDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO C.H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE ALTO CASCO H.VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO CASCO H.VILLAVERDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE ALTO-CASCO H.VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PEÑAGRANDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PEÑA GRANDE"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORD_GIS_X",
+    "description": "Remove column COORD_GIS_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORD_GIS_Y",
+    "description": "Remove column COORD_GIS_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SISTEMA_COORD",
+    "description": "Remove column SISTEMA_COORD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD",
+    "description": "Remove column LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD",
+    "description": "Remove column LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NDP",
+    "description": "Remove column NDP"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGO_INTERNO",
+    "description": "Remove column CODIGO_INTERNO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CONTRATO_COD",
+    "description": "Remove column CONTRATO_COD"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MODELO",
+          "expression": "value",
+          "columnName": "MODELO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MODELO",
+          "expression": "value",
+          "columnName": "MODELO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "OTROS",
+                "l": "OTROS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COD_POSTAL",
+          "expression": "value",
+          "columnName": "COD_POSTAL",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 0,
+                "l": "0"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_AUX",
+    "description": "Remove column DIRECCION_AUX"
+  }
+]

@@ -1,4 +1,4 @@
-# Hands On Project, Group 01
+# Hands On Project, Group 07
 
 Nombre y apellidos de los miembros del grupo:
 - Bran Faraco Llorente

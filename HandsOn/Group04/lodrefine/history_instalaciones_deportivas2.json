@@ -1,0 +1,222 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCESIBILIDAD",
+    "description": "Remove column ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO",
+    "description": "Remove column TIPO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DISTRITO using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BARRIO using expression value.toUppercase()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD-BARRIO",
+    "description": "Remove column COD-BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD-DISTRITO",
+    "description": "Remove column COD-DISTRITO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-VIA using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "join ([cells['NOMBRE-VIA'].value,cells['NUM'].value],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-VIA using expression join ([cells['NOMBRE-VIA'].value,cells['NUM'].value],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUM",
+    "description": "Remove column NUM"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "TIPO",
+    "columnInsertIndex": 2,
+    "description": "Create column TIPO at index 2 based on column NOMBRE using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "NOMBRE",
+          "columnName": "NOMBRE",
+          "query": "Centro Deportivo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"Centro Deportivo\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO using expression grel:\"Centro Deportivo\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "NOMBRE",
+          "columnName": "NOMBRE",
+          "query": "Instalación Deportiva",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"Instalación Deportiva\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO using expression grel:\"Instalación Deportiva\""
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPO",
+          "expression": "value",
+          "columnName": "TIPO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Parque Lineal UZI 0.06 Arroyofresno",
+                "l": "Parque Lineal UZI 0.06 Arroyofresno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPO",
+          "expression": "value",
+          "columnName": "TIPO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pista de Patinaje Paco de Lucía",
+                "l": "Pista de Patinaje Paco de Lucía"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPO",
+          "expression": "value",
+          "columnName": "TIPO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pista de petanca Centro de Mayores La Vaguada",
+                "l": "Pista de petanca Centro de Mayores La Vaguada"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]

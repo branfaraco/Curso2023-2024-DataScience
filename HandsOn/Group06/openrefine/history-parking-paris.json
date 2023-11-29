@@ -1,0 +1,1537 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿Identifiant",
+    "newColumnName": "id",
+    "description": "Rename column ﻿Identifiant to id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nom parc",
+    "newColumnName": "Name",
+    "description": "Rename column Nom parc to Name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "INSEE",
+    "description": "Remove column INSEE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Adresse principale",
+    "newColumnName": "Adress",
+    "description": "Rename column Adresse principale to Adress"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URL ressource services",
+    "newColumnName": "URL",
+    "description": "Rename column URL ressource services to URL"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Adress",
+    "expression": "grel:value.split(' ')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Number",
+    "columnInsertIndex": 3,
+    "description": "Create column Number at index 3 based on column Adress using expression grel:value.split(' ')[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Adress",
+    "expression": "grel:value.find(/(\\d{5})/)[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Postal Code",
+    "columnInsertIndex": 3,
+    "description": "Create column Postal Code at index 3 based on column Adress using expression grel:value.find(/(\\d{5})/)[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Adress",
+    "expression": "grel:value.find(/(rue|avenue|square|boulevard|place|quai|cours|rond point|passage)/)[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Type of road",
+    "columnInsertIndex": 3,
+    "description": "Create column Type of road at index 3 based on column Adress using expression grel:value.find(/(rue|avenue|square|boulevard|place|quai|cours|rond point|passage)/)[0]"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Type usagers",
+    "newColumnName": "Only for Subs",
+    "description": "Rename column Type usagers to Only for Subs"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Only for Subs",
+    "expression": "value.replace(/abonnés/i,\"True\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Only for Subs using expression value.replace(/abonnés/i,\"True\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Only for Subs",
+    "expression": "value.replace(/tous/i,\"False\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Only for Subs using expression value.replace(/tous/i,\"False\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gratuit",
+    "description": "Remove column Gratuit"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nbre total places",
+    "newColumnName": "Total Parking Spots",
+    "description": "Rename column Nbre total places to Total Parking Spots"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nbre place parc relais",
+    "description": "Remove column Nbre place parc relais"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nbre place PMR",
+    "newColumnName": "PRM Spots",
+    "description": "Rename column Nbre place PMR to PRM Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nbre place voit elec",
+    "newColumnName": "Electric Spots",
+    "description": "Rename column Nbre place voit elec to Electric Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nbre place vélo",
+    "newColumnName": "Bicycle",
+    "description": "Rename column Nbre place vélo to Bicycle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Bicycle",
+    "newColumnName": "Bicycle Spots",
+    "description": "Rename column Bicycle to Bicycle Spots"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nbre place velo-2rm elec",
+    "description": "Remove column Nbre place velo-2rm elec"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nbre place autopartage",
+    "description": "Remove column Nbre place autopartage"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nbre place 2rm",
+    "description": "Remove column Nbre place 2rm"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nbre place covoiturage",
+    "description": "Remove column Nbre place covoiturage"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Hauteur max",
+    "newColumnName": "Maximum Height",
+    "description": "Rename column Hauteur max to Maximum Height"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Numéro SIRET",
+    "description": "Remove column Numéro SIRET"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Y latitude parc WGS84",
+    "expression": "grel:cells[\"X longitude parc WGS84\"].value + \" \" + cells[\"Y latitude parc WGS84\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Y latitude parc WGS84 using expression grel:cells[\"X longitude parc WGS84\"].value + \" \" + cells[\"Y latitude parc WGS84\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "X longitude parc WGS84",
+    "description": "Remove column X longitude parc WGS84"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Y latitude parc WGS84",
+    "newColumnName": "Coordinates",
+    "description": "Rename column Y latitude parc WGS84 to Coordinates"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif PMR",
+    "description": "Remove column Tarif PMR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Abonnement résident",
+    "description": "Remove column Abonnement résident"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Abonnement non résident",
+    "description": "Remove column Abonnement non résident"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Type ouvrage",
+    "description": "Remove column Type ouvrage"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Informations",
+    "description": "Remove column Informations"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Identifiants entrées",
+    "description": "Remove column Identifiants entrées"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Adresses entrées",
+    "description": "Remove column Adresses entrées"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Arrondissement",
+    "newColumnName": "District",
+    "description": "Rename column Arrondissement to District"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Délégataire",
+    "description": "Remove column Délégataire"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Téléphone",
+    "newColumnName": "Phone",
+    "description": "Rename column Téléphone to Phone"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Horaire ouverture non abonnés",
+    "description": "Remove column Horaire ouverture non abonnés"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Ascenseur surface",
+    "newColumnName": "Elevator",
+    "description": "Rename column Ascenseur surface to Elevator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/oui/i,\"True\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/oui/i,\"True\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/non/i,\"False\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/non/i,\"False\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/\\(ÉLÉVATEUR\\)/i,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/\\(ÉLÉVATEUR\\)/i,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/ACCESSIBLE DE PLAIN PIED/i,\"False\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/ACCESSIBLE DE PLAIN PIED/i,\"False\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/PREVU/i,\"False\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/PREVU/i,\"False\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(/MAIS TRAVAUX D\\'ACCESSIBILITE AUX HANDICAPES A/i,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(/MAIS TRAVAUX D\\'ACCESSIBILITE AUX HANDICAPES A/i,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Elevator",
+    "expression": "value.replace(\"True,\",\"True\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Elevator using expression value.replace(\"True,\",\"True\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Date application tarif abonnement",
+    "description": "Remove column Date application tarif abonnement"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Abonnement mensuel",
+    "newColumnName": "MonthlySubCar",
+    "description": "Rename column Abonnement mensuel to MonthlySubCar"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Abonnement annuel",
+    "newColumnName": "AnnualSubCar",
+    "description": "Rename column Abonnement annuel to AnnualSubCar"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement PMR mensuel",
+    "newColumnName": "MonthlySubPRM",
+    "description": "Rename column Tarif abonnement PMR mensuel to MonthlySubPRM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif VL petit rouleur",
+    "description": "Remove column Tarif VL petit rouleur"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif petit rouleur annuel mini",
+    "description": "Remove column Tarif petit rouleur annuel mini"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif petit rouleur annuel maxi",
+    "description": "Remove column Tarif petit rouleur annuel maxi"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif VL résident",
+    "description": "Remove column Tarif VL résident"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif résident annuel",
+    "description": "Remove column Tarif résident annuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Date application tarif horaire",
+    "description": "Remove column Date application tarif horaire"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_15mn",
+    "description": "Remove column Tarif_15mn"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_30mn",
+    "description": "Remove column Tarif_30mn"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_1h30",
+    "description": "Remove column Tarif_1h30"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_7h",
+    "description": "Remove column Tarif_7h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_8h",
+    "description": "Remove column Tarif_8h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_9h",
+    "description": "Remove column Tarif_9h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_10h",
+    "description": "Remove column Tarif_10h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_11h",
+    "description": "Remove column Tarif_11h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif_12h",
+    "description": "Remove column Tarif_12h"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif abonnement PMR timestriel",
+    "description": "Remove column Tarif abonnement PMR timestriel"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement PMR annuel",
+    "newColumnName": "AnnualSubPRM",
+    "description": "Rename column Tarif abonnement PMR annuel to AnnualSubPRM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Date MaJ données tarif",
+    "description": "Remove column Date MaJ données tarif"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement VéhElect mensuel",
+    "newColumnName": "MothlySubElectric",
+    "description": "Rename column Tarif abonnement VéhElect mensuel to MothlySubElectric"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif abonnement VéhElect trimestriel",
+    "description": "Remove column Tarif abonnement VéhElect trimestriel"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement VéhElect annuel",
+    "newColumnName": "AnnualSubElectric",
+    "description": "Rename column Tarif abonnement VéhElect annuel to AnnualSubElectric"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto 1ere heure",
+    "description": "Remove column Tarif moto 1ere heure"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement moto mensuel",
+    "newColumnName": "MonthlySubMoto",
+    "description": "Rename column Tarif abonnement moto mensuel to MonthlySubMoto"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif abonnement moto trimestriel",
+    "description": "Remove column Tarif abonnement moto trimestriel"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement moto annuel",
+    "newColumnName": "AnnualSubMoto",
+    "description": "Rename column Tarif abonnement moto annuel to AnnualSubMoto"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tarif abonnement vélo mensuel",
+    "newColumnName": "MonthlySubBicl",
+    "description": "Rename column Tarif abonnement vélo mensuel to MonthlySubBicl"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coord X entrées LB93",
+    "description": "Remove column Coord X entrées LB93"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coord Y entrées LB93",
+    "description": "Remove column Coord Y entrées LB93"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Code zones résidentielles",
+    "description": "Remove column Code zones résidentielles"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto petit rouleur",
+    "description": "Remove column Tarif moto petit rouleur"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto petit rouleur annuel mini",
+    "description": "Remove column Tarif moto petit rouleur annuel mini"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto petit rouleur annuel maxi",
+    "description": "Remove column Tarif moto petit rouleur annuel maxi"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto résident",
+    "description": "Remove column Tarif moto résident"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif moto résident annuel",
+    "description": "Remove column Tarif moto résident annuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Parc amodié",
+    "description": "Remove column Parc amodié"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif abonnement place attribuée annuel",
+    "description": "Remove column Tarif abonnement place attribuée annuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Parc relais",
+    "description": "Remove column Parc relais"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif abonnement parc relais annuel",
+    "description": "Remove column Tarif abonnement parc relais annuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif résident mensuel",
+    "description": "Remove column Tarif résident mensuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Parc affilié au dispositif Pass 2RM",
+    "description": "Remove column Parc affilié au dispositif Pass 2RM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif horaire préférentiel Moto Pass 2RM",
+    "description": "Remove column Tarif horaire préférentiel Moto Pass 2RM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif de l'abonnement au Pass 2RM mensuel",
+    "description": "Remove column Tarif de l'abonnement au Pass 2RM mensuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif de l'abonnement au Pass 2RM trimestriel",
+    "description": "Remove column Tarif de l'abonnement au Pass 2RM trimestriel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tarif de l'abonnement au Pass 2RM annuel",
+    "description": "Remove column Tarif de l'abonnement au Pass 2RM annuel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "geo_shape",
+    "description": "Remove column geo_shape"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "geo_point_2d",
+    "description": "Remove column geo_point_2d"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_1h",
+    "expression": "grel:if(isBlank(value), 'OnlyForSubs', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_1h using expression grel:if(isBlank(value), 'OnlyForSubs', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_2h",
+    "expression": "grel:if(isBlank(value), 'OnlyForSubs', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_2h using expression grel:if(isBlank(value), 'OnlyForSubs', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_3h",
+    "expression": "grel:if(isBlank(value), 'OnlyForSubs', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_3h using expression grel:if(isBlank(value), 'OnlyForSubs', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_4h",
+    "expression": "grel:if(isBlank(value), 'OnlyForSubs', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_4h using expression grel:if(isBlank(value), 'OnlyForSubs', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h",
+    "expression": "grel:if(isBlank(value), 'OnlyForSubs', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h using expression grel:if(isBlank(value), 'OnlyForSubs', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubCar",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubCar using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubCar",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubCar using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubPRM",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubPRM using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubPRM",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubPRM using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MothlySubElectric",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MothlySubElectric using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubElectric",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubElectric using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubBicl",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubBicl using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_15mn Moto",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_15mn Moto using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_30mn Moto",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_30mn Moto using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h Moto",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h Moto using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Postal Code",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Postal Code using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Total Parking Spots",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Total Parking Spots using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRM Spots",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PRM Spots using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Electric Spots",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Electric Spots using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Bicycle Spots",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Bicycle Spots using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Maximum Height",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Maximum Height using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_1h",
+    "expression": "grel:value.replace('OnlyForSubs', '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_1h using expression grel:value.replace('OnlyForSubs', '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_2h",
+    "expression": "grel:value.replace('OnlyForSubs', '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_2h using expression grel:value.replace('OnlyForSubs', '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_3h",
+    "expression": "grel:value.replace('OnlyForSubs', '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_3h using expression grel:value.replace('OnlyForSubs', '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_4h",
+    "expression": "grel:value.replace('OnlyForSubs', '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_4h using expression grel:value.replace('OnlyForSubs', '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h",
+    "expression": "grel:value.replace('OnlyForSubs', '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h using expression grel:value.replace('OnlyForSubs', '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubMoto",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubMoto using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubMoto",
+    "expression": "grel:if(isBlank(value), 'null', value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubMoto using expression grel:if(isBlank(value), 'null', value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubMoto",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubMoto using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubBicl",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubBicl using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_15mn Moto",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_15mn Moto using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_30mn Moto",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_30mn Moto using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h Moto",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h Moto using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubMoto",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubMoto using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubElectric",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubElectric using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MothlySubElectric",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MothlySubElectric using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubPRM",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubPRM using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubPRM",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubPRM using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubCar",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubCar using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubCar",
+    "expression": "grel:value.replace(/^(null|0\\.0)/, '-1.0')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubCar using expression grel:value.replace(/^(null|0\\.0)/, '-1.0')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Coordinates",
+    "expression": "grel:value.split(' ')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "CoordenadaX",
+    "columnInsertIndex": 14,
+    "description": "Create column CoordenadaX at index 14 based on column Coordinates using expression grel:value.split(' ')[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Coordinates",
+    "expression": "grel:value.split(' ')[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "CoordenadaY",
+    "columnInsertIndex": 14,
+    "description": "Create column CoordenadaY at index 14 based on column Coordinates using expression grel:value.split(' ')[1]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordinates",
+    "description": "Remove column Coordinates"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CoordenadaY",
+    "index": 14,
+    "description": "Move column CoordenadaY to position 14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Postal Code",
+    "description": "Remove column Postal Code"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number",
+    "description": "Remove column Number"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Adress",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Name of the Street",
+    "columnInsertIndex": 3,
+    "description": "Create column Name of the Street at index 3 based on column Adress using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name of the Street",
+    "expression": "grel:value.replace(/,\\s*\\d+\\s*,\\s*Paris$/, '').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Name of the Street using expression grel:value.replace(/,\\s*\\d+\\s*,\\s*Paris$/, '').trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name of the Street",
+    "expression": "grel:value.replace(/^\\d+\\s*/, '').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Name of the Street using expression grel:value.replace(/^\\d+\\s*/, '').trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name of the Street",
+    "expression": "grel:value.replace(/^(bis|ter|m|quater)\\s*/, '').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Name of the Street using expression grel:value.replace(/^(bis|ter|m|quater)\\s*/, '').trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name of the Street",
+    "expression": "grel:value.replace(/^a\\s/, '').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Name of the Street using expression grel:value.replace(/^a\\s/, '').trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Name of the Street",
+    "newColumnName": "Name_of_the_Street",
+    "description": "Rename column Name of the Street to Name_of_the_Street"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Type of road",
+    "newColumnName": "Type_of_road",
+    "description": "Rename column Type of road to Type_of_road"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Only for Subs",
+    "newColumnName": "Only_for_Subs",
+    "description": "Rename column Only for Subs to Only_for_Subs"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Total Parking Spots",
+    "newColumnName": "Total_Parking_Spots",
+    "description": "Rename column Total Parking Spots to Total_Parking_Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PRM Spots",
+    "newColumnName": "PRM_Spots",
+    "description": "Rename column PRM Spots to PRM_Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Electric Spots",
+    "newColumnName": "Electric_Spots",
+    "description": "Rename column Electric Spots to Electric_Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Bicycle Spots",
+    "newColumnName": "Bicycle_Spots",
+    "description": "Rename column Bicycle Spots to Bicycle_Spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Maximum Height",
+    "newColumnName": "Maximum_Height",
+    "description": "Rename column Maximum Height to Maximum_Height"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_1h",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_1h using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_2h",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_2h using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_3h",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_3h using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_4h",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_4h using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubCar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubCar using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubCar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubCar using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubPRM",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubPRM using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubPRM",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubPRM using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MothlySubElectric",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MothlySubElectric using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubElectric",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubElectric using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubMoto",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubMoto using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AnnualSubMoto",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AnnualSubMoto using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MonthlySubBicl",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MonthlySubBicl using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_15mn Moto",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_15mn Moto using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_30mn Moto",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_30mn Moto using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tarif_24h Moto",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tarif_24h Moto using expression value.toNumber()"
+  }
+]

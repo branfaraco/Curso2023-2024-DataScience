@@ -1,0 +1,63 @@
+
+        prefix ns: <http://pittsburgh.linkeddata.es/traffic/ontology/ont1#>
+        prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+        prefix db: <http://dbpedia.org/resource/classes#>
+        prefix m3: <http://purl.org/iot/vocab/m3-lite#>
+        prefix w3: <https://www.w3.org/2006/time#>
+        prefix dc: <http://purl.org/dc/terms/>
+        prefix owl: <http://www.w3.org/2002/07/owl#>
+        prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+        prefix rr: <http://www.w3.org/ns/r2rml#>
+        prefix rml: <http://semweb.mmlab.be/ns/rml#>
+        prefix ql: <http://semweb.mmlab.be/ns/ql#>
+        prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+         SELECT DISTINCT ?stop ?p WHERE {
+             ?stop ?p ns:StatTrack .
+             
+         }
+   
+SELECT ?district ?wikidata
+WHERE {
+    ?stat ns:locatedIn ?district.
+    ?district owl:sameAs ?wikidata.
+}
+
+
+SELECT ?resource ?day ?month ?year
+WHERE {
+  ?resource w3:hasBeginning ?dateTime .
+  
+  ?dateTime w3:day ?day .
+  ?dateTime w3:month ?month .
+  ?dateTime  w3:year ?year .
+}
+
+
+SELECT ?id
+WHERE {
+  ?stat ns:hasDeviceId ?id
+}
+
+
+SELECT ?x
+WHERE {
+  
+  ?stat ns:hasTrafficMeasures  ?traffic.
+  ?traffic rdfs:label ?x
+}
+
+  SELECT ?speed ?medianSpeed
+WHERE {
+  ?speed ns:hasMedianSpeed ?medianSpeed.
+ 
+}
+
+  
+  SELECT ?speed ?speed85
+WHERE {
+  ?speed ns:hasSpeed85Percent ?speed85.
+}
+
+

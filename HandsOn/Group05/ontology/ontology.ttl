@@ -1,0 +1,57 @@
+ @prefix clases: <http://madrid.limpiezaurbana.es/classes#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix properties: <http://www.owl-ontologies.com/properties#> .
+@prefix propiedades: <http://madrid.limpiezaurbana.es/properties#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clases: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+propiedades:esDeTipo a owl:DatatypeProperty ;
+    rdfs:label "es de tipo" ;
+    rdfs:domain clases:Basura,
+        clases:Codigo,
+        clases:Distrito,
+        clases:Mes,
+        clases:Total ;
+    rdfs:range xsd:int,
+        xsd:string .
+
+propiedades:seRecoge a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "se recoge" ;
+    rdfs:domain clases:Distrito .
+
+propiedades:tiene a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "tiene" .
+
+propiedades:tieneUnTotalDe a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "tiene un total de" ;
+    rdfs:domain clases:Basura ;
+    rdfs:range clases:Total .
+
+properties:datosRecogidosEn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "datos recogidos en" ;
+    rdfs:domain clases:Distrito ;
+    rdfs:range clases:Mes .
+
+clases:Codigo a owl:Class ;
+    rdfs:label "Codigo" .
+
+clases:Basura a owl:Class ;
+    rdfs:label "Basura" .
+
+clases:Mes a owl:Class ;
+    rdfs:label "Mes" .
+
+clases:Total a owl:Class ;
+    rdfs:label "Total" .
+
+clases:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+

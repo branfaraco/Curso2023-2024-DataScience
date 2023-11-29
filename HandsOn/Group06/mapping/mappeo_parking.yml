@@ -1,0 +1,106 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ns_ind: http://paris.linkeddata.es/parkings/resource/
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  ns_ont: http://paris.linkeddata.es/parkings/resource/ont1#
+  
+mapping:
+  
+  Parking:
+    sources:
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+    s: ns_ind:parking/$(id)
+    po:
+      - [a, ns_ont:Parking]
+      - [ns_ont:hasName,$(Name)]
+      - [ns_ont:hasid,$(id)]
+      - [ns_ont:hasMaxHeight,$(Maximum_Height),xsd:integer]
+      - [ns_ont:hasElevator,$(Elevator)]
+      - [ns_ont:onlySubs,$(Only_for_Subs)]
+      - [ns_ont:hasTotalCapacity,$(Total_Parking_Spots),xsd:integer]
+      - [ns_ont:hasPRMCapacity,$(PRM_Spots),xsd:integer]
+      - [ns_ont:hasElectricCapacity,$(Electric_Spots),xsd:integer]
+      - [ns_ont:hasBclCapacity,$(Bicycle_Spots),xsd:integer]
+      - [ns_ont:hasAddress,$(Adress)]
+      - [ns_ont:isinDistrict,ns_ind:district/$(District)~iri]
+      - [ns_ont:isinThoroughfare, ns_ind:thoroughfare/$(id)~iri]
+      - [ns_ont:canBeContactedWith, ns_ind:contact/$(id)~iri]
+      - [ns_ont:hasGeoPoint,geo:point/$(id)~iri]
+      - [ns_ont:hasSubsRate,ns_ind:subsrate/$(id)~iri]
+      - [ns_ont:hasNonSubsRate,ns_ind:nonsubsrate/$(id)~iri]
+      
+  District:
+    sources:
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+    s: ns_ind:district/$(District)
+    po:
+      - [a, ns_ont:District]
+      - [ns_ont:idDistrict,$(District),xsd:integer]
+  
+  Thoroughfare:
+    sources:
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+    s: ns_ind:thoroughfare/$(id)
+    po:
+      - [a, ns_ont:thoroughfare]
+      - [ns_ont:thoroughfareType,$(Type_of_road)]
+      - [ns_ont:hasName,$(Name_of_the_Street)]
+  
+  Contact:
+    sources:
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+    s: ns_ind:contact/$(id)
+    po:
+      - [a, ns_ont:Contact]
+      - [ns_ont:hasPhoneNumber,$(Phone)]
+      - [ns_ont:ServiceUrl,$(URL)]
+  
+  GeoPoint:
+    sources:  
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+    s: geo:point/$(id)
+    po:
+      - [a, geo:Point]
+      - [geo:lat,$(CoordenadaX)]
+      - [geo:long,$(CoordenadaY)]
+  
+  SubsRate:
+      sources:  
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+      s: ns_ind:subsrate/$(id)
+      po:
+      - [a, ns_ont:SubsRate]
+      - [ns_ont:hasMonthlySubsCarRate,$(MonthlySubCar)]
+      - [ns_ont:hasAnnualSubsCarRate,$(AnnualSubCar)]
+      - [ns_ont:hasMonthlySubsPRMRate,$(MonthlySubPRM)]
+      - [ns_ont:hasAnnualSubsPRMRate,$(AnnualSubPRM)]
+      - [ns_ont:hasMonthlySubsElectricRate,$(MothlySubElectric)]
+      - [ns_ont:hasAnnualSubsElectricRate,$(AnnualSubElectric)]
+      - [ns_ont:hasMonthlySubsMotoRate,$(MonthlySubMoto)]
+      - [ns_ont:hasAnnualSubsMotoRate,$(AnnualSubMoto)]
+      - [ns_ont:hasMonthlySubsBiciRate,$(MonthlySubBicl)]
+  
+  NonSubsRate:
+      sources:  
+      - [/content/drive/MyDrive/hands_on_mapping/parking-paris-updated.csv~csv]
+      s: ns_ind:nonsubsrate/$(id)
+      po:
+      - [a, ns_ont:NonSubsRate]
+      - [ns_ont:has1hCarRate,$(Tarif_1h)]
+      - [ns_ont:has2hCarRate,$(Tarif_2h)]
+      - [ns_ont:has3hCarRate,$(Tarif_3h)]
+      - [ns_ont:has4hCarRate,$(Tarif_4h)]
+      - [ns_ont:has24hCarRate,$(Tarif_24h)]
+      - [ns_ont:has15mnMotoRate,$(Tarif_15mn Moto)]
+      - [ns_ont:has30mnMotoRate,$(Tarif_30mn Moto)]
+      - [ns_ont:has24hMotoRate,$(Tarif_24h Moto)]
+                   

@@ -1,0 +1,71 @@
+﻿prefixes:
+  rr: "http://www.w3.org/ns/r2rml#"
+  rml: "http://semweb.mmlab.be/ns/rml#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  ns: "http://www.vascomap.com/ontology#"
+
+
+mappings:	
+
+  mapDotacionPolicial:
+    sources:
+      - [dotacion_policial-updated.csv~csv]
+    s: http://www.vascomap.com/resource/DotPol/$(ID)
+    po:
+      - [a, ns:DotPol]
+      - [ns:id, $(ID)]
+      - [ns:value, $(2020), xsd:float]
+      - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
+      - [ns:takesPlaceInMun, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
+
+  mapIndiceDelitos:
+    sources:
+      - [indice_delitos-updated.csv~csv]
+    s: http://www.vascomap.com/resource/IndDel/$(ID)
+    po:
+      - [a, ns:IndDel]
+      - [ns:id, $(ID)]
+      - [ns:value, $(2020), xsd:float]
+      - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
+      - [ns:takesPlaceInMun, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
+
+  mapSeguridadZonas:
+    sources:
+      - [seguridad_zonas-updated.csv~csv]
+    s: http://www.vascomap.com/resource/SegZon/$(PROVINCIA)
+    po:
+      - [a, ns:SegZon]
+      - [ns:id, $(PROVINCIA)]
+      - [ns:value, $(2020), xsd:float]
+      - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
+
+  mapInfraccionesPenales:
+    sources:
+      - [infracciones_penales-updated.csv~csv]
+    s: http://www.vascomap.com/resource/InfPen/$(PROVINCIA)
+    po:
+      - [a, ns:InfPen]
+      - [ns:id, $(PROVINCIA)]
+      - [ns:value, $(2020), xsd:float]
+      - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
+
+  mapProvincia:
+    sources:
+      - [dotacion_policial-updated.csv~csv]
+    s: http://www.vascomap.com/resource/Province/$(PROVINCIA)
+    po:
+      - [a, ns:Province]
+      - [ns:name, $(PROVINCIA)]
+      - [ns:has, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
+
+  mapMunicipio:
+    sources:
+      - [dotacion_policial-updated.csv~csv]
+    s: http://www.vascomap.com/resource/Municipality/$(CODE)
+    po:
+      - [a, ns:Municipality]
+      - [ns:name, $(MUNICIPIO)]
+      - [ns:code, $(CODE)]	
+      - [ns:belongsTo, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]

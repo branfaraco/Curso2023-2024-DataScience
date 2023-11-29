@@ -1,0 +1,89 @@
+ @prefix clases: <http://madrid.limpiezaurbana.es/classes#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix properties: <http://www.owl-ontologies.com/properties#> .
+@prefix propiedades: <http://madrid.limpiezaurbana.es/properties#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clases: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+propiedades:esDeTipo a owl:DatatypeProperty ;
+    rdfs:label "es de tipo" ;
+    rdfs:domain clases:11,
+        clases:79,
+        clases:Basura,
+        clases:CARABANCHEL,
+        clases:Codigo,
+        clases:DICIEMBRE,
+        clases:Distrito,
+        clases:ENVASES,
+        clases:Mes,
+        clases:Total ;
+    rdfs:range xsd:int,
+        xsd:string .
+
+propiedades:seRecoge a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "se recoge" ;
+    rdfs:domain clases:CARABANCHEL,
+        clases:Distrito .
+
+propiedades:tiene a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "tiene" .
+
+propiedades:tieneUnTotalDe a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "tiene un total de" ;
+    rdfs:domain clases:Basura ;
+    rdfs:range clases:Total .
+
+properties:datosRecogidosEn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "datos recogidos en" ;
+    rdfs:domain clases:CARABANCHEL,
+        clases:Distrito ;
+    rdfs:range clases:DICIEMBRE,
+        clases:Mes .
+
+properties:tieneUnTotalDe a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "tiene un total de" ;
+    rdfs:domain clases:ENVASES ;
+    rdfs:range clases:79 .
+
+rdf:type a owl:ObjectProperty ;
+    rdfs:label "type" .
+
+clases:11 a owl:Class ;
+    rdfs:label "11" .
+
+clases:Codigo a owl:Class ;
+    rdfs:label "Codigo" .
+
+clases:79 a owl:Class ;
+    rdfs:label "79" .
+
+clases:Basura a owl:Class ;
+    rdfs:label "Basura" .
+
+clases:DICIEMBRE a owl:Class ;
+    rdfs:label "D I C I E M B R E" .
+
+clases:ENVASES a owl:Class ;
+    rdfs:label "E N V A S E S" .
+
+clases:Mes a owl:Class ;
+    rdfs:label "Mes" .
+
+clases:Total a owl:Class ;
+    rdfs:label "Total" .
+
+clases:CARABANCHEL a owl:Class ;
+    rdfs:label "C A R A B A N C H E L" .
+
+clases:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
