@@ -1,0 +1,5 @@
+#Esto nos da el tipo de clase
+SELECT ?id ?e
+WHERE {
+    ?id a ?e
+} 

@@ -1,0 +1,5 @@
+SELECT ?zone ?dis
+WHERE {
+    ?zone rdf:type ?dis
+FILTER(?dis = <https://w3id.org/DogFriendlyMadrid/info/ontology/location#District>)
+}

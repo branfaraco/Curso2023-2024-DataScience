@@ -1,0 +1,33 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"CareCenter_\"+ 0 + row.index",
+    "onError": "set-to-blank",
+    "newColumnName": "ID",
+    "columnInsertIndex": 1,
+    "description": "Create column ID at index 1 based on column DISTRITO using expression grel:\"CareCenter_\"+ 0 + row.index"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ID",
+    "expression": "grel:value+\"_address\"",
+    "onError": "set-to-blank",
+    "newColumnName": "AdressID",
+    "columnInsertIndex": 2,
+    "description": "Create column AdressID at index 2 based on column ID using expression grel:value+\"_address\""
+  }
+]
+
+
+
+
+

@@ -1,0 +1,5 @@
+#saca los links a wikidata
+
+SELECT ?id WHERE {
+    ?id owl:sameAs ?e
+}                      

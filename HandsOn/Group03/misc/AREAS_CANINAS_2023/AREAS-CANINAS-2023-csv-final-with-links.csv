@@ -1,0 +1,129 @@
+ID,ID_ADRESS,DISTRITO ID,DISTRITO,DISTRITO-LINKS,BARRIO ID,BARRIO,BARRIO-LINKS,TIPO DE VÍA,NOMBRE DE VÍA,NÚMERO,DOG_GAMES,"ESTADO,C,50"
+7243273,7243273_adress,07,Chamberí,https://wikidata.org/entity/Q1763370,076,Vallehermoso,https://wikidata.org/entity/Q6122685,CALLE,CEA BERMUDEZ,2,5,ACTIVO
+5237097,5237097_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,166,Valdefuentes,https://wikidata.org/entity/Q10388714,AVENIDA,Avenida de las Fuerzas Armadas,11,1,ACTIVO
+5003498,5003498_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,062,Cuatro Caminos,https://wikidata.org/entity/Q5824684,CALLE,GENERAL RAMIREZ DE MADRID,2,1,ACTIVO
+3570068,3570068_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,159,Costillares,https://wikidata.org/entity/Q331385,CALLE,CALERUEGA,28,1,ACTIVO
+3570069,3570069_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,152,Pueblo Nuevo,https://wikidata.org/entity/Q71753,CALLE,NICOLAS SALMERON,3,3,ACTIVO
+3570074,3570074_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,152,Pueblo Nuevo,https://wikidata.org/entity/Q71753,CALLE,LUIS RUIZ,27,1,ACTIVO
+3570067,3570067_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,152,Pueblo Nuevo,https://wikidata.org/entity/Q71753,CALLE,PEPE ISBERT,11,1,ACTIVO
+3570070,3570070_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,151,Ventas,https://wikidata.org/entity/Q71762,AVENIDA,MARQUES DE CORBERA,2,2,ACTIVO
+3570072,3570072_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,151,Ventas,https://wikidata.org/entity/Q71762,CALLE,GERARDO CORDON,46,2,ACTIVO
+3575532,3575532_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,165,Apóstol Santiago,https://wikidata.org/entity/Q11906303,CARRETERA,ESTACION DE HORTALEZA,5,4,ACTIVO
+3575533,3575533_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,164,Pinar del Rey,https://wikidata.org/entity/Q10349788,CALLE,MACUAJE,5,3,ACTIVO
+3575535,3575535_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,166,Valdefuentes,https://wikidata.org/entity/Q10388714,AVENIDA,MANOTERAS,34,7,ACTIVO
+3575538,3575538_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,165,Apóstol Santiago,https://wikidata.org/entity/Q11906303,CALLE,MONOVAR,2,1,ACTIVO
+3575539,3575539_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,164,Pinar del Rey,https://wikidata.org/entity/Q10349788,CALLE,SANTA ADELA,14,3,ACTIVO
+4996493,4996493_adress,12,Usera,https://wikidata.org/entity/Q953368,121,Orcasitas,https://wikidata.org/entity/Q3773941,CALLE,SEGURA,74,11,ACTIVO
+4996495,4996495_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,114,Vista Alegre,https://wikidata.org/entity/Q3813741,CALLE,PINGÜINO,12,0,ACTIVO
+4996497,4996497_adress,12,Usera,https://wikidata.org/entity/Q953368,123,San Fermín (Madrid),https://wikidata.org/entity/Q71758,CALLE,CORINDON,10,0,ACTIVO
+4996500,4996500_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,116,Buenavista,https://wikidata.org/entity/Q953929,CAMINO,CRUCES,58,0,ACTIVO
+4996514,4996514_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,193,Valderrivas,https://wikidata.org/entity/Q43025770,CALLE,MINERVA,161,0,ACTIVO
+4996517,4996517_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,PLAZA,JUAN ROF CARBALLO,4,0,ACTIVO
+4996518,4996518_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,CALLE,LADERA DE LOS ALMENDROS,14G,0,ACTIVO
+4996520,4996520_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,CAMINO,VIEJO DE VICALVARO,16,0,ACTIVO
+4996521,4996521_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,CALLE,PINILLAS,11,0,ACTIVO
+4996523,4996523_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,PLAZA,ROSA CHACEL,10,0,ACTIVO
+4996524,4996524_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,CALLE,LADERA DE LOS ALMENDROS,46,0,ACTIVO
+4996525,4996525_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,192,Valdebernardo,https://wikidata.org/entity/Q43025212,PLAZA,JUAN CARLOS ONETTI,3,0,ACTIVO
+4996528,4996528_adress,17,Villaverde,https://wikidata.org/entity/Q919536,173,Butarque,https://wikidata.org/entity/Q390453,AVENIDA,LOS ROSALES,129,0,ACTIVO
+4996529,4996529_adress,17,Villaverde,https://wikidata.org/entity/Q919536,174,Los Rosales,https://wikidata.org/entity/Q10319807,CALLE,COALICION,35A,0,ACTIVO
+4996533,4996533_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,114,Vista Alegre,https://wikidata.org/entity/Q3813741,PASEO,MARCELINO CAMACHO,6,0,ACTIVO
+4996536,4996536_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,113,San Isidro,https://wikidata.org/entity/Q3813733,CALLE,FAROLILLO,2,0,ACTIVO
+4996537,4996537_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,112,Opañel,https://wikidata.org/entity/Q3813756,CALLE,PORTALEGRE,28,0,ACTIVO
+4996540,4996540_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,115,Puerta Bonita,https://wikidata.org/entity/Q3813762,CALLE,CONDE DE MORPHY,6,0,ACTIVO
+4996548,4996548_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,146,Vinateros,https://wikidata.org/entity/Q10391533,CALLE,HACIENDA DE PAVONES,209,0,ACTIVO
+4996550,4996550_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,141,Pavones,https://wikidata.org/entity/Q71760,CALLE,VALDEBERNARDO,18B,0,ACTIVO
+4996551,4996551_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,145,Fontarrón,https://wikidata.org/entity/Q10283284,CALLE,ENCOMIENDA DE PALACIOS,170P,0,ACTIVO
+4996553,4996553_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,141,Pavones,https://wikidata.org/entity/Q71760,CALLE,ARROYO FONTARRON,361,0,ACTIVO
+4996554,4996554_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,136,Numancia,https://wikidata.org/entity/Q10338144,CALLE,FERNANDO GIRALDEZ,32,0,ACTIVO
+4996556,4996556_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,135,Portazgo,https://wikidata.org/entity/Q18005921,CALLE,TANGER,9,0,ACTIVO
+4996559,4996559_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,131,Entrevías,https://wikidata.org/entity/Q71756,RONDA,SUR,6D,17,ACTIVO
+4996562,4996562_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,133,Palomeras Bajas,https://wikidata.org/entity/Q10343902,CALLE,VIRIDIANA,13F,0,ACTIVO
+4996575,4996575_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,134,Palomeras Sureste,https://wikidata.org/entity/Q10343901,CALLE,TROLE,9G,0,ACTIVO
+4996578,4996578_adress,11,Carabanchel,https://wikidata.org/entity/Q1001991,115,Puerta Bonita,https://wikidata.org/entity/Q3813762,AVENIDA,ABRANTES,305,0,ACTIVO
+4997300,4997300_adress,10,Latina,https://wikidata.org/entity/Q794954,104,Aluche,https://wikidata.org/entity/Q31140,CALLE,VALMOJADO,2,0,ACTIVO
+4998027,4998027_adress,12,Usera,https://wikidata.org/entity/Q953368,126,El Zofío,https://wikidata.org/entity/Q71751,CALLE,MARCELO USERA,157,0,ACTIVO
+5003401,5003401_adress,07,Chamberí,https://wikidata.org/entity/Q1763370,072,Arapiles,https://wikidata.org/entity/Q10856744,PLAZA,CONDE DEL VALLE DE SUCHIL,1,1,ACTIVO
+5003496,5003496_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,062,Cuatro Caminos,https://wikidata.org/entity/Q5824684,CALLE,SAN GERMAN,7,1,ACTIVO
+5003499,5003499_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,065,Valdeacederas,https://wikidata.org/entity/Q10388711,CALLE,GABRIEL PORTADALES,11,1,ACTIVO
+5003500,5003500_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,064,Almenara,https://wikidata.org/entity/Q2265427,AVENIDA,ASTURIAS,74,1,ACTIVO
+5005553,5005553_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,064,Almenara,https://wikidata.org/entity/Q2265427,CALLE,CAÑAVERAL,2,1,ACTIVO
+5005554,5005554_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,065,Valdeacederas,https://wikidata.org/entity/Q10388711,CALLE,VEZA,43,1,ACTIVO
+5068828,5068828_adress,18,Villa de Vallecas,https://wikidata.org/entity/Q1947988,183,Ensanche de Vallecas,https://wikidata.org/entity/Q3847485,CALLE,RAYO VALLECANO DE MADRID,119,0,ACTIVO
+5107681,5107681_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,145,Fontarrón,https://wikidata.org/entity/Q10283284,CALLE,MANUEL MARIA ARRILLAGA,26,0,ACTIVO
+5003458,5003458_adress,01,Centro,https://wikidata.org/entity/Q1763376,012,Embajadores,https://wikidata.org/entity/Q2449844,CALLE,CASINO,3,0,ACTIVO
+4998011,4998011_adress,03,Retiro,https://wikidata.org/entity/Q2002296,032,Adelfas,https://wikidata.org/entity/Q3774001,CALLE,CERRO NEGRO,14,0,ACTIVO
+5148516,5148516_adress,03,Retiro,https://wikidata.org/entity/Q2002296,031,Pacífico,https://wikidata.org/entity/Q3773753,CALLE,COCHERAS,8,0,ACTIVO
+5214741,5214741_adress,10,Latina,https://wikidata.org/entity/Q794954,104,Aluche,https://wikidata.org/entity/Q31140,CALLE,LOS YEBENES,55,11,ACTIVO
+5214761,5214761_adress,02,Arganzuela,https://wikidata.org/entity/Q2000929,024,Legazpi,https://wikidata.org/entity/Q3773990,AVENIDA,PLANETARIO,16,14,ACTIVO
+5215845,5215845_adress,04,Salamanca,https://wikidata.org/entity/Q1773521,043,Fuente del Berro,https://wikidata.org/entity/Q3814564,CALLE,SANCHO DAVILA,15,6,ACTIVO
+5003417,5003417_adress,07,Chamberí,https://wikidata.org/entity/Q1763370,072,Arapiles,https://wikidata.org/entity/Q10856744,CALLE,GALILEO,35,6,ACTIVO
+5235589,5235589_adress,13,Puente de Vallecas,https://wikidata.org/entity/Q2003054,133,Palomeras Bajas,https://wikidata.org/entity/Q10343902,CALLE,PUERTO DE COSTABONA,9,0,ACTIVO
+5241144,5241144_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,143,Marroquina,https://wikidata.org/entity/Q11935636,AVENIDA,Avenida del Doctor Garcia Tapia,125,0,ACTIVO
+5003497,5003497_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,063,Castillejos,https://wikidata.org/entity/Q11913212,AVENIDA,BRASIL,40,1,ACTIVO
+5003407,5003407_adress,07,Chamberí,https://wikidata.org/entity/Q1763370,075,Ríos Rosas,https://wikidata.org/entity/Q10366270,CALLE,FERNANDEZ DE LA HOZ,53,5,ACTIVO
+8781349,8781349_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,152,Pueblo Nuevo,https://wikidata.org/entity/Q71753,CALLE,EZEQUIEL SOLANA,46,3,ACTIVO
+4998023,4998023_adress,10,Latina,https://wikidata.org/entity/Q794954,102,Barrio de Puerta del Ángel,https://wikidata.org/entity/Q31142,CALLE,CARAMUEL,58,0,OPERATIVO
+4996526,4996526_adress,12,Usera,https://wikidata.org/entity/Q953368,126,El Zofío,https://wikidata.org/entity/Q71751,AVENIDA,RAFAELA YBARRA,33,0,OPERATIVO
+5003681,5003681_adress,06,Tetuán,https://wikidata.org/entity/Q1773540,064,Almenara,https://wikidata.org/entity/Q2265427,CALLE,SINESIO DELGADO,7,1,OPERATIVO
+3570073,3570073_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,159,Costillares,https://wikidata.org/entity/Q331385,CALLE,GOLFO DE SALONICA,11,1,OPERATIVO
+3575536,3575536_adress,16,Hortaleza,https://wikidata.org/entity/Q1928529,162,La Piovera,https://wikidata.org/entity/Q5964851,CALLE,FLORENCIO CASTILLO,38,2,OPERATIVO
+4996498,4996498_adress,12,Usera,https://wikidata.org/entity/Q953368,121,Orcasitas,https://wikidata.org/entity/Q3773941,RONDA,COOPERATIVAS,2,0,OPERATIVO
+4998041,4998041_adress,03,Retiro,https://wikidata.org/entity/Q2002296,033,Estrella,https://wikidata.org/entity/Q3773738,CALLE,JUAN ESPLANDIU,4,0,OPERATIVO
+4996586,4996586_adress,02,Arganzuela,https://wikidata.org/entity/Q2000929,024,Legazpi,https://wikidata.org/entity/Q3773990,CALLE,PUERTO DE BEJAR,7,0,OPERATIVO
+4996591,4996591_adress,02,Arganzuela,https://wikidata.org/entity/Q2000929,025,Las Delicias,https://wikidata.org/entity/Q3773736,CALLE,TOMAS BRETON,49 A,0,OPERATIVO
+4996660,4996660_adress,02,Arganzuela,https://wikidata.org/entity/Q2000929,022,Las Acacias,https://wikidata.org/entity/Q3319190,CALLE,ARGANDA,40,0,OPERATIVO
+4996676,4996676_adress,02,Arganzuela,https://wikidata.org/entity/Q2000929,026,Palos de la Frontera,https://wikidata.org/entity/Q521009,CALLE,CANARIAS,19,0,OPERATIVO
+4997144,4997144_adress,04,Salamanca,https://wikidata.org/entity/Q1773521,043,Fuente del Berro,https://wikidata.org/entity/Q3814564,PLAZA,AMERICA ESPAÑOLA,2,0,OPERATIVO
+4997171,4997171_adress,04,Salamanca,https://wikidata.org/entity/Q1773521,044,La Guindalera,https://wikidata.org/entity/Q3814559,AVENIDA,AMERICA,32,0,OPERATIVO
+4997200,4997200_adress,04,Salamanca,https://wikidata.org/entity/Q1773521,044,La Guindalera,https://wikidata.org/entity/Q3814559,CALLE,BERLIN,5,0,OPERATIVO
+4997212,4997212_adress,04,Salamanca,https://wikidata.org/entity/Q1773521,044,La Guindalera,https://wikidata.org/entity/Q3814559,CALLE,FLORESTAN AGUILAR,2,0,OPERATIVO
+4997227,4997227_adress,05,Chamartín,https://wikidata.org/entity/Q1766348,054,Hispanoamérica,https://wikidata.org/entity/Q3814573,CALLE,COLOMBIA,61,0,OPERATIVO
+4998010,4998010_adress,10,Latina,https://wikidata.org/entity/Q794954,103,Lucero,https://wikidata.org/entity/Q31162,CALLE,ANTOLIN GARCIA,1,0,OPERATIVO
+3569404,3569404_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,153,Quintana,https://wikidata.org/entity/Q71810,CALLE,VIRGEN DE LLUC,44,2,OPERATIVO
+4996527,4996527_adress,17,Villaverde,https://wikidata.org/entity/Q919536,175,Los Ángeles,https://wikidata.org/entity/Q390462,CALLE,MENASALBAS,8,0,ACTIVO
+4996531,4996531_adress,17,Villaverde,https://wikidata.org/entity/Q919536,175,Los Ángeles,https://wikidata.org/entity/Q390462,CALLE,SANTIAGO AMON,4,0,ACTIVO
+3569057,3569057_adress,21,Barajas,https://wikidata.org/entity/Q807230,213,Casco Histórico de Barajas,https://wikidata.org/entity/Q9701730,AVENIDA,LOGROÑO,98,2,ACTIVO
+4996545,4996545_adress,18,Villa de Vallecas,https://wikidata.org/entity/Q1947988,181,Casco Histórico de Vallecas,https://wikidata.org/entity/Q16544370,CAMINO,SUERTE,28,0,ACTIVO
+4996546,4996546_adress,18,Villa de Vallecas,https://wikidata.org/entity/Q1947988,181,Casco Histórico de Vallecas,https://wikidata.org/entity/Q16544370,CALLE,VILLAR DEL POZO,4E,0,ACTIVO
+4996547,4996547_adress,18,Villa de Vallecas,https://wikidata.org/entity/Q1947988,181,Casco Histórico de Vallecas,https://wikidata.org/entity/Q16544370,CALLE,CABEZA MESADA,36,0,ACTIVO
+4996516,4996516_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,191,Casco Histórico de Vicálvaro,https://wikidata.org/entity/Q16544374,CALLE,AMBROZ,2B,0,ACTIVO
+4996519,4996519_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,191,Casco Histórico de Vicálvaro,https://wikidata.org/entity/Q16544374,AVENIDA,DAROCA,301,0,ACTIVO
+4996522,4996522_adress,19,Vicálvaro,https://wikidata.org/entity/Q589403,191,Casco Histórico de Vicálvaro,https://wikidata.org/entity/Q16544374,CALLE,MERCURIO,69,0,ACTIVO
+3570066,3570066_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,154,Concepción,https://wikidata.org/entity/Q11915156,CALLE,ARTURO SORIA,55,1,ACTIVO
+3569403,3569403_adress,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,154,Concepción,https://wikidata.org/entity/Q11915156,CALLE,VIRGEN DE NURIA,2,2,OPERATIVO
+4996530,4996530_adress,17,Villaverde,https://wikidata.org/entity/Q919536,171,"Villaverde Alto, Casco Histórico de Villaverde",https://wikidata.org/entity/Q390435,CALLE,AFLUENTES,12,0,ACTIVO
+4996532,4996532_adress,17,Villaverde,https://wikidata.org/entity/Q919536,171,"Villaverde Alto, Casco Histórico de Villaverde",https://wikidata.org/entity/Q390435,PLAZA,GOMEZ ACEBO,1,0,ACTIVO
+4997997,4997997_adress,10,Latina,https://wikidata.org/entity/Q794954,107,Las Águilas,https://wikidata.org/entity/Q5971372,AVENIDA,LAS AGUILAS,144,0,OPERATIVO
+5003319,5003319_adress,10,Latina,https://wikidata.org/entity/Q794954,107,Las Águilas,https://wikidata.org/entity/Q5971372,CALLE,FRAY JOSE CERDEIRIÑA,22,0,OPERATIVO
+5183029,5183029_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,085,La Paz,https://wikidata.org/entity/Q5869740,CALLE,SANGENJO,27,12,ACTIVO
+7872575,7872575_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,086,Valverde,https://wikidata.org/entity/Q31132,CALLE,VILLACASTIN,10,0,ACTIVO
+7872577,7872577_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,086,Valverde,https://wikidata.org/entity/Q31132,CALLE,ISLAS JARVI,7,0,ACTIVO
+7872635,7872635_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,083,Peñagrande,https://wikidata.org/entity/Q3319582,CALLE,PICO DE MAJALASNA,3,0,ACTIVO
+4997902,4997902_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,083,Peñagrande,https://wikidata.org/entity/Q3319582,CALLE,VALLE DE MENA,20,0,OPERATIVO
+5003208,5003208_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,083,Peñagrande,https://wikidata.org/entity/Q3319582,CALLE,JOAQUIN LORENZO,32,0,OPERATIVO
+4997998,4997998_adress,08,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,084,El Pilar,https://wikidata.org/entity/Q3773964,CALLE,FERMIN CABALLERO,65,0,OPERATIVO
+5203827,5203827_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,097,Aravaca,https://wikidata.org/entity/Q3314682,PASEO,ERMITA,36,0,ACTIVO
+5214758,5214758_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,093,Ciudad Universitaria,https://wikidata.org/entity/Q3319235,CALLE,RECTOR ROYO-VILLANOVA,10 C,11,ACTIVO
+5246177,5246177_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,091,Casa de Campo,https://wikidata.org/entity/Q16302441,PASEO,Paseo Puerta del Angel,1,0,ACTIVO
+4997956,4997956_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,093,Ciudad Universitaria,https://wikidata.org/entity/Q3319235,CALLE,VALLE DE ARAN,7,0,OPERATIVO
+4997993,4997993_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,097,Aravaca,https://wikidata.org/entity/Q3314682,AVENIDA,EUROPA,34 A,0,OPERATIVO
+4997994,4997994_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,095,Valdemarín,https://wikidata.org/entity/Q10388725,AVENIDA,VALDEMARIN,67,0,OPERATIVO
+4997995,4997995_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,094,Valdezarza,https://wikidata.org/entity/Q10388728,CALLE,OFELIA NIETO,57,0,OPERATIVO
+4997999,4997999_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,097,Aravaca,https://wikidata.org/entity/Q3314682,CALLE,GOLONDRINA,36,0,OPERATIVO
+4997996,4997996_adress,09,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,094,Valdezarza,https://wikidata.org/entity/Q10388728,CALLE,VALDERREY,14,0,OPERATIVO
+3580438,3580438_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,204,Arcos,https://wikidata.org/entity/Q9627876,CALLE,ARCOS DEL JALON,16,1,ACTIVO
+3580440,3580440_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,204,Arcos,https://wikidata.org/entity/Q9627876,CALLE,ARCOS DEL JALON,13,1,ACTIVO
+3580432,3580432_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,206,Rejas,https://wikidata.org/entity/Q10359029,CALLE,DEYANIRA,19,1,ACTIVO
+3580433,3580433_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,207,Canillejas,https://wikidata.org/entity/Q663013,CALLE,GONZALO TORRENTE BALLESTER,4,1,ACTIVO
+3580434,3580434_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,207,Canillejas,https://wikidata.org/entity/Q663013,CALLE,GONZALO TORRENTE BALLESTER,2,2,ACTIVO
+3580436,3580436_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,204,Arcos,https://wikidata.org/entity/Q9627876,AVENIDA,GUADALAJARA,110,1,ACTIVO
+3580437,3580437_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,204,Arcos,https://wikidata.org/entity/Q9627876,AVENIDA,CANILLEJAS A VICALVARO,90,1,ACTIVO
+3580439,3580439_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,207,Canillejas,https://wikidata.org/entity/Q663013,CALLE,CIRCE,59,6,ACTIVO
+3580441,3580441_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,205,Rosas,https://wikidata.org/entity/Q18880469,AVENIDA,CANILLEJAS A VICALVARO,167,3,ACTIVO
+4991235,4991235_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,206,Rejas,https://wikidata.org/entity/Q10359029,CALLE,NAVARIDAS,11,7,ACTIVO
+6293496,6293496_adress,20,San Blas-Canillejas,https://wikidata.org/entity/Q2001937,206,Rejas,https://wikidata.org/entity/Q10359029,CALLE,PIRRA,16,1,ACTIVO
+4996986,4996986_adress,03,Retiro,https://wikidata.org/entity/Q2002296,031,Pacífico,https://wikidata.org/entity/Q3773753,PASEO,INFANTA ISABEL,2,0,OPERATIVO
+4997032,4997032_adress,03,Retiro,https://wikidata.org/entity/Q2002296,036,Niño Jesús,https://wikidata.org/entity/Q3773746,CALLE,ANUNCIACION,1,0,OPERATIVO
+4996484,4996484_adress,07,Chamberí,https://wikidata.org/entity/Q1763370,076,Vallehermoso,https://wikidata.org/entity/Q6122685,CALLEJON,MAGALLANES,3,1,OPERATIVO
+4996549,4996549_adress,14,Moratalaz,https://wikidata.org/entity/Q2076109,143,Marroquina,https://wikidata.org/entity/Q11935636,CALLE,CAMINO DE LOS VINATEROS,107C,0,OPERATIVO

@@ -1,0 +1,5 @@
+SELECT (COUNT(?wiki) as ?bin_count)
+    WHERE {
+       ?DURI rdf:type dog-loc:Neighborhood . 
+       ?DURI owl:sameAs ?wiki
+    }

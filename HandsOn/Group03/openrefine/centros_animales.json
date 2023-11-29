@@ -1,0 +1,156 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "﻿FECHA DE LA INSPECCIÓN",
+    "description": "Remove column ﻿FECHA DE LA INSPECCIÓN"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MOTIVO",
+    "description": "Remove column MOTIVO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PROGRAMA",
+    "description": "Remove column PROGRAMA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA DE ACTUALIZACIÓN",
+    "description": "Remove column FECHA DE ACTUALIZACIÓN"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EPÍGRAFE DE ACTIVIDAD",
+    "expression": "grel:value.contains(\"PELUQUERIAS\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Peluqueria",
+    "columnInsertIndex": 3,
+    "description": "Create column Peluqueria at index 3 based on column EPÍGRAFE DE ACTIVIDAD using expression grel:value.contains(\"PELUQUERIAS\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EPÍGRAFE DE ACTIVIDAD",
+    "expression": "grel:value.contains(\"VETERI\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Veterinarios",
+    "columnInsertIndex": 3,
+    "description": "Create column Veterinarios at index 3 based on column EPÍGRAFE DE ACTIVIDAD using expression grel:value.contains(\"VETERI\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EPÍGRAFE DE ACTIVIDAD",
+    "expression": "grel:value.contains(\"ADIESTRAM\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Adiestramiento",
+    "columnInsertIndex": 3,
+    "description": "Create column Adiestramiento at index 3 based on column EPÍGRAFE DE ACTIVIDAD using expression grel:value.contains(\"ADIESTRAM\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EPÍGRAFE DE ACTIVIDAD",
+    "expression": "grel:value.contains(\"COMER\")",
+    "onError": "set-to-blank",
+    "newColumnName": "comercios",
+    "columnInsertIndex": 3,
+    "description": "Create column comercios at index 3 based on column EPÍGRAFE DE ACTIVIDAD using expression grel:value.contains(\"COMER\")"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "comercios",
+          "expression": "value",
+          "columnName": "comercios",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "EPÍGRAFE DE ACTIVIDAD",
+    "description": "Remove column EPÍGRAFE DE ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "comercios",
+    "description": "Remove column comercios"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCIÓN",
+    "expression": "grel:value.substring(0, 2)",
+    "onError": "set-to-blank",
+    "newColumnName": "TIPO DE VIA",
+    "columnInsertIndex": 2,
+    "description": "Create column TIPO DE VIA at index 2 based on column DIRECCIÓN using expression grel:value.substring(0, 2)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCIÓN",
+    "expression": "grel:value.find(/\\d+/)[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "NÚMERO DIRECCIÖN",
+    "columnInsertIndex": 2,
+    "description": "Create column NÚMERO DIRECCIÖN at index 2 based on column DIRECCIÓN using expression grel:value.find(/\\d+/)[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCIÓN",
+    "expression": "grel:value.replace(/^[A-Z]+\\s/, '').replace(/\\s\\d+$/, '')",
+    "onError": "set-to-blank",
+    "newColumnName": "NOMBRE DE VIA",
+    "columnInsertIndex": 2,
+    "description": "Create column NOMBRE DE VIA at index 2 based on column DIRECCIÓN using expression grel:value.replace(/^[A-Z]+\\s/, '').replace(/\\s\\d+$/, '')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCIÓN",
+    "description": "Remove column DIRECCIÓN"
+  }
+]

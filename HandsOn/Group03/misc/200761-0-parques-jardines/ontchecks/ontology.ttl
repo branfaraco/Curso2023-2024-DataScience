@@ -1,0 +1,41 @@
+ @prefix dog-det: <http://www.owl-ontologies.com/dog-det#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema-org: <http://www.owl-ontologies.com/schema-org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dog-det:hasTrees a owl:DatatypeProperty ;
+    rdfs:label "has trees" ;
+    rdfs:range xsd:string .
+
+dog-det:isAccessible a owl:DatatypeProperty ;
+    rdfs:label "is accessible" ;
+    rdfs:range xsd:string .
+
+dog-det:reachebleBy a owl:DatatypeProperty ;
+    rdfs:label "reacheble by" ;
+    rdfs:range xsd:string .
+
+schema-org: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+schema-org:Park a owl:Class ;
+    rdfs:label "Park" .
+
+schema-org:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:range xsd:string .
+
+schema-org:identifier a owl:DatatypeProperty ;
+    rdfs:label "identifier" ;
+    rdfs:range xsd:string .
+
+schema-org:mainEntityOfPage a owl:DatatypeProperty ;
+    rdfs:label "main entity of page" ;
+    rdfs:range xsd:AnyURI .
+
+schema-org:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+

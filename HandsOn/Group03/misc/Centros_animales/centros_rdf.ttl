@@ -1,0 +1,150 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix transit: <http://vocab.org/transit/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix vocab: <http://example.org#> .
+@prefix dog-loc: <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix dog-det: <https://w3id.org/DogFriendlyMadrid/info/ontology/details#> .
+@prefix dog-ser: <https://w3id.org/DogFriendlyMadrid/info/ontology/services#> .
+@prefix schema-org: <http://schema.org/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+@base <https://w3id.org/DogFriendlyMadrid#> .
+
+# https://w3id.org/DogFriendlyMadrid/info/resource/[class name]/identifier
+
+
+
+<#Address> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./centros-animales-update.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{ADDRESS_ID}";
+    rr:class dog-loc:address
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasNeighborhood;
+    rr:objectMap [
+      rr:parentTriplesMap <#District>
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasThoroughfare;
+    rr:objectMap [
+      rr:parentTriplesMap <#Street>
+    ]
+  ];
+.
+
+<#District> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./centros-animales-update.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{DISTRITO}";
+    rr:class dog-loc:District
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "DISTRITO";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#Street> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./centros-animales-update.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{NOMBRE-VIA}";
+    rr:class dbo:Street
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "NOMBRE DEVIA";
+      rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:isOfStreetType;
+    rr:objectMap [
+      rml:reference "TIPO DE VIA";
+      rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasStreetNumber:;
+    rr:objectMap [
+      rml:reference "NUMERO DIRECCION";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#Vet> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./centros-animales-update.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/Vet/{ID}";
+    rr:class schema-org:Park
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate schema-org:identifier;
+    rr:objectMap [
+      rml:reference "ID";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:itsGroomer;
+    rr:objectMap [
+      rml:reference "Peluqueria";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:itsVet;
+    rr:objectMap [
+      rml:reference "Veterinarios";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:itsTraining;
+    rr:objectMap [
+      rml:reference "Adiestramiento";
+      rr:datatype xsd:string
+      ]
+  ];
+
+
+# COMPLICACIONES
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasAddress;
+    rr:objectMap [
+      rr:parentTriplesMap <#Address>
+    ]
+  ];
+
+# FIN COMPLICACIONES
+.

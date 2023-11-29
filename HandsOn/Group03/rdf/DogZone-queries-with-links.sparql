@@ -1,0 +1,4 @@
+SELECT ?zone ?wiki
+WHERE {
+    ?zone owl:sameAs ?wiki
+}

@@ -1,0 +1,602 @@
+@prefix : <https://w3id.org/DogFriendlyMadrid/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix base: <https://w3id.org/DogFriendlyMadrid/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix doc-ser: <http://www.owl-ontologies.com/doc-ser#> .
+@prefix dog-det: <https://w3id.org/DogFriendlyMadrid/info/ontology/details#> .
+@prefix dog-loc: <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix dog-ser: <https://w3id.org/DogFriendlyMadrid/info/ontology/services#> .
+@prefix schema-org: <https://schema.org/> .
+@base <https://w3id.org/DogFriendlyMadrid/> .
+
+<https://w3id.org/DogFriendlyMadrid/> rdf:type owl:Ontology ;
+                                       mod:createdWith <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/mod#createdWith
+mod:createdWith rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://schema-org#containsPlace
+<http://schema-org#containsPlace> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain dog-ser:ChildrenZone ;
+                                  rdfs:range <http://schema-org#Park> .
+
+
+###  http://schema-org#geo
+<http://schema-org#geo> rdf:type owl:ObjectProperty .
+
+
+###  http://schema-org#mainEntityOfPage
+<http://schema-org#mainEntityOfPage> rdf:type owl:ObjectProperty ;
+                                     rdfs:range xsd:AnyURI .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasAddress
+dog-loc:hasAddress rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCity
+dog-loc:hasCity rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCityPosition
+dog-loc:hasCityPosition rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasDistrict
+dog-loc:hasDistrict rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasNeighborhood
+dog-loc:hasNeighborhood rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasState
+dog-loc:hasState rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreet
+dog-loc:hasStreet rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#hasService
+dog-ser:hasService rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://schema-org#description
+<http://schema-org#description> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <http://schema-org#Park> ,
+                                            dog-ser:DogZone ,
+                                            dog-ser:Services ;
+                                rdfs:range xsd:string .
+
+
+###  http://schema-org#identifier
+<http://schema-org#identifier> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <http://schema-org#Park> ,
+                                           dog-ser:DogZone ,
+                                           dog-ser:Services ;
+                               rdfs:range xsd:string .
+
+
+###  http://schema-org#latitude
+<http://schema-org#latitude> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <http://schema-org#GeoCoordinates> ;
+                             rdfs:range xsd:float .
+
+
+###  http://schema-org#longitude
+<http://schema-org#longitude> rdf:type owl:DatatypeProperty ;
+                              rdfs:domain <http://schema-org#GeoCoordinates> ;
+                              rdfs:range xsd:float .
+
+
+###  http://schema-org#mainEntityOfPage
+<http://schema-org#mainEntityOfPage> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain <http://schema-org#Park> .
+
+
+###  http://schema-org#name
+<http://schema-org#name> rdf:type owl:DatatypeProperty ;
+                         rdfs:domain <http://schema-org#City> ,
+                                     <http://schema-org#Park> ;
+                         rdfs:range xsd:string .
+
+
+###  http://schema-org#postalCode
+<http://schema-org#postalCode> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain dog-loc:address ;
+                               rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty ;
+           rdfs:domain dbo:Street ,
+                       dog-loc:District ,
+                       dog-loc:Neighborhood .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasAuxAddress
+dog-det:hasAuxAddress rdf:type owl:DatatypeProperty ;
+                      rdfs:domain dog-ser:Services ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasStatus
+dog-det:hasStatus rdf:type owl:DatatypeProperty ;
+                  rdfs:domain dog-ser:DogZone ,
+                              dog-ser:Services ;
+                  rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasTrees
+dog-det:hasTrees rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://schema-org#Park> ;
+                 rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#isAccessible
+dog-det:isAccessible rdf:type owl:DatatypeProperty ;
+                     rdfs:domain <http://schema-org#Park> ;
+                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#ofModelType
+dog-det:ofModelType rdf:type owl:DatatypeProperty ;
+                    rdfs:domain dog-ser:Services ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#reachebleBy
+dog-det:reachebleBy rdf:type owl:DatatypeProperty ;
+                    rdfs:domain <http://schema-org#Park> ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasLocationId
+dog-loc:hasLocationId rdf:type owl:DatatypeProperty ;
+                      rdfs:domain dog-loc:District ,
+                                  dog-loc:Neighborhood ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber
+dog-loc:hasStreetNumber rdf:type owl:DatatypeProperty ;
+                        rdfs:domain dbo:Street ;
+                        rdfs:range xsd:int .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasXCityPosition
+dog-loc:hasXCityPosition rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dog-loc:CityCoordinates ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasYCityPosition
+dog-loc:hasYCityPosition rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dog-loc:CityCoordinates ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#isOfStreetType
+dog-loc:isOfStreetType rdf:type owl:DatatypeProperty ;
+                       rdfs:domain dbo:Street ;
+                       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema-org#City
+<http://schema-org#City> rdf:type owl:Class .
+
+
+###  http://schema-org#GeoCoordinates
+<http://schema-org#GeoCoordinates> rdf:type owl:Class .
+
+
+###  http://schema-org#Park
+<http://schema-org#Park> rdf:type owl:Class .
+
+
+###  http://schema-org#State
+<http://schema-org#State> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2001/XMLSchema#AnyURI
+xsd:AnyURI rdf:type owl:Class .
+
+
+###  https://dbpedia.org/ontology/Street
+dbo:Street rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#CityCoordinates
+dog-loc:CityCoordinates rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#District
+dog-loc:District rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#Neighborhood
+dog-loc:Neighborhood rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#address
+dog-loc:address rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#ChildrenZone
+dog-ser:ChildrenZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogGarbageBin
+dog-ser:DogGarbageBin rdf:type owl:Class ;
+                      rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogZone
+dog-ser:DogZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DrinkingFountain
+dog-ser:DrinkingFountain rdf:type owl:Class ;
+                         rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#PetDrinkingFountain
+dog-ser:PetDrinkingFountain rdf:type owl:Class ;
+                            rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#SeniorZone
+dog-ser:SeniorZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#Services
+dog-ser:Services rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://schema-org#City
+<http://schema-org#City> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#GeoCoordinates
+<http://schema-org#GeoCoordinates> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#Park
+<http://schema-org#Park> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#State
+<http://schema-org#State> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#containsPlace
+<http://schema-org#containsPlace> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#description
+<http://schema-org#description> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#geo
+<http://schema-org#geo> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#identifier
+<http://schema-org#identifier> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#latitude
+<http://schema-org#latitude> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#longitude
+<http://schema-org#longitude> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#mainEntityOfPage
+<http://schema-org#mainEntityOfPage> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#name
+<http://schema-org#name> rdf:type owl:NamedIndividual .
+
+
+###  http://schema-org#postalCode
+<http://schema-org#postalCode> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:NamedIndividual .
+
+
+###  https://dbpedia.org/ontology/Street
+dbo:Street rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasAuxAddress
+dog-det:hasAuxAddress rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasStatus
+dog-det:hasStatus rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasTrees
+dog-det:hasTrees rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#isAccessible
+dog-det:isAccessible rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#ofModelType
+dog-det:ofModelType rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#reachebleBy
+dog-det:reachebleBy rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#CityCoordinates
+dog-loc:CityCoordinates rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#District
+dog-loc:District rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#Neighborhood
+dog-loc:Neighborhood rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#address
+dog-loc:address rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasAddress
+dog-loc:hasAddress rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCity
+dog-loc:hasCity rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCityPosition
+dog-loc:hasCityPosition rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasDistrict
+dog-loc:hasDistrict rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasLocationId
+dog-loc:hasLocationId rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasNeighborhood
+dog-loc:hasNeighborhood rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasState
+dog-loc:hasState rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreet
+dog-loc:hasStreet rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber
+dog-loc:hasStreetNumber rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasXCityPosition
+dog-loc:hasXCityPosition rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasYCityPosition
+dog-loc:hasYCityPosition rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#isOfStreetType
+dog-loc:isOfStreetType rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#ChildrenZone
+dog-ser:ChildrenZone rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogGarbageBin
+dog-ser:DogGarbageBin rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogZone
+dog-ser:DogZone rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DrinkingFountain
+dog-ser:DrinkingFountain rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#PetDrinkingFountain
+dog-ser:PetDrinkingFountain rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#SeniorZone
+dog-ser:SeniorZone rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#Services
+dog-ser:Services rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#hasService
+dog-ser:hasService rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://schema-org#City> rdfs:label "City" .
+
+
+<http://schema-org#GeoCoordinates> rdfs:label "Geo Coordinates" .
+
+
+<http://schema-org#Park> rdfs:label "Park" .
+
+
+<http://schema-org#State> rdfs:label "State" .
+
+
+<http://schema-org#containsPlace> rdfs:label "contains place" .
+
+
+<http://schema-org#description> rdfs:label "description" .
+
+
+<http://schema-org#geo> rdfs:label "geo" .
+
+
+<http://schema-org#identifier> rdfs:label "identifier" .
+
+
+<http://schema-org#latitude> rdfs:label "latitude" .
+
+
+<http://schema-org#longitude> rdfs:label "longitude" .
+
+
+<http://schema-org#mainEntityOfPage> rdfs:label "main entity of page" .
+
+
+<http://schema-org#name> rdfs:label "name" .
+
+
+<http://schema-org#postalCode> rdfs:label "postal code" .
+
+
+rdfs:label rdfs:label "label" .
+
+
+dbo:Street rdfs:label "Street" .
+
+
+dog-det:hasAuxAddress rdfs:label "has aux address" .
+
+
+dog-det:hasStatus rdfs:label "has status" .
+
+
+dog-det:hasTrees rdfs:label "has trees" .
+
+
+dog-det:isAccessible rdfs:label "is accessible" .
+
+
+dog-det:ofModelType rdfs:label "of model type" .
+
+
+dog-det:reachebleBy rdfs:label "reacheble by" .
+
+
+dog-loc:CityCoordinates rdfs:label "City Coordinates" .
+
+
+dog-loc:District rdfs:label "District" .
+
+
+dog-loc:Neighborhood rdfs:label "Neighborhood" .
+
+
+dog-loc:address rdfs:label "address" .
+
+
+dog-loc:hasAddress rdfs:label "has address" .
+
+
+dog-loc:hasCity rdfs:label "has city" .
+
+
+dog-loc:hasCityPosition rdfs:label "has city position" .
+
+
+dog-loc:hasDistrict rdfs:label "has district" .
+
+
+dog-loc:hasLocationId rdfs:label "has location id" .
+
+
+dog-loc:hasNeighborhood rdfs:label "has neighborhood" .
+
+
+dog-loc:hasState rdfs:label "has state" .
+
+
+dog-loc:hasStreet rdfs:label "has street" .
+
+
+dog-loc:hasStreetNumber rdfs:label "has street number" .
+
+
+dog-loc:hasXCityPosition rdfs:label "has x city position" .
+
+
+dog-loc:hasYCityPosition rdfs:label "has y city position" .
+
+
+dog-loc:isOfStreetType rdfs:label "is of street type" .
+
+
+dog-ser:ChildrenZone rdfs:label "Children Zone" .
+
+
+dog-ser:DogGarbageBin rdfs:label "Dog Garbage Bin" .
+
+
+dog-ser:DogZone rdfs:label "Dog Zone" .
+
+
+dog-ser:DrinkingFountain rdfs:label "Drinking Fountain" .
+
+
+dog-ser:PetDrinkingFountain rdfs:label "Pet Drinking Fountain" .
+
+
+dog-ser:SeniorZone rdfs:label "Senior Zone" .
+
+
+dog-ser:Services rdfs:label "Services" .
+
+
+dog-ser:hasService rdfs:label "has service" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

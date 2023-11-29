@@ -1,0 +1,79 @@
+@prefix : <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://w3id.org/DogFriendlyMadrid/info/ontology/location#CityCoordinates> a owl:Class ;
+    rdfs:label "coordenadas en en plano de la ciudad"@en;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:Neighborhood a owl:Class ;
+    rdfs:label "barrio de la direccion"@en;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:District a owl:Class ;
+    rdfs:label "districto de la direccion"@en;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+<https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasAddress> a owl:ObjectProperty ;
+    rdfs:label "has address"@en;
+    rdfs:comment "usado para describir la relacion con la direccion completa"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:hasState a owl:ObjectProperty ;
+    rdfs:label "has state"@en;
+    rdfs:comment "usado para describir la relacion con la provincia de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:hasCity a owl:ObjectProperty ;
+    rdfs:label "has city"@en;
+    rdfs:comment "usado para describir la relacion con la ciudad de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:hasNeighborhood a owl:ObjectProperty ;
+    rdfs:label "has neighborhood"@en;
+    rdfs:comment "usado para describir la relacion con el barrio de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:hasCityPosition a owl:ObjectProperty ;
+    rdfs:label "has city map coordinates"@en;
+    rdfs:comment "usado para poder describir la relacion con las coordenadas del mapa (parques)"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 
+
+:hasXCityPosition a owl:ObjectProperty ;
+    rdfs:label "has city map x coordinates"@en;
+    rdfs:comment "usado para poder describir la relacion con las coordenada x del mapa (parques)"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .  
+
+:hasYCityPosition a owl:ObjectProperty ;
+    rdfs:label "has city map x coordinates"@en;
+    rdfs:comment "usado para poder describir la relacion con las coordenada y del mapa (parques)"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+
+:hasLocationId a owl:ObjectProperty ;
+    rdfs:label "has location identifier"@en;
+    rdfs:comment "usado para poder describir la relacion con un identificador generico para varios recursos de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 
+
+:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district"@en;
+    rdfs:comment "usado para poder describir la relacion el districto de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 
+
+:hasStreet a owl:ObjectProperty ;
+    rdfs:label "has street"@en;
+    rdfs:comment "usado para poder describir la relacion la calle de la direccion"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 
+
+:isOfStreetType a owl:ObjectProperty ;
+    rdfs:label "is of street type"@en;
+    rdfs:comment "usado para poder describir la relacion entre la calle y su tipo"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 
+
+:hasStreetNumber a owl:ObjectProperty ;
+    rdfs:label "has street number"@en;
+    rdfs:comment "usado para poder describir la relacion entre la calle y su numero"@es;
+    rdfs:isDefinedBy <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> . 

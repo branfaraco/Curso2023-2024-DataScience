@@ -1,0 +1,2412 @@
+@prefix dog-det: <https://w3id.org/DogFriendlyMadrid/info/ontology/details#> .
+@prefix dog-loc: <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix dog-ser: <https://w3id.org/DogFriendlyMadrid/info/ontology/services#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema-org: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3569057> a dog-ser:DogZone ;
+    schema-org:identifier "3569057" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569057_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3569403> a dog-ser:DogZone ;
+    schema-org:identifier "3569403" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569403_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3569404> a dog-ser:DogZone ;
+    schema-org:identifier "3569404" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569404_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570066> a dog-ser:DogZone ;
+    schema-org:identifier "3570066" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570066_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570067> a dog-ser:DogZone ;
+    schema-org:identifier "3570067" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570067_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570068> a dog-ser:DogZone ;
+    schema-org:identifier "3570068" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570068_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570069> a dog-ser:DogZone ;
+    schema-org:identifier "3570069" ;
+    dog-det:DogGames "3.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570069_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570070> a dog-ser:DogZone ;
+    schema-org:identifier "3570070" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570070_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570072> a dog-ser:DogZone ;
+    schema-org:identifier "3570072" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570072_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570073> a dog-ser:DogZone ;
+    schema-org:identifier "3570073" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570073_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3570074> a dog-ser:DogZone ;
+    schema-org:identifier "3570074" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570074_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575532> a dog-ser:DogZone ;
+    schema-org:identifier "3575532" ;
+    dog-det:DogGames "4.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575532_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575533> a dog-ser:DogZone ;
+    schema-org:identifier "3575533" ;
+    dog-det:DogGames "3.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575533_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575535> a dog-ser:DogZone ;
+    schema-org:identifier "3575535" ;
+    dog-det:DogGames "7.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575535_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575536> a dog-ser:DogZone ;
+    schema-org:identifier "3575536" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575536_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575538> a dog-ser:DogZone ;
+    schema-org:identifier "3575538" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575538_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3575539> a dog-ser:DogZone ;
+    schema-org:identifier "3575539" ;
+    dog-det:DogGames "3.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575539_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580432> a dog-ser:DogZone ;
+    schema-org:identifier "3580432" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580432_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580433> a dog-ser:DogZone ;
+    schema-org:identifier "3580433" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580433_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580434> a dog-ser:DogZone ;
+    schema-org:identifier "3580434" ;
+    dog-det:DogGames "2.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580434_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580436> a dog-ser:DogZone ;
+    schema-org:identifier "3580436" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580436_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580437> a dog-ser:DogZone ;
+    schema-org:identifier "3580437" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580437_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580438> a dog-ser:DogZone ;
+    schema-org:identifier "3580438" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580438_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580439> a dog-ser:DogZone ;
+    schema-org:identifier "3580439" ;
+    dog-det:DogGames "6.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580439_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580440> a dog-ser:DogZone ;
+    schema-org:identifier "3580440" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580440_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/3580441> a dog-ser:DogZone ;
+    schema-org:identifier "3580441" ;
+    dog-det:DogGames "3.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580441_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4991235> a dog-ser:DogZone ;
+    schema-org:identifier "4991235" ;
+    dog-det:DogGames "7.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4991235_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996484> a dog-ser:DogZone ;
+    schema-org:identifier "4996484" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996484_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996493> a dog-ser:DogZone ;
+    schema-org:identifier "4996493" ;
+    dog-det:DogGames "11.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996493_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996495> a dog-ser:DogZone ;
+    schema-org:identifier "4996495" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996495_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996497> a dog-ser:DogZone ;
+    schema-org:identifier "4996497" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996497_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996498> a dog-ser:DogZone ;
+    schema-org:identifier "4996498" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996498_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996500> a dog-ser:DogZone ;
+    schema-org:identifier "4996500" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996500_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996514> a dog-ser:DogZone ;
+    schema-org:identifier "4996514" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996514_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996516> a dog-ser:DogZone ;
+    schema-org:identifier "4996516" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996516_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996517> a dog-ser:DogZone ;
+    schema-org:identifier "4996517" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996517_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996518> a dog-ser:DogZone ;
+    schema-org:identifier "4996518" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996518_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996519> a dog-ser:DogZone ;
+    schema-org:identifier "4996519" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996519_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996520> a dog-ser:DogZone ;
+    schema-org:identifier "4996520" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996520_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996521> a dog-ser:DogZone ;
+    schema-org:identifier "4996521" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996521_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996522> a dog-ser:DogZone ;
+    schema-org:identifier "4996522" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996522_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996523> a dog-ser:DogZone ;
+    schema-org:identifier "4996523" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996523_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996524> a dog-ser:DogZone ;
+    schema-org:identifier "4996524" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996524_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996525> a dog-ser:DogZone ;
+    schema-org:identifier "4996525" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996525_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996526> a dog-ser:DogZone ;
+    schema-org:identifier "4996526" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996526_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996527> a dog-ser:DogZone ;
+    schema-org:identifier "4996527" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996527_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996528> a dog-ser:DogZone ;
+    schema-org:identifier "4996528" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996528_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996529> a dog-ser:DogZone ;
+    schema-org:identifier "4996529" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996529_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996530> a dog-ser:DogZone ;
+    schema-org:identifier "4996530" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996530_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996531> a dog-ser:DogZone ;
+    schema-org:identifier "4996531" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996531_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996532> a dog-ser:DogZone ;
+    schema-org:identifier "4996532" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996532_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996533> a dog-ser:DogZone ;
+    schema-org:identifier "4996533" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996533_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996536> a dog-ser:DogZone ;
+    schema-org:identifier "4996536" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996536_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996537> a dog-ser:DogZone ;
+    schema-org:identifier "4996537" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996537_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996540> a dog-ser:DogZone ;
+    schema-org:identifier "4996540" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996540_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996545> a dog-ser:DogZone ;
+    schema-org:identifier "4996545" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996545_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996546> a dog-ser:DogZone ;
+    schema-org:identifier "4996546" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996546_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996547> a dog-ser:DogZone ;
+    schema-org:identifier "4996547" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996547_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996548> a dog-ser:DogZone ;
+    schema-org:identifier "4996548" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996548_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996549> a dog-ser:DogZone ;
+    schema-org:identifier "4996549" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996549_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996550> a dog-ser:DogZone ;
+    schema-org:identifier "4996550" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996550_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996551> a dog-ser:DogZone ;
+    schema-org:identifier "4996551" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996551_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996553> a dog-ser:DogZone ;
+    schema-org:identifier "4996553" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996553_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996554> a dog-ser:DogZone ;
+    schema-org:identifier "4996554" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996554_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996556> a dog-ser:DogZone ;
+    schema-org:identifier "4996556" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996556_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996559> a dog-ser:DogZone ;
+    schema-org:identifier "4996559" ;
+    dog-det:DogGames "17.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996559_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996562> a dog-ser:DogZone ;
+    schema-org:identifier "4996562" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996562_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996575> a dog-ser:DogZone ;
+    schema-org:identifier "4996575" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996575_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996578> a dog-ser:DogZone ;
+    schema-org:identifier "4996578" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996578_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996586> a dog-ser:DogZone ;
+    schema-org:identifier "4996586" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996586_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996591> a dog-ser:DogZone ;
+    schema-org:identifier "4996591" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996591_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996660> a dog-ser:DogZone ;
+    schema-org:identifier "4996660" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996660_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996676> a dog-ser:DogZone ;
+    schema-org:identifier "4996676" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996676_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4996986> a dog-ser:DogZone ;
+    schema-org:identifier "4996986" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996986_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997032> a dog-ser:DogZone ;
+    schema-org:identifier "4997032" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997032_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997144> a dog-ser:DogZone ;
+    schema-org:identifier "4997144" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997144_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997171> a dog-ser:DogZone ;
+    schema-org:identifier "4997171" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997171_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997200> a dog-ser:DogZone ;
+    schema-org:identifier "4997200" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997200_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997212> a dog-ser:DogZone ;
+    schema-org:identifier "4997212" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997212_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997227> a dog-ser:DogZone ;
+    schema-org:identifier "4997227" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997227_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997300> a dog-ser:DogZone ;
+    schema-org:identifier "4997300" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997300_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997902> a dog-ser:DogZone ;
+    schema-org:identifier "4997902" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997902_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997956> a dog-ser:DogZone ;
+    schema-org:identifier "4997956" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997956_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997993> a dog-ser:DogZone ;
+    schema-org:identifier "4997993" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997993_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997994> a dog-ser:DogZone ;
+    schema-org:identifier "4997994" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997994_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997995> a dog-ser:DogZone ;
+    schema-org:identifier "4997995" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997995_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997996> a dog-ser:DogZone ;
+    schema-org:identifier "4997996" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997996_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997997> a dog-ser:DogZone ;
+    schema-org:identifier "4997997" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997997_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997998> a dog-ser:DogZone ;
+    schema-org:identifier "4997998" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997998_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4997999> a dog-ser:DogZone ;
+    schema-org:identifier "4997999" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997999_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4998010> a dog-ser:DogZone ;
+    schema-org:identifier "4998010" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998010_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4998011> a dog-ser:DogZone ;
+    schema-org:identifier "4998011" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998011_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4998023> a dog-ser:DogZone ;
+    schema-org:identifier "4998023" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998023_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4998027> a dog-ser:DogZone ;
+    schema-org:identifier "4998027" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998027_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/4998041> a dog-ser:DogZone ;
+    schema-org:identifier "4998041" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998041_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003208> a dog-ser:DogZone ;
+    schema-org:identifier "5003208" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003208_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003319> a dog-ser:DogZone ;
+    schema-org:identifier "5003319" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003319_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003401> a dog-ser:DogZone ;
+    schema-org:identifier "5003401" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003401_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003407> a dog-ser:DogZone ;
+    schema-org:identifier "5003407" ;
+    dog-det:DogGames "5.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003407_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003417> a dog-ser:DogZone ;
+    schema-org:identifier "5003417" ;
+    dog-det:DogGames "6.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003417_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003458> a dog-ser:DogZone ;
+    schema-org:identifier "5003458" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003458_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003496> a dog-ser:DogZone ;
+    schema-org:identifier "5003496" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003496_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003497> a dog-ser:DogZone ;
+    schema-org:identifier "5003497" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003497_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003498> a dog-ser:DogZone ;
+    schema-org:identifier "5003498" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003498_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003499> a dog-ser:DogZone ;
+    schema-org:identifier "5003499" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003499_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003500> a dog-ser:DogZone ;
+    schema-org:identifier "5003500" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003500_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5003681> a dog-ser:DogZone ;
+    schema-org:identifier "5003681" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "OPERATIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003681_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5005553> a dog-ser:DogZone ;
+    schema-org:identifier "5005553" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5005553_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5005554> a dog-ser:DogZone ;
+    schema-org:identifier "5005554" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5005554_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5068828> a dog-ser:DogZone ;
+    schema-org:identifier "5068828" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5068828_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5107681> a dog-ser:DogZone ;
+    schema-org:identifier "5107681" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5107681_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5148516> a dog-ser:DogZone ;
+    schema-org:identifier "5148516" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5148516_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5183029> a dog-ser:DogZone ;
+    schema-org:identifier "5183029" ;
+    dog-det:DogGames "12.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5183029_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5203827> a dog-ser:DogZone ;
+    schema-org:identifier "5203827" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5203827_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5214741> a dog-ser:DogZone ;
+    schema-org:identifier "5214741" ;
+    dog-det:DogGames "11.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214741_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5214758> a dog-ser:DogZone ;
+    schema-org:identifier "5214758" ;
+    dog-det:DogGames "11.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214758_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5214761> a dog-ser:DogZone ;
+    schema-org:identifier "5214761" ;
+    dog-det:DogGames "14.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214761_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5215845> a dog-ser:DogZone ;
+    schema-org:identifier "5215845" ;
+    dog-det:DogGames "6.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5215845_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5235589> a dog-ser:DogZone ;
+    schema-org:identifier "5235589" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5235589_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5237097> a dog-ser:DogZone ;
+    schema-org:identifier "5237097" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5237097_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5241144> a dog-ser:DogZone ;
+    schema-org:identifier "5241144" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5241144_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/5246177> a dog-ser:DogZone ;
+    schema-org:identifier "5246177" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/5246177_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/6293496> a dog-ser:DogZone ;
+    schema-org:identifier "6293496" ;
+    dog-det:DogGames "1.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/6293496_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/7243273> a dog-ser:DogZone ;
+    schema-org:identifier "7243273" ;
+    dog-det:DogGames "5.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/7243273_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/7872575> a dog-ser:DogZone ;
+    schema-org:identifier "7872575" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872575_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/7872577> a dog-ser:DogZone ;
+    schema-org:identifier "7872577" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872577_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/7872635> a dog-ser:DogZone ;
+    schema-org:identifier "7872635" ;
+    dog-det:DogGames "0.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872635_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/DogZone/8781349> a dog-ser:DogZone ;
+    schema-org:identifier "8781349" ;
+    dog-det:DogGames "3.0"^^xsd:float ;
+    dog-det:hasStatus "ACTIVO" ;
+    dog-loc:hasAddress <https://w3id.org/DogFriendlyMadrid/info/resource/Address/8781349_adress> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569057_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Barajas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOGRO%C3%91O> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569403_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Concepci%C3%B3n> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRGEN%20DE%20NURIA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3569404_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Quintana> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRGEN%20DE%20LLUC> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570066_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Concepci%C3%B3n> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARTURO%20SORIA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570067_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PEPE%20ISBERT> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570068_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Costillares> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CALERUEGA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570069_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/NICOLAS%20SALMERON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570070_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ventas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARQUES%20DE%20CORBERA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570072_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ventas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GERARDO%20CORDON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570073_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Costillares> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOLFO%20DE%20SALONICA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3570074_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LUIS%20RUIZ> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575532_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ESTACION%20DE%20HORTALEZA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575533_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pinar%20del%20Rey> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MACUAJE> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575535_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdefuentes> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MANOTERAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575536_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Piovera> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FLORENCIO%20CASTILLO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575538_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MONOVAR> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3575539_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pinar%20del%20Rey> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANTA%20ADELA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580432_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/DEYANIRA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580433_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Canillejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GONZALO%20TORRENTE%20BALLESTER> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580434_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Canillejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GONZALO%20TORRENTE%20BALLESTER> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580436_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arcos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GUADALAJARA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580437_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arcos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CANILLEJAS%20A%20VICALVARO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580438_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arcos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARCOS%20DEL%20JALON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580439_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Canillejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CIRCE> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580440_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arcos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARCOS%20DEL%20JALON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/3580441_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rosas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CANILLEJAS%20A%20VICALVARO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4991235_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/NAVARIDAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996484_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vallehermoso> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MAGALLANES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996493_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Orcasitas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SEGURA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996495_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vista%20Alegre> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PING%C3%9CINO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996497_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CORINDON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996498_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Orcasitas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COOPERATIVAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996500_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Buenavista> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CRUCES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996514_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valderrivas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MINERVA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996516_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMBROZ> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996517_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20ROF%20CARBALLO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996518_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LADERA%20DE%20LOS%20ALMENDROS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996519_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/DAROCA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996520_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIEJO%20DE%20VICALVARO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996521_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PINILLAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996522_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MERCURIO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996523_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ROSA%20CHACEL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996524_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LADERA%20DE%20LOS%20ALMENDROS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996525_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20CARLOS%20ONETTI> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996526_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/El%20Zof%C3%ADo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RAFAELA%20YBARRA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996527_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MENASALBAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996528_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Butarque> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOS%20ROSALES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996529_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Los%20Rosales> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COALICION> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996530_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AFLUENTES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996531_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANTIAGO%20AMON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996532_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOMEZ%20ACEBO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996533_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vista%20Alegre> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARCELINO%20CAMACHO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996536_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/San%20Isidro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FAROLILLO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996537_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Opa%C3%B1el> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PORTALEGRE> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996540_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Puerta%20Bonita> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CONDE%20DE%20MORPHY> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996545_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villa%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SUERTE> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996546_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villa%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VILLAR%20DEL%20POZO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996547_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villa%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CABEZA%20MESADA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996548_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vinateros> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/HACIENDA%20DE%20PAVONES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996549_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Marroquina> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CAMINO%20DE%20LOS%20VINATEROS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996550_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pavones> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDEBERNARDO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996551_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fontarr%C3%B3n> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ENCOMIENDA%20DE%20PALACIOS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996553_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pavones> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARROYO%20FONTARRON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996554_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Numancia> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERNANDO%20GIRALDEZ> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996556_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Portazgo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TANGER> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996559_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Entrev%C3%ADas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SUR> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996562_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRIDIANA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996575_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TROLE> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996578_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Puerta%20Bonita> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ABRANTES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996586_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Legazpi> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PUERTO%20DE%20BEJAR> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996591_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20Delicias> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TOMAS%20BRETON> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996660_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20Acacias> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARGANDA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996676_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palos%20de%20la%20Frontera> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CANARIAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4996986_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pac%C3%ADfico> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/INFANTA%20ISABEL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997032_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ANUNCIACION> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997144_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fuente%20del%20Berro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMERICA%20ESPA%C3%91OLA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997171_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Guindalera> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMERICA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997200_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Guindalera> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/BERLIN> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997212_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Guindalera> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FLORESTAN%20AGUILAR> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997227_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamart%C3%ADn>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Hispanoam%C3%A9rica> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COLOMBIA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997300_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aluche> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALMOJADO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997902_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALLE%20DE%20MENA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997956_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ciudad%20Universitaria> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALLE%20DE%20ARAN> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997993_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aravaca> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/EUROPA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997994_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdemar%C3%ADn> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDEMARIN> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997995_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdezarza> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/OFELIA%20NIETO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997996_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdezarza> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDERREY> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997997_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LAS%20AGUILAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997998_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/El%20Pilar> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERMIN%20CABALLERO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4997999_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aravaca> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOLONDRINA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998010_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Lucero> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ANTOLIN%20GARCIA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998011_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Adelfas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CERRO%20NEGRO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998023_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CARAMUEL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998027_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/El%20Zof%C3%ADo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARCELO%20USERA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/4998041_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Estrella> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20ESPLANDIU> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003208_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JOAQUIN%20LORENZO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003319_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FRAY%20JOSE%20CERDEIRI%C3%91A> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003401_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arapiles> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CONDE%20DEL%20VALLE%20DE%20SUCHIL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003407_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/R%C3%ADos%20Rosas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERNANDEZ%20DE%20LA%20HOZ> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003417_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arapiles> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GALILEO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003458_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Centro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Embajadores> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CASINO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003496_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Cuatro%20Caminos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SAN%20GERMAN> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003497_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Castillejos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/BRASIL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003498_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Cuatro%20Caminos> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GENERAL%20RAMIREZ%20DE%20MADRID> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003499_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdeacederas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GABRIEL%20PORTADALES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003500_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Almenara> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ASTURIAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5003681_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Almenara> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SINESIO%20DELGADO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5005553_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Almenara> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CA%C3%91AVERAL> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5005554_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdeacederas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VEZA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5068828_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Villa%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ensanche%20de%20Vallecas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RAYO%20VALLECANO%20DE%20MADRID> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5107681_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fontarr%C3%B3n> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MANUEL%20MARIA%20ARRILLAGA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5148516_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pac%C3%ADfico> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COCHERAS> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5183029_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Paz> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANGENJO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5203827_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aravaca> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ERMITA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214741_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aluche> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOS%20YEBENES> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214758_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ciudad%20Universitaria> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RECTOR%20ROYO-VILLANOVA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5214761_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Legazpi> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PLANETARIO> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5215845_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fuente%20del%20Berro> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANCHO%20DAVILA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5235589_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PUERTO%20DE%20COSTABONA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5237097_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdefuentes> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Avenida%20de%20las%20Fuerzas%20Armadas> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5241144_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Marroquina> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Avenida%20del%20Doctor%20Garcia%20Tapia> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/5246177_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casa%20de%20Campo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Paseo%20Puerta%20del%20Angel> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/6293496_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rejas> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PIRRA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/7243273_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vallehermoso> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CEA%20BERMUDEZ> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872575_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valverde> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VILLACASTIN> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872577_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valverde> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ISLAS%20JARVI> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/7872635_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PICO%20DE%20MAJALASNA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Address/8781349_adress> a dog-loc:address ;
+    dog-loc:hasNeighborhood <https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal>,
+        <https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    dog-loc:hasThoroughfare <https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/EZEQUIEL%20SOLANA> .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Barajas> a dog-loc:District ;
+    rdfs:label "Barajas" ;
+    owl:sameAs "https://wikidata.org/entity/Q807230" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Centro> a dog-loc:District ;
+    rdfs:label "Centro" ;
+    owl:sameAs "https://wikidata.org/entity/Q1763376" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamart%C3%ADn> a dog-loc:District ;
+    rdfs:label "Chamartín" ;
+    owl:sameAs "https://wikidata.org/entity/Q1766348" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Adelfas> a dog-loc:Neighborhood ;
+    rdfs:label "Adelfas" ;
+    owl:sameAs "https://wikidata.org/entity/Q3774001"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> a dog-loc:Neighborhood ;
+    rdfs:label "Barrio de Puerta del Ángel" ;
+    owl:sameAs "https://wikidata.org/entity/Q31142"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Buenavista> a dog-loc:Neighborhood ;
+    rdfs:label "Buenavista" ;
+    owl:sameAs "https://wikidata.org/entity/Q953929"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Butarque> a dog-loc:Neighborhood ;
+    rdfs:label "Butarque" ;
+    owl:sameAs "https://wikidata.org/entity/Q390453"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casa%20de%20Campo> a dog-loc:Neighborhood ;
+    rdfs:label "Casa de Campo" ;
+    owl:sameAs "https://wikidata.org/entity/Q16302441"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> a dog-loc:Neighborhood ;
+    rdfs:label "Casco Histórico de Barajas" ;
+    owl:sameAs "https://wikidata.org/entity/Q9701730"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Castillejos> a dog-loc:Neighborhood ;
+    rdfs:label "Castillejos" ;
+    owl:sameAs "https://wikidata.org/entity/Q11913212"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/El%20Pilar> a dog-loc:Neighborhood ;
+    rdfs:label "El Pilar" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773964"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Embajadores> a dog-loc:Neighborhood ;
+    rdfs:label "Embajadores" ;
+    owl:sameAs "https://wikidata.org/entity/Q2449844"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ensanche%20de%20Vallecas> a dog-loc:Neighborhood ;
+    rdfs:label "Ensanche de Vallecas" ;
+    owl:sameAs "https://wikidata.org/entity/Q3847485"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Entrev%C3%ADas> a dog-loc:Neighborhood ;
+    rdfs:label "Entrevías" ;
+    owl:sameAs "https://wikidata.org/entity/Q71756"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Estrella> a dog-loc:Neighborhood ;
+    rdfs:label "Estrella" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773738"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Hispanoam%C3%A9rica> a dog-loc:Neighborhood ;
+    rdfs:label "Hispanoamérica" ;
+    owl:sameAs "https://wikidata.org/entity/Q3814573"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Paz> a dog-loc:Neighborhood ;
+    rdfs:label "La Paz" ;
+    owl:sameAs "https://wikidata.org/entity/Q5869740"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Piovera> a dog-loc:Neighborhood ;
+    rdfs:label "La Piovera" ;
+    owl:sameAs "https://wikidata.org/entity/Q5964851"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20Acacias> a dog-loc:Neighborhood ;
+    rdfs:label "Las Acacias" ;
+    owl:sameAs "https://wikidata.org/entity/Q3319190"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20Delicias> a dog-loc:Neighborhood ;
+    rdfs:label "Las Delicias" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773736"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Los%20Rosales> a dog-loc:Neighborhood ;
+    rdfs:label "Los Rosales" ;
+    owl:sameAs "https://wikidata.org/entity/Q10319807"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Lucero> a dog-loc:Neighborhood ;
+    rdfs:label "Lucero" ;
+    owl:sameAs "https://wikidata.org/entity/Q31162"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> a dog-loc:Neighborhood ;
+    rdfs:label "Niño Jesús" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773746"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Numancia> a dog-loc:Neighborhood ;
+    rdfs:label "Numancia" ;
+    owl:sameAs "https://wikidata.org/entity/Q10338144"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Opa%C3%B1el> a dog-loc:Neighborhood ;
+    rdfs:label "Opañel" ;
+    owl:sameAs "https://wikidata.org/entity/Q3813756"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palomeras%20Sureste> a dog-loc:Neighborhood ;
+    rdfs:label "Palomeras Sureste" ;
+    owl:sameAs "https://wikidata.org/entity/Q10343901"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palos%20de%20la%20Frontera> a dog-loc:Neighborhood ;
+    rdfs:label "Palos de la Frontera" ;
+    owl:sameAs "https://wikidata.org/entity/Q521009"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Portazgo> a dog-loc:Neighborhood ;
+    rdfs:label "Portazgo" ;
+    owl:sameAs "https://wikidata.org/entity/Q18005921"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Quintana> a dog-loc:Neighborhood ;
+    rdfs:label "Quintana" ;
+    owl:sameAs "https://wikidata.org/entity/Q71810"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/R%C3%ADos%20Rosas> a dog-loc:Neighborhood ;
+    rdfs:label "Ríos Rosas" ;
+    owl:sameAs "https://wikidata.org/entity/Q10366270"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rosas> a dog-loc:Neighborhood ;
+    rdfs:label "Rosas" ;
+    owl:sameAs "https://wikidata.org/entity/Q18880469"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> a dog-loc:Neighborhood ;
+    rdfs:label "San Fermín (Madrid)" ;
+    owl:sameAs "https://wikidata.org/entity/Q71758"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/San%20Isidro> a dog-loc:Neighborhood ;
+    rdfs:label "San Isidro" ;
+    owl:sameAs "https://wikidata.org/entity/Q3813733"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdemar%C3%ADn> a dog-loc:Neighborhood ;
+    rdfs:label "Valdemarín" ;
+    owl:sameAs "https://wikidata.org/entity/Q10388725"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valderrivas> a dog-loc:Neighborhood ;
+    rdfs:label "Valderrivas" ;
+    owl:sameAs "https://wikidata.org/entity/Q43025770"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vinateros> a dog-loc:Neighborhood ;
+    rdfs:label "Vinateros" ;
+    owl:sameAs "https://wikidata.org/entity/Q10391533"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ABRANTES> a dog-loc:Thoroughfare ;
+    rdfs:label "ABRANTES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "305" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AFLUENTES> a dog-loc:Thoroughfare ;
+    rdfs:label "AFLUENTES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "12" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMBROZ> a dog-loc:Thoroughfare ;
+    rdfs:label "AMBROZ" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2B" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMERICA> a dog-loc:Thoroughfare ;
+    rdfs:label "AMERICA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "32" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/AMERICA%20ESPA%C3%91OLA> a dog-loc:Thoroughfare ;
+    rdfs:label "AMERICA ESPAÑOLA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ANTOLIN%20GARCIA> a dog-loc:Thoroughfare ;
+    rdfs:label "ANTOLIN GARCIA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "1" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ANUNCIACION> a dog-loc:Thoroughfare ;
+    rdfs:label "ANUNCIACION" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "1" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARGANDA> a dog-loc:Thoroughfare ;
+    rdfs:label "ARGANDA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "40" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARROYO%20FONTARRON> a dog-loc:Thoroughfare ;
+    rdfs:label "ARROYO FONTARRON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "361" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARTURO%20SORIA> a dog-loc:Thoroughfare ;
+    rdfs:label "ARTURO SORIA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "55" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ASTURIAS> a dog-loc:Thoroughfare ;
+    rdfs:label "ASTURIAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "74" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Avenida%20de%20las%20Fuerzas%20Armadas> a dog-loc:Thoroughfare ;
+    rdfs:label "Avenida de las Fuerzas Armadas" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Avenida%20del%20Doctor%20Garcia%20Tapia> a dog-loc:Thoroughfare ;
+    rdfs:label "Avenida del Doctor Garcia Tapia" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "125" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/BERLIN> a dog-loc:Thoroughfare ;
+    rdfs:label "BERLIN" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "5" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/BRASIL> a dog-loc:Thoroughfare ;
+    rdfs:label "BRASIL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "40" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CA%C3%91AVERAL> a dog-loc:Thoroughfare ;
+    rdfs:label "CAÑAVERAL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CABEZA%20MESADA> a dog-loc:Thoroughfare ;
+    rdfs:label "CABEZA MESADA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "36" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CALERUEGA> a dog-loc:Thoroughfare ;
+    rdfs:label "CALERUEGA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "28" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CAMINO%20DE%20LOS%20VINATEROS> a dog-loc:Thoroughfare ;
+    rdfs:label "CAMINO DE LOS VINATEROS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "107C" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CANARIAS> a dog-loc:Thoroughfare ;
+    rdfs:label "CANARIAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "19" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CARAMUEL> a dog-loc:Thoroughfare ;
+    rdfs:label "CARAMUEL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "58" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CASINO> a dog-loc:Thoroughfare ;
+    rdfs:label "CASINO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "3" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CEA%20BERMUDEZ> a dog-loc:Thoroughfare ;
+    rdfs:label "CEA BERMUDEZ" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CERRO%20NEGRO> a dog-loc:Thoroughfare ;
+    rdfs:label "CERRO NEGRO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "14" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CIRCE> a dog-loc:Thoroughfare ;
+    rdfs:label "CIRCE" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "59" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COALICION> a dog-loc:Thoroughfare ;
+    rdfs:label "COALICION" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "35A" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COCHERAS> a dog-loc:Thoroughfare ;
+    rdfs:label "COCHERAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "8" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COLOMBIA> a dog-loc:Thoroughfare ;
+    rdfs:label "COLOMBIA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "61" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CONDE%20DE%20MORPHY> a dog-loc:Thoroughfare ;
+    rdfs:label "CONDE DE MORPHY" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "6" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CONDE%20DEL%20VALLE%20DE%20SUCHIL> a dog-loc:Thoroughfare ;
+    rdfs:label "CONDE DEL VALLE DE SUCHIL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "1" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/COOPERATIVAS> a dog-loc:Thoroughfare ;
+    rdfs:label "COOPERATIVAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "RONDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CORINDON> a dog-loc:Thoroughfare ;
+    rdfs:label "CORINDON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "10" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CRUCES> a dog-loc:Thoroughfare ;
+    rdfs:label "CRUCES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "58" ;
+    dog-loc:isOfStreetType "CAMINO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/DAROCA> a dog-loc:Thoroughfare ;
+    rdfs:label "DAROCA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "301" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/DEYANIRA> a dog-loc:Thoroughfare ;
+    rdfs:label "DEYANIRA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "19" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ENCOMIENDA%20DE%20PALACIOS> a dog-loc:Thoroughfare ;
+    rdfs:label "ENCOMIENDA DE PALACIOS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "170P" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ERMITA> a dog-loc:Thoroughfare ;
+    rdfs:label "ERMITA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "36" ;
+    dog-loc:isOfStreetType "PASEO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ESTACION%20DE%20HORTALEZA> a dog-loc:Thoroughfare ;
+    rdfs:label "ESTACION DE HORTALEZA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "5" ;
+    dog-loc:isOfStreetType "CARRETERA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/EUROPA> a dog-loc:Thoroughfare ;
+    rdfs:label "EUROPA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "34 A" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/EZEQUIEL%20SOLANA> a dog-loc:Thoroughfare ;
+    rdfs:label "EZEQUIEL SOLANA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "46" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FAROLILLO> a dog-loc:Thoroughfare ;
+    rdfs:label "FAROLILLO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERMIN%20CABALLERO> a dog-loc:Thoroughfare ;
+    rdfs:label "FERMIN CABALLERO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "65" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERNANDEZ%20DE%20LA%20HOZ> a dog-loc:Thoroughfare ;
+    rdfs:label "FERNANDEZ DE LA HOZ" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "53" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FERNANDO%20GIRALDEZ> a dog-loc:Thoroughfare ;
+    rdfs:label "FERNANDO GIRALDEZ" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "32" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FLORENCIO%20CASTILLO> a dog-loc:Thoroughfare ;
+    rdfs:label "FLORENCIO CASTILLO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "38" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FLORESTAN%20AGUILAR> a dog-loc:Thoroughfare ;
+    rdfs:label "FLORESTAN AGUILAR" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/FRAY%20JOSE%20CERDEIRI%C3%91A> a dog-loc:Thoroughfare ;
+    rdfs:label "FRAY JOSE CERDEIRIÑA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "22" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GABRIEL%20PORTADALES> a dog-loc:Thoroughfare ;
+    rdfs:label "GABRIEL PORTADALES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GALILEO> a dog-loc:Thoroughfare ;
+    rdfs:label "GALILEO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "35" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GENERAL%20RAMIREZ%20DE%20MADRID> a dog-loc:Thoroughfare ;
+    rdfs:label "GENERAL RAMIREZ DE MADRID" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GERARDO%20CORDON> a dog-loc:Thoroughfare ;
+    rdfs:label "GERARDO CORDON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "46" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOLFO%20DE%20SALONICA> a dog-loc:Thoroughfare ;
+    rdfs:label "GOLFO DE SALONICA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOLONDRINA> a dog-loc:Thoroughfare ;
+    rdfs:label "GOLONDRINA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "36" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GOMEZ%20ACEBO> a dog-loc:Thoroughfare ;
+    rdfs:label "GOMEZ ACEBO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "1" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GUADALAJARA> a dog-loc:Thoroughfare ;
+    rdfs:label "GUADALAJARA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "110" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/HACIENDA%20DE%20PAVONES> a dog-loc:Thoroughfare ;
+    rdfs:label "HACIENDA DE PAVONES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "209" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/INFANTA%20ISABEL> a dog-loc:Thoroughfare ;
+    rdfs:label "INFANTA ISABEL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "PASEO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ISLAS%20JARVI> a dog-loc:Thoroughfare ;
+    rdfs:label "ISLAS JARVI" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "7" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JOAQUIN%20LORENZO> a dog-loc:Thoroughfare ;
+    rdfs:label "JOAQUIN LORENZO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "32" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20CARLOS%20ONETTI> a dog-loc:Thoroughfare ;
+    rdfs:label "JUAN CARLOS ONETTI" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "3" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20ESPLANDIU> a dog-loc:Thoroughfare ;
+    rdfs:label "JUAN ESPLANDIU" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "4" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/JUAN%20ROF%20CARBALLO> a dog-loc:Thoroughfare ;
+    rdfs:label "JUAN ROF CARBALLO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "4" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LAS%20AGUILAS> a dog-loc:Thoroughfare ;
+    rdfs:label "LAS AGUILAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "144" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOGRO%C3%91O> a dog-loc:Thoroughfare ;
+    rdfs:label "LOGROÑO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "98" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOS%20ROSALES> a dog-loc:Thoroughfare ;
+    rdfs:label "LOS ROSALES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "129" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LOS%20YEBENES> a dog-loc:Thoroughfare ;
+    rdfs:label "LOS YEBENES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "55" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LUIS%20RUIZ> a dog-loc:Thoroughfare ;
+    rdfs:label "LUIS RUIZ" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "27" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MACUAJE> a dog-loc:Thoroughfare ;
+    rdfs:label "MACUAJE" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "5" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MAGALLANES> a dog-loc:Thoroughfare ;
+    rdfs:label "MAGALLANES" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "3" ;
+    dog-loc:isOfStreetType "CALLEJON" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MANOTERAS> a dog-loc:Thoroughfare ;
+    rdfs:label "MANOTERAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "34" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MANUEL%20MARIA%20ARRILLAGA> a dog-loc:Thoroughfare ;
+    rdfs:label "MANUEL MARIA ARRILLAGA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "26" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARCELINO%20CAMACHO> a dog-loc:Thoroughfare ;
+    rdfs:label "MARCELINO CAMACHO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "6" ;
+    dog-loc:isOfStreetType "PASEO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARCELO%20USERA> a dog-loc:Thoroughfare ;
+    rdfs:label "MARCELO USERA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "157" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MARQUES%20DE%20CORBERA> a dog-loc:Thoroughfare ;
+    rdfs:label "MARQUES DE CORBERA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MENASALBAS> a dog-loc:Thoroughfare ;
+    rdfs:label "MENASALBAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "8" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MERCURIO> a dog-loc:Thoroughfare ;
+    rdfs:label "MERCURIO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "69" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MINERVA> a dog-loc:Thoroughfare ;
+    rdfs:label "MINERVA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "161" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/MONOVAR> a dog-loc:Thoroughfare ;
+    rdfs:label "MONOVAR" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/NAVARIDAS> a dog-loc:Thoroughfare ;
+    rdfs:label "NAVARIDAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/NICOLAS%20SALMERON> a dog-loc:Thoroughfare ;
+    rdfs:label "NICOLAS SALMERON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "3" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/OFELIA%20NIETO> a dog-loc:Thoroughfare ;
+    rdfs:label "OFELIA NIETO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "57" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PEPE%20ISBERT> a dog-loc:Thoroughfare ;
+    rdfs:label "PEPE ISBERT" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PICO%20DE%20MAJALASNA> a dog-loc:Thoroughfare ;
+    rdfs:label "PICO DE MAJALASNA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "3" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PING%C3%9CINO> a dog-loc:Thoroughfare ;
+    rdfs:label "PINGÜINO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "12" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PINILLAS> a dog-loc:Thoroughfare ;
+    rdfs:label "PINILLAS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "11" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PIRRA> a dog-loc:Thoroughfare ;
+    rdfs:label "PIRRA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "16" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PLANETARIO> a dog-loc:Thoroughfare ;
+    rdfs:label "PLANETARIO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "16" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PORTALEGRE> a dog-loc:Thoroughfare ;
+    rdfs:label "PORTALEGRE" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "28" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PUERTO%20DE%20BEJAR> a dog-loc:Thoroughfare ;
+    rdfs:label "PUERTO DE BEJAR" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "7" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/PUERTO%20DE%20COSTABONA> a dog-loc:Thoroughfare ;
+    rdfs:label "PUERTO DE COSTABONA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "9" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/Paseo%20Puerta%20del%20Angel> a dog-loc:Thoroughfare ;
+    rdfs:label "Paseo Puerta del Angel" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "1" ;
+    dog-loc:isOfStreetType "PASEO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RAFAELA%20YBARRA> a dog-loc:Thoroughfare ;
+    rdfs:label "RAFAELA YBARRA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "33" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RAYO%20VALLECANO%20DE%20MADRID> a dog-loc:Thoroughfare ;
+    rdfs:label "RAYO VALLECANO DE MADRID" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "119" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/RECTOR%20ROYO-VILLANOVA> a dog-loc:Thoroughfare ;
+    rdfs:label "RECTOR ROYO-VILLANOVA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "10 C" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ROSA%20CHACEL> a dog-loc:Thoroughfare ;
+    rdfs:label "ROSA CHACEL" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "10" ;
+    dog-loc:isOfStreetType "PLAZA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SAN%20GERMAN> a dog-loc:Thoroughfare ;
+    rdfs:label "SAN GERMAN" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "7" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANCHO%20DAVILA> a dog-loc:Thoroughfare ;
+    rdfs:label "SANCHO DAVILA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "15" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANGENJO> a dog-loc:Thoroughfare ;
+    rdfs:label "SANGENJO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "27" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANTA%20ADELA> a dog-loc:Thoroughfare ;
+    rdfs:label "SANTA ADELA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "14" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SANTIAGO%20AMON> a dog-loc:Thoroughfare ;
+    rdfs:label "SANTIAGO AMON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "4" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SEGURA> a dog-loc:Thoroughfare ;
+    rdfs:label "SEGURA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "74" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SINESIO%20DELGADO> a dog-loc:Thoroughfare ;
+    rdfs:label "SINESIO DELGADO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "7" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SUERTE> a dog-loc:Thoroughfare ;
+    rdfs:label "SUERTE" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "28" ;
+    dog-loc:isOfStreetType "CAMINO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/SUR> a dog-loc:Thoroughfare ;
+    rdfs:label "SUR" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "6D" ;
+    dog-loc:isOfStreetType "RONDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TANGER> a dog-loc:Thoroughfare ;
+    rdfs:label "TANGER" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "9" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TOMAS%20BRETON> a dog-loc:Thoroughfare ;
+    rdfs:label "TOMAS BRETON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "49 A" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/TROLE> a dog-loc:Thoroughfare ;
+    rdfs:label "TROLE" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "9G" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDEBERNARDO> a dog-loc:Thoroughfare ;
+    rdfs:label "VALDEBERNARDO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "18B" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDEMARIN> a dog-loc:Thoroughfare ;
+    rdfs:label "VALDEMARIN" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "67" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALDERREY> a dog-loc:Thoroughfare ;
+    rdfs:label "VALDERREY" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "14" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALLE%20DE%20ARAN> a dog-loc:Thoroughfare ;
+    rdfs:label "VALLE DE ARAN" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "7" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALLE%20DE%20MENA> a dog-loc:Thoroughfare ;
+    rdfs:label "VALLE DE MENA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "20" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VALMOJADO> a dog-loc:Thoroughfare ;
+    rdfs:label "VALMOJADO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VEZA> a dog-loc:Thoroughfare ;
+    rdfs:label "VEZA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "43" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIEJO%20DE%20VICALVARO> a dog-loc:Thoroughfare ;
+    rdfs:label "VIEJO DE VICALVARO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "16" ;
+    dog-loc:isOfStreetType "CAMINO" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VILLACASTIN> a dog-loc:Thoroughfare ;
+    rdfs:label "VILLACASTIN" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "10" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VILLAR%20DEL%20POZO> a dog-loc:Thoroughfare ;
+    rdfs:label "VILLAR DEL POZO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "4E" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRGEN%20DE%20LLUC> a dog-loc:Thoroughfare ;
+    rdfs:label "VIRGEN DE LLUC" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "44" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRGEN%20DE%20NURIA> a dog-loc:Thoroughfare ;
+    rdfs:label "VIRGEN DE NURIA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/VIRIDIANA> a dog-loc:Thoroughfare ;
+    rdfs:label "VIRIDIANA" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "13F" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aluche> a dog-loc:Neighborhood ;
+    rdfs:label "Aluche" ;
+    owl:sameAs "https://wikidata.org/entity/Q31140"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> a dog-loc:Neighborhood ;
+    rdfs:label "Apóstol Santiago" ;
+    owl:sameAs "https://wikidata.org/entity/Q11906303"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arapiles> a dog-loc:Neighborhood ;
+    rdfs:label "Arapiles" ;
+    owl:sameAs "https://wikidata.org/entity/Q10856744"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ciudad%20Universitaria> a dog-loc:Neighborhood ;
+    rdfs:label "Ciudad Universitaria" ;
+    owl:sameAs "https://wikidata.org/entity/Q3319235"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Concepci%C3%B3n> a dog-loc:Neighborhood ;
+    rdfs:label "Concepción" ;
+    owl:sameAs "https://wikidata.org/entity/Q11915156"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Costillares> a dog-loc:Neighborhood ;
+    rdfs:label "Costillares" ;
+    owl:sameAs "https://wikidata.org/entity/Q331385"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Cuatro%20Caminos> a dog-loc:Neighborhood ;
+    rdfs:label "Cuatro Caminos" ;
+    owl:sameAs "https://wikidata.org/entity/Q5824684"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/El%20Zof%C3%ADo> a dog-loc:Neighborhood ;
+    rdfs:label "El Zofío" ;
+    owl:sameAs "https://wikidata.org/entity/Q71751"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fontarr%C3%B3n> a dog-loc:Neighborhood ;
+    rdfs:label "Fontarrón" ;
+    owl:sameAs "https://wikidata.org/entity/Q10283284"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Fuente%20del%20Berro> a dog-loc:Neighborhood ;
+    rdfs:label "Fuente del Berro" ;
+    owl:sameAs "https://wikidata.org/entity/Q3814564"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Las%20%C3%81guilas> a dog-loc:Neighborhood ;
+    rdfs:label "Las Águilas" ;
+    owl:sameAs "https://wikidata.org/entity/Q5971372"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Legazpi> a dog-loc:Neighborhood ;
+    rdfs:label "Legazpi" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773990"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Los%20%C3%81ngeles> a dog-loc:Neighborhood ;
+    rdfs:label "Los Ángeles" ;
+    owl:sameAs "https://wikidata.org/entity/Q390462"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Marroquina> a dog-loc:Neighborhood ;
+    rdfs:label "Marroquina" ;
+    owl:sameAs "https://wikidata.org/entity/Q11935636"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Orcasitas> a dog-loc:Neighborhood ;
+    rdfs:label "Orcasitas" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773941"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pac%C3%ADfico> a dog-loc:Neighborhood ;
+    rdfs:label "Pacífico" ;
+    owl:sameAs "https://wikidata.org/entity/Q3773753"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Palomeras%20Bajas> a dog-loc:Neighborhood ;
+    rdfs:label "Palomeras Bajas" ;
+    owl:sameAs "https://wikidata.org/entity/Q10343902"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pavones> a dog-loc:Neighborhood ;
+    rdfs:label "Pavones" ;
+    owl:sameAs "https://wikidata.org/entity/Q71760"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pinar%20del%20Rey> a dog-loc:Neighborhood ;
+    rdfs:label "Pinar del Rey" ;
+    owl:sameAs "https://wikidata.org/entity/Q10349788"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Puerta%20Bonita> a dog-loc:Neighborhood ;
+    rdfs:label "Puerta Bonita" ;
+    owl:sameAs "https://wikidata.org/entity/Q3813762"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdeacederas> a dog-loc:Neighborhood ;
+    rdfs:label "Valdeacederas" ;
+    owl:sameAs "https://wikidata.org/entity/Q10388711"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdefuentes> a dog-loc:Neighborhood ;
+    rdfs:label "Valdefuentes" ;
+    owl:sameAs "https://wikidata.org/entity/Q10388714"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdezarza> a dog-loc:Neighborhood ;
+    rdfs:label "Valdezarza" ;
+    owl:sameAs "https://wikidata.org/entity/Q10388728"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vallehermoso> a dog-loc:Neighborhood ;
+    rdfs:label "Vallehermoso" ;
+    owl:sameAs "https://wikidata.org/entity/Q6122685"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valverde> a dog-loc:Neighborhood ;
+    rdfs:label "Valverde" ;
+    owl:sameAs "https://wikidata.org/entity/Q31132"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Ventas> a dog-loc:Neighborhood ;
+    rdfs:label "Ventas" ;
+    owl:sameAs "https://wikidata.org/entity/Q71762"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> a dog-loc:Neighborhood ;
+    rdfs:label "Villaverde Alto, Casco Histórico de Villaverde" ;
+    owl:sameAs "https://wikidata.org/entity/Q390435"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Vista%20Alegre> a dog-loc:Neighborhood ;
+    rdfs:label "Vista Alegre" ;
+    owl:sameAs "https://wikidata.org/entity/Q3813741"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/ARCOS%20DEL%20JALON> a dog-loc:Thoroughfare ;
+    rdfs:label "ARCOS DEL JALON" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "13",
+        "16" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/CANILLEJAS%20A%20VICALVARO> a dog-loc:Thoroughfare ;
+    rdfs:label "CANILLEJAS A VICALVARO" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "167",
+        "90" ;
+    dog-loc:isOfStreetType "AVENIDA" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/GONZALO%20TORRENTE%20BALLESTER> a dog-loc:Thoroughfare ;
+    rdfs:label "GONZALO TORRENTE BALLESTER" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "2",
+        "4" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Thoroughfare/LADERA%20DE%20LOS%20ALMENDROS> a dog-loc:Thoroughfare ;
+    rdfs:label "LADERA DE LOS ALMENDROS" ;
+    <https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber:> "14G",
+        "46" ;
+    dog-loc:isOfStreetType "CALLE" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Almenara> a dog-loc:Neighborhood ;
+    rdfs:label "Almenara" ;
+    owl:sameAs "https://wikidata.org/entity/Q2265427"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Aravaca> a dog-loc:Neighborhood ;
+    rdfs:label "Aravaca" ;
+    owl:sameAs "https://wikidata.org/entity/Q3314682"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Canillejas> a dog-loc:Neighborhood ;
+    rdfs:label "Canillejas" ;
+    owl:sameAs "https://wikidata.org/entity/Q663013"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> a dog-loc:Neighborhood ;
+    rdfs:label "Casco Histórico de Vallecas" ;
+    owl:sameAs "https://wikidata.org/entity/Q16544370"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> a dog-loc:Neighborhood ;
+    rdfs:label "Casco Histórico de Vicálvaro" ;
+    owl:sameAs "https://wikidata.org/entity/Q16544374"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/La%20Guindalera> a dog-loc:Neighborhood ;
+    rdfs:label "La Guindalera" ;
+    owl:sameAs "https://wikidata.org/entity/Q3814559"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pe%C3%B1agrande> a dog-loc:Neighborhood ;
+    rdfs:label "Peñagrande" ;
+    owl:sameAs "https://wikidata.org/entity/Q3319582"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Rejas> a dog-loc:Neighborhood ;
+    rdfs:label "Rejas" ;
+    owl:sameAs "https://wikidata.org/entity/Q10359029"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Villa%20de%20Vallecas> a dog-loc:District ;
+    rdfs:label "Villa de Vallecas" ;
+    owl:sameAs "https://wikidata.org/entity/Q1947988" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Arcos> a dog-loc:Neighborhood ;
+    rdfs:label "Arcos" ;
+    owl:sameAs "https://wikidata.org/entity/Q9627876"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Pueblo%20Nuevo> a dog-loc:Neighborhood ;
+    rdfs:label "Pueblo Nuevo" ;
+    owl:sameAs "https://wikidata.org/entity/Q71753"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Arganzuela> a dog-loc:District ;
+    rdfs:label "Arganzuela" ;
+    owl:sameAs "https://wikidata.org/entity/Q2000929" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Chamber%C3%AD> a dog-loc:District ;
+    rdfs:label "Chamberí" ;
+    owl:sameAs "https://wikidata.org/entity/Q1763370" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Retiro> a dog-loc:District ;
+    rdfs:label "Retiro" ;
+    owl:sameAs "https://wikidata.org/entity/Q2002296" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Salamanca> a dog-loc:District ;
+    rdfs:label "Salamanca" ;
+    owl:sameAs "https://wikidata.org/entity/Q1773521" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Usera> a dog-loc:District ;
+    rdfs:label "Usera" ;
+    owl:sameAs "https://wikidata.org/entity/Q953368" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Latina> a dog-loc:District ;
+    rdfs:label "Latina" ;
+    owl:sameAs "https://wikidata.org/entity/Q794954" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Puente%20de%20Vallecas> a dog-loc:District ;
+    rdfs:label "Puente de Vallecas" ;
+    owl:sameAs "https://wikidata.org/entity/Q2003054" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Villaverde> a dog-loc:District ;
+    rdfs:label "Villaverde" ;
+    owl:sameAs "https://wikidata.org/entity/Q919536" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Carabanchel> a dog-loc:District ;
+    rdfs:label "Carabanchel" ;
+    owl:sameAs "https://wikidata.org/entity/Q1001991" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Fuencarral-El%20Pardo> a dog-loc:District ;
+    rdfs:label "Fuencarral-El Pardo" ;
+    owl:sameAs "https://wikidata.org/entity/Q656196" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Hortaleza> a dog-loc:District ;
+    rdfs:label "Hortaleza" ;
+    owl:sameAs "https://wikidata.org/entity/Q1928529" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Moratalaz> a dog-loc:District ;
+    rdfs:label "Moratalaz" ;
+    owl:sameAs "https://wikidata.org/entity/Q2076109" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/Neighborhood/Valdebernardo> a dog-loc:Neighborhood ;
+    rdfs:label "Valdebernardo" ;
+    owl:sameAs "https://wikidata.org/entity/Q43025212"^^xsd:anyURI .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Tetu%C3%A1n> a dog-loc:District ;
+    rdfs:label "Tetuán" ;
+    owl:sameAs "https://wikidata.org/entity/Q1773540" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Moncloa-Aravaca> a dog-loc:District ;
+    rdfs:label "Moncloa-Aravaca" ;
+    owl:sameAs "https://wikidata.org/entity/Q2017682" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Ciudad%20Lineal> a dog-loc:District ;
+    rdfs:label "Ciudad Lineal" ;
+    owl:sameAs "https://wikidata.org/entity/Q1763694" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/San%20Blas-Canillejas> a dog-loc:District ;
+    rdfs:label "San Blas-Canillejas" ;
+    owl:sameAs "https://wikidata.org/entity/Q2001937" .
+
+<https://w3id.org/DogFriendlyMadrid/info/resource/District/Vic%C3%A1lvaro> a dog-loc:District ;
+    rdfs:label "Vicálvaro" ;
+    owl:sameAs "https://wikidata.org/entity/Q589403" .
+

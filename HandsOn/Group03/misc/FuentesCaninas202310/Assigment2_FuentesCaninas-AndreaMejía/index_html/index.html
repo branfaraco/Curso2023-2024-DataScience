@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuente para perros</title>
+  <link rel="shortcut icon" href="images/dog.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fuentes de agua - Comunidad de Madrid</h1> <br><br>
+    <div class="menu">
+      <p data-target="#Dataset">Dataset</p>
+      <p data-target="#rns">Resource Naming Strategy</p>
+      <a href="https://datos.madrid.es/egob/catalogo/aviso-legal" target="_blank">Licencias</a>
+      <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target="_blank">Condiciones de uso</a>
+    </div>
+
+    <div class="content">
+      <div data-content id="Dataset" class="active">
+        <h1>Fuente para perros</h1>
+        <h2>Info Database:</h2> <br>
+        <p>
+          Se presenta la relación total de fuentes de agua potable de beber tanto para mascotas, como las destinadas a mascotas y a personas de la ciudad de Madrid. Estas fuentes están situadas tanto en vía pública como en zonas verdes, parques y jardines. <br><br>
+
+          Puede consultar si las fuentes se encuentran o no operativas, y cerradas temporalmente y dispone además de información por barrio, distrito y dirección. <br><br>
+          La relación de fuentes de beber “en servicio” puede sufrir variaciones temporales por averías, bien por desapariciones de grifos o cortes por averías en la red de agua potable de las que se suministran. <br><br>
+          La información proporcionada se actualiza diariamente.
+          Puede consultar también información sobre las fuentes de agua potable para beber  para la ciudadanía de la ciudad de Madrid, tantos las situadas en vía pública como aquellas que están en zonas verdes, parques y jardines, en el conjunto de datos. <br><br><br>
+        </p>
+        <div class="table">
+          <table>
+            <tr class="t-head">
+              <th>Column</th>
+              <th>Type</th>
+              <th>Comments</th>
+              <th>Problems</th>
+            </tr>
+            <tr class="t-body">
+              <td>ID</td>
+              <td>Integer</td>
+              <td>Número de identificación de la papelera, tiene 6 dígitos y es un número positivo.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Estado</td>
+              <td>String</td>
+              <td>Nos dice el estado en el que se encuentra.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Cod_Barrio</td>
+              <td>Integer</td>
+              <td>Número de 3 cifras positivo, identifica al barrio.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Barrio</td>
+              <td>String</td>
+              <td>Nombre del barrio en donde se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Distrito</td>
+              <td>String</td>
+              <td>El distrito donde se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Coord_gis_x</td>
+              <td>Float</td>
+              <td>Es la coordenada x de la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Coord_gis_y</td>
+              <td>Float</td>
+              <td>Es la coordenada y de la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Sistema_Coord</td>
+              <td>String</td>
+              <td>Es el sistema de coordenadas usado para ubicar la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Latitud</td>
+              <td>Float</td>
+              <td>La latitud en la que se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Tipo_Via</td>
+              <td>String</td>
+              <td>Nos indica el tipo de vía en la que se encuentra la fuente.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Nom_Via</td>
+              <td>String</td>
+              <td>Nombre de la vía.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Num_Via</td>
+              <td>String</td>
+              <td>Identifica la vía.</td>
+              <td>Presenta números y caracteres.</td>
+            </tr>
+            <tr class="t-body">
+              <td>Codigo_Postal</td>
+              <td>Integer</td>
+              <td>El código postal donde esta ubicada la fuente, son números enteros positivos de 5 cifras.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Fecha_Instalacion</td>
+              <td>Fecha</td>
+              <td>La fecha de la instalación de la fuente.</td>
+              <td>Varias casillas se encuentran en blanco.</td>
+            </tr>
+            <tr class="t-body">
+              <td>Uso</td>
+              <td>String</td>
+              <td>Nos indica para quien esta destinado el uso de la fuente ej. Personas, mascotas o ambas.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Modelo</td>
+              <td>String</td>
+              <td>Modelo de la fuente.</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <br>
+        <h1>Parques y jardines</h1>
+        <h2>Info Database:</h2> <br>
+        <p>
+          La relación siguiente corresponde a los principales parques y zonas verdes de Madrid cuya conservación corresponde al Ayuntamiento de Madrid, con sus características detalladas. <br>|
+          En el listado se incluyen tanto jardines y pequeñas zonas verdes, como los clasificados como parques históricos, singulares o forestales, así como las rosaledas y colecciones botánicas.<br>
+          Conviene aclarar que esta información corresponde a los parques y jardines más significativos de cada distrito, pero no a todas las zonas verdes, ya que existen también multitud de <br>
+          pequeños espacios verdes, medianas, rotondas, isletas, etc. que no están descritos en esta relación. <br>
+          <br>
+        </p>
+        <div class="table">
+          <table>
+            <tr class="t-head">
+              <th>Column</th>
+              <th>Description</th>
+              <th>Type</th>
+              <th>Comments</th>
+              <th>Problems</th>
+            </tr>
+            <tr class="t-body">
+              <td>PK</td>
+              <td>campo clave, dentro de la web municipal, para uso interno.</td>
+              <td>Int</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>NOMBRE</td>
+              <td>denominación del equipamiento/instalación/organismo/... o entidad a la que se refiera el conjunto de datos.</td>
+              <td>string</td>
+              <td></td>
+              <td>2 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>HORARIO</td>
+              <td>de apertura, de actividades, de secretaria, etc. Días y horario de actividad regular. Horarios de periodos excepcionales. Fechas de cierre</td>
+              <td>string</td>
+              <td>Información Heterogénea</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>EQUIPAMIENTO</td>
+              <td>detalle de espacios internos especializados. Por ej. en Centros Culturales, se relacionan Salas de exposiciones, aulas, auditorios, salas de ensayo, salas de lectura o estudio, ascensores, aseos accesibles, cafetería, etc</td>
+              <td>string</td>
+              <td>Varias celdas que se podrían unir</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>TRANSPORTE</td>
+              <td>estaciones de metro e indicación de línea; líneas de bus; estaciones de Renfe.</td>
+              <td>string</td>
+              <td></td>
+              <td>5 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>DESCRIPCIÓN</td>
+              <td>información adicional; por ej.: otros equipamientos con los que se comparte la sede física; información de venta de entradas, etc</td>
+              <td>string</td>
+              <td></td>
+              <td>4 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>ACCESIBILIDAD</td>
+              <td>0 = No accesible, 1 = Accesible, 2 = Instalación parcialmente accesible para personas con movilidad reducida, 3 = Sin información sobre accesibilidad para personas con movilidad reducida, 4 = Lengua de signos, 5 = Señalización podotáctil, 6 = Bucle de inducción magnético.</td>
+              <td>Int</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>CONTENT-URL</td>
+              <td>nombre del recurso en Internet, normalmente en la web municipal www.madrid.es para su localización. Se accede a la ficha existente en dicha web</td>
+              <td>String</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>NOMBRE-VIA</td>
+              <td>denominación del vial.</td>
+              <td>String</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>CLASE-VIAL</td>
+              <td>tipo de vial: calle, avenida, paseo, etc</td>
+              <td>String</td>
+              <td>Elementos que se deben combinar</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>TIPO-NUM</td>
+              <td>V, S/N, KM.</td>
+              <td>String</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>NUM</td>
+              <td>número del equipamiento en el vial. Pueden incluir descriptivos.</td>
+              <td>int</td>
+              <td></td>
+              <td>5 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>PLANTA</td>
+              <td>nivel que ocupa en el inmueble.</td>
+              <td></td>
+              <td></td>
+              <td>Todas blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>PUERTA</td>
+              <td>puerta que ocupa en el inmueble.</td>
+              <td>string</td>
+              <td></td>
+              <td>195 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>ESCALERAS</td>
+              <td>escalera de acceso</td>
+              <td></td>
+              <td></td>
+              <td>Todas Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>ORIENTACION</td>
+              <td>Detalles descriptivos de la dirección, si los hubiese. Por ej., “frente a”; “con vuelta a”, “acceso por”, etc</td>
+              <td>string</td>
+              <td></td>
+              <td>200 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>LOCALIDAD</td>
+              <td>Madrid</td>
+              <td>string</td>
+              <td>Celdas que se pueden combinar</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>PROVINCIA</td>
+              <td>Madrid</td>
+              <td>string</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>CODIGO POSTAL</td>
+              <td></td>
+              <td>int</td>
+              <td></td>
+              <td>3 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>COD-BARRIO</td>
+              <td></td>
+              <td>int</td>
+              <td></td>
+              <td>12 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>BARRIO</td>
+              <td>denominación del barrio</td>
+              <td>string</td>
+              <td></td>
+              <td>4 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>COD-Districto</td>
+              <td></td>
+              <td>int</td>
+              <td></td>
+              <td>12 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>DISTRICTO</td>
+              <td>denominación del distrito</td>
+              <td>string</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>COORDENADA-X</td>
+              <td>coordenada de 6 caracteres sobre plano de la ciudad.</td>
+              <td>float</td>
+              <td></td>
+              <td>3 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>COORDENADA-y</td>
+              <td>coordenada de 7 caracteres sobre plano de la ciudad.</td>
+              <td>float</td>
+              <td></td>
+              <td>3 blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>COORDENADA-LATITUD</td>
+              <td>coordenada latitud en el sistema de referencia WGS84</td>
+              <td>string</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>COORDENADA-LONGITUD</td>
+              <td>coordenada longitud en el sistema de referencia WGS84</td>
+              <td>string</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>TELEFONO</td>
+              <td>teléfonos de contacto</td>
+              <td>string</td>
+              <td></td>
+              <td>196 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>FAX</td>
+              <td>número de fax</td>
+              <td>string</td>
+              <td></td>
+              <td>Todos Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>EMAIL</td>
+              <td>dirección de correo electrónico, si la tuviese</td>
+              <td>string</td>
+              <td></td>
+              <td>198 Blanks</td>
+            </tr>
+            <tr class="t-body">
+              <td>Tipo</td>
+              <td>descripción de la tipología de la instalación. Se encuentra al final de la cadena de texto.</td>
+              <td>string</td>
+              <td></td>
+              <td>21 Blanks</td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <br>
+        <h1>Papeleras caninas</h1>
+        <h2>Info Database:</h2> <br>
+        <p>
+          En la ciudad de Madrid se encuentran instaladas más de 92.000 papeleras (sin incluir las papeleras existentes ni en los parques históricos ni en los forestales de la ciudad) y de éstas,<br>
+          más de 6.000 con expendedor de bolsas biodegradables para recogida de excrementos caninos para que los ciudadanos puedan eliminar los pequeños residuos que generen en su transitar <br>
+          por la vía pública. <br>
+          La fijación de estos expendedores de bolsas pueden estar situados en farolas, semáforos, señales, postes y muros para su sujeción directamente en la pared.<br>
+        </p>
+        <br>
+        <br>
+        <div class="table">
+          <table>
+            <tr class="t-head">
+              <th>Column</th>
+              <th>Type</th>
+              <th>Comments</th>
+              <th>Problems</th>
+            </tr>
+            <tr class="t-body">
+              <td>ID</td>
+              <td>Integer</td>
+              <td>En el caso de la papelera son 6 dígitos, para el barrio son 3 y para el distrito 2.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>GarbageBin</td>
+              <td>String</td>
+              <td>Es la clase papelera cuya propiedad es el ID, latitude y longitude.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Neighborhood</td>
+              <td>string</td>
+              <td>Neighborhood representa a la clase barrio con propiedad ID.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>District</td>
+              <td>String</td>
+              <td>District representa a la clase distrito con propiedad ID.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Latitude</td>
+              <td>String</td>
+              <td>Latitude es una propiedad de papelera.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Longitude</td>
+              <td>string</td>
+              <td>Longitude es una propiedad de papelera.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Thoroughfare type</td>
+              <td>String</td>
+              <td>Es el tipo de vía.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Thoroughfare</td>
+              <td>String</td>
+              <td>Es el nombre de la vía.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Number</td>
+              <td>String</td>
+              <td>Es el número de la vía que puede contener una letra.</td>
+              <td></td>
+            </tr>
+            <tr class="t-body">
+              <td>Postal Code</td>
+              <td>Integer</td>
+              <td>Es un número de 5 dígitos.</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <br>
+      </div>
+
+      <div data-content id="rns">
+        <div class="imagen">
+          
+          <h2>Resource Strategy</h2>
+          <img src="images/resource_strategy.png">
+          <h2>Ontology namespaces</h2>
+          <img src="images/ontology_namespaces.png" width="75%">
+          
+        </div>
+        <div class="classes resources">
+          <h3>Classes</h3>
+          <ol>
+            <li>City: http://schema.org/City  </li>
+            <li>Services: https://w3id.org/DogFriendlyMadrid/info/ontology/services/Services</li>
+            <h4>Subclases de services</h4>   
+            <ul>
+              <li>DrinkingFountain: https://w3id.org/DogFriendlyMadrid/info/ontology/services#DrinkingFountain</li>
+              <li>PetDrinkingFountain: https://w3id.org/DogFriendlyMadrid/info/ontology/services#PetDrinkingFountain</li>
+              <li>DogGarbageBin: https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogGarbageBin</li>
+            </ul>       
+            <li>Park: http://schema-org#Park</li>
+            <li>DogZone: https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogZone</li>
+            <li>Address: https://w3id.org/DogFriendlyMadrid/info/ontology/location#address</li>
+            <li>State: http://schema-org#State</li>
+            <li>Neighborhood: https://w3id.org/DogFriendlyMadrid/info/ontology/location#Neighborhood</li>
+            <li>District: https://w3id.org/DogFriendlyMadrid/info/ontology/location#District</li>
+            <li>Street: https://dbpedia.org/ontology/Street</li>
+            <li>GeoCoordinates: http://schema-org#GeoCoordinates</li>
+            <li>CityCoordinates: https://w3id.org/DogFriendlyMadrid/info/ontology/location#CityCoordinates</li>
+            <li>SeniorZone: https://w3id.org/DogFriendlyMadrid/info/ontology/route/FuentesAgua#Via </li>
+            <li>ChildrenZone: https://w3id.org/DogFriendlyMadrid/info/ontology/services#ChildrenZone</li>
+          <ol>
+        </div>
+        <div class="properties City">
+          <h3>Properties City</h3>
+          <ol>
+            <li>name: http://schema-org#name</li>
+          </ol>
+        </div>
+        <div class="properties CityCoordinates">
+          <h3>Properties CityCoordinates</h3>
+          <ol>
+            <li>hasXCityPosition: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasXCityPosition</li>
+            <li>hasYCityPosition: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasYCityPosition</li>
+          </ol>
+        </div>
+        <div class="properties Park">
+          <h3>Properties Park</h3>
+          <ol>
+            <li>identifier: http://schema-org#identifier</li>
+            <li>name: http://schema-org#name</li>
+            <li>description: http://schema-org#description</li>
+            <li>reachebleBy: https://w3id.org/DogFriendlyMadrid/info/ontology/details#reachebleBy</li>
+            <li>hasTrees: https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasTrees</li>
+            <li>isAccessible: https://w3id.org/DogFriendlyMadrid/info/ontology/details#isAccessible</li>
+            <li>mainEntityOfPage: http://schema-org#mainEntityOfPage</li>
+          </ol>
+        </div>
+        <div class="properties DogZone">
+          <h3>Properties DogZone</h3>
+          <ol>
+            <li>identifier: http://schema-org#identifier</li>
+            <li>description: http://schema-org#description</li>
+            <li>hasStatus: https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasStatus</li>
+          </ol>
+        </div>
+        <div class="properties GeoCoordinates">
+          <h3>Properties GeoCoordinates</h3>
+          <ol>
+            <li>latitude: http://schema-org#latitude</li>
+            <li>longitude: http://schema-org#longitude</li>
+          </ol>
+        </div>
+        <div class="properties Services">
+          <h3>Properties Services</h3>
+          <ol>
+            <li>identifier: http://schema-org#identifier</li>
+            <li>description: http://schema-org#description</li>
+            <li>hasStatus: https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasStatus</li>
+            <li>hasAuxAddress: https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasAuxAddress</li>
+            <li>ofModelType: https://w3id.org/DogFriendlyMadrid/info/ontology/details#ofModelType</li>
+          </ol>
+        </div>
+        <div class="properties Address">
+          <h3>Properties Address</h3>
+          <ol>
+            <li>postalCode: http://schema-org#postalCode</li>
+          </ol>
+        </div>
+        <div class="properties State">
+          <h3>Properties State</h3>
+          <ol>
+            <li>name: http://schema-org#name</li>
+          </ol>
+        </div>
+        <div class="properties Neighborhood">
+          <h3>Properties Neighborhood</h3>
+          <ol>
+            <li>hasLocationId: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasLocationId</li>
+            <li>label: https://www.wikidata.org/wiki/Property:P276#locatedIn</li>
+          </ol>
+        </div>
+        <div class="properties District">
+          <h3>Properties District</h3>
+          <ol>
+            <li>hasLocationId: https://www.wikidata.org/wiki/Property:P276#locatedIn</li>
+            <li>label: http://www.w3.org/2000/01/rdf-schema#label</li>
+          </ol>
+        </div>
+        <div class="properties Street">
+          <h3>Properties Street</h3>
+          <ol>
+            <li>isOfStreetType: https://w3id.org/DogFriendlyMadrid/info/ontology/location#isOfStreetType</li>
+            <li>label: http://www.w3.org/2000/01/rdf-schema#label</li>
+            <li>hasStreetNumber: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber</li>
+          </ol>
+        </div>
+        <div class="Object Properties">
+          <h3>Object Properties</h3>
+          <ol>
+            <li>hasCity: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCity</li>
+            <li>geo: http://schema-org#geo</li>
+            <li>containsPlace: http://schema-org#containsPlace</li>
+            <li>mainEntityOfPage: http://schema-org#mainEntityOfPage</li>
+            <li>hasCityPosition: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCityPosition</li>
+            <li>hasDistrict: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasDistrict</li>
+            <li>hasNeighborhood: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasNeighborhood</li>
+            <li>hasService: https://w3id.org/DogFriendlyMadrid/info/ontology/services#hasService</li>
+            <li>hasState: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasState</li>
+            <li>hasAddress: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasAddress</li>
+            <li>hasStreet: https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreet</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- <div id="licencias">
+        <h1><a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Licencias</a></h1>
+      </div> -->
+
+      <!-- <div id="condiciones">
+        <h1><a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Condisiones de uso</a></h1>
+      </div> -->
+    </div>
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>

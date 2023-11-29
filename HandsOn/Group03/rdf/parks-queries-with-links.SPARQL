@@ -1,0 +1,5 @@
+SELECT (COUNT(?wiki) as ?park_count)
+    WHERE {
+       ?NURI rdf:type dog-loc:Neighborhood . 
+       ?NURI owl:sameAs ?wiki
+    }

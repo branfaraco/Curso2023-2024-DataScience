@@ -1,0 +1,491 @@
+DISTRITO,ID,AdressID,NOMBRE DE VIA,NUMERO DIRECCION,TIPO DE VIA,Adiestramiento,Veterinarios,Peluqueria
+CENTRO,CareCenter_00,CareCenter_00_address,SAN CARLOS,6,CL,false,true,false
+CENTRO,CareCenter_01,CareCenter_01_address,GRAN VIA DE SAN FRANCISCO,9,AV,false,true,false
+CENTRO,CareCenter_02,CareCenter_02_address,SAN BERNARDO,81,CL,false,false,true
+CENTRO,CareCenter_03,CareCenter_03_address,SAN BERNARDO,81,CL,false,false,true
+ARGANZUELA,CareCenter_04,CareCenter_04_address,BOLIVAR,15,CL,false,true,false
+ARGANZUELA,CareCenter_05,CareCenter_05_address,GASOMETRO,5,CL,false,true,false
+RETIRO,CareCenter_06,CareCenter_06_address,SECO,5,CL,false,true,false
+RETIRO,CareCenter_07,CareCenter_07_address,REINA CRISTINA,11,PO,false,true,false
+RETIRO,CareCenter_08,CareCenter_08_address,GRANADA,21,CL,false,true,false
+RETIRO,CareCenter_09,CareCenter_09_address,GRANADA,21,CL,true,false,false
+RETIRO,CareCenter_010,CareCenter_010_address,ANDRES TORREJON,18,CL,false,false,true
+RETIRO,CareCenter_011,CareCenter_011_address,ANDRES TORREJON,18,CL,false,false,true
+TETUAN,CareCenter_012,CareCenter_012_address,BRAVO MURILLO,194,CL,false,false,true
+TETUAN,CareCenter_013,CareCenter_013_address,BARON DEL CASTILLO DE CHIREL,5,CL,false,true,false
+TETUAN,CareCenter_014,CareCenter_014_address,DOCTOR MARIANI,8,CL,false,false,true
+CHAMBERI,CareCenter_015,CareCenter_015_address,ESPRONCEDA,14,CL,false,true,false
+CHAMBERI,CareCenter_016,CareCenter_016_address,MELENDEZ VALDES,17,CL,false,true,false
+CHAMBERI,CareCenter_017,CareCenter_017_address,HILARION ESLAVA,56,CL,false,true,false
+CHAMBERI,CareCenter_018,CareCenter_018_address,VIRIATO,50,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_019,CareCenter_019_address,GINZO DE LIMIA,30,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_020,CareCenter_020_address,DOCTOR RAMON CASTROVIEJO,59,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_021,CareCenter_021_address,LA BAÑEZA,18,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_022,CareCenter_022_address,CAMBRILS,14,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_023,CareCenter_023_address,JULIO PALACIOS,37,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_024,CareCenter_024_address,MONASTERIO DE EL ESCORIAL,55,AV,false,true,false
+MONCLOA-ARAVACA,CareCenter_025,CareCenter_025_address,BENITO GUTIERREZ,27,CL,false,true,false
+LATINA,CareCenter_026,CareCenter_026_address,ANTILLON,34,CL,false,true,false
+LATINA,CareCenter_027,CareCenter_027_address,JOSE DE CADALSO,130,CL,false,true,false
+LATINA,CareCenter_028,CareCenter_028_address,MAQUEDA,42,CL,false,true,false
+LATINA,CareCenter_029,CareCenter_029_address,MAQUEDA,42,CL,false,true,false
+CARABANCHEL,CareCenter_030,CareCenter_030_address,PARQUE EUGENIA DE MONTIJO,38,CL,false,true,false
+CARABANCHEL,CareCenter_031,CareCenter_031_address,MARCELINO CAMACHO,13,PO,false,true,false
+CARABANCHEL,CareCenter_032,CareCenter_032_address,GENERAL RICARDOS,97,CL,false,true,false
+CARABANCHEL,CareCenter_033,CareCenter_033_address,ABRANTES,80,AV,false,true,false
+CARABANCHEL,CareCenter_034,CareCenter_034_address,CAMINO VIEJO DE LEGANES,56,CL,false,true,false
+CARABANCHEL,CareCenter_035,CareCenter_035_address,SALVADOR ALLENDE,24,CL,false,true,false
+CARABANCHEL,CareCenter_036,CareCenter_036_address,CALDERILLA,1,CL,false,false,true
+USERA,CareCenter_037,CareCenter_037_address,TARRASA,1,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_038,CareCenter_038_address,PUERTO DE LA BONAIGUA,58,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_039,CareCenter_039_address,HUMANES,61,CL,false,true,false
+MORATALAZ,CareCenter_040,CareCenter_040_address,CAMINO DE LOS VINATEROS,63,CL,false,true,false
+MORATALAZ,CareCenter_041,CareCenter_041_address,CAMINO DE LOS VINATEROS,146,CL,false,false,true
+CIUDAD LINEAL,CareCenter_042,CareCenter_042_address,MARTINEZ VILLERGAS,22,CL,false,true,false
+CIUDAD LINEAL,CareCenter_043,CareCenter_043_address,VIRGEN DE LOS REYES,24,CL,false,true,false
+CIUDAD LINEAL,CareCenter_044,CareCenter_044_address,ALCALA,337,CL,false,true,false
+CIUDAD LINEAL,CareCenter_045,CareCenter_045_address,ALCALA,330,CL,false,false,true
+CIUDAD LINEAL,CareCenter_046,CareCenter_046_address,ARTURO SORIA,320,CL,false,true,false
+CIUDAD LINEAL,CareCenter_047,CareCenter_047_address,SAN GUMERSINDO,12,CL,false,true,false
+CIUDAD LINEAL,CareCenter_048,CareCenter_048_address,RICARDO ORTIZ,51,CL,false,true,false
+CIUDAD LINEAL,CareCenter_049,CareCenter_049_address,CALERUEGA,97,CL,false,true,false
+CIUDAD LINEAL,CareCenter_050,CareCenter_050_address,CALERUEGA,97,CL,false,false,true
+CIUDAD LINEAL,CareCenter_051,CareCenter_051_address,VIRGEN DE NURIA,17,CL,false,true,false
+CIUDAD LINEAL,CareCenter_052,CareCenter_052_address,ASCAO,45,CL,false,false,true
+HORTALEZA,CareCenter_053,CareCenter_053_address,CANILLAS,45,CR,false,false,true
+HORTALEZA,CareCenter_054,CareCenter_054_address,CANILLAS,45,CR,false,false,true
+HORTALEZA,CareCenter_055,CareCenter_055_address,CANILLAS,45,CR,false,false,true
+HORTALEZA,CareCenter_056,CareCenter_056_address,IMPALA,1,CL,false,true,false
+HORTALEZA,CareCenter_057,CareCenter_057_address,VIRGEN DEL CARMEN,64,AV,false,true,false
+HORTALEZA,CareCenter_058,CareCenter_058_address,MOTA DEL CUERVO,14,CL,false,true,false
+HORTALEZA,CareCenter_059,CareCenter_059_address,PAULA DE LA VEGA,21,CL,false,false,true
+HORTALEZA,CareCenter_060,CareCenter_060_address,ARCHIDUQUE ALBERTO,13,CL,false,true,false
+HORTALEZA,CareCenter_061,CareCenter_061_address,CANILLAS,45,CR,false,true,false
+HORTALEZA,CareCenter_062,CareCenter_062_address,CANILLAS,45,CR,false,true,false
+VILLAVERDE,CareCenter_063,CareCenter_063_address,ALBINO HERNANDEZ LAZARO,34,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_064,CareCenter_064_address,ENSANCHE DE VALLECAS,102,AV,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_065,CareCenter_065_address,MAYOLICA,2,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_066,CareCenter_066_address,MAYOLICA,2,CL,false,false,true
+SAN BLAS-CANILLEJAS,CareCenter_067,CareCenter_067_address,JULIAN CAMARILLO,59,CL,false,true,false
+BARAJAS,CareCenter_068,CareCenter_068_address,BAHIA DE PALMA,4,CL,false,true,false
+BARAJAS,CareCenter_069,CareCenter_069_address,BAHIA DE PALMA,4,CL,false,true,false
+BARAJAS,CareCenter_070,CareCenter_070_address,FALUA,5,CL,false,false,true
+BARAJAS,CareCenter_071,CareCenter_071_address,JUBILADO,7,PZ,false,false,true
+BARAJAS,CareCenter_072,CareCenter_072_address,JUBILADO,7,PZ,true,false,false
+MONCLOA-ARAVACA,CareCenter_073,CareCenter_073_address,FLORIDA,49,PO,false,true,false
+MORATALAZ,CareCenter_074,CareCenter_074_address,FUENTE CARRANTONA,17,CL,false,false,true
+RETIRO,CareCenter_075,CareCenter_075_address,MEDITERRANEO,14,AV,false,true,false
+CARABANCHEL,CareCenter_076,CareCenter_076_address,CAMINO VIEJO DE LEGANES,177,CL,false,false,true
+CENTRO,CareCenter_077,CareCenter_077_address,PALMA,15,CL,true,false,false
+CENTRO,CareCenter_078,CareCenter_078_address,PALMA,15,CL,true,false,false
+CENTRO,CareCenter_079,CareCenter_079_address,CONDE DUQUE,46,CL,false,true,false
+ARGANZUELA,CareCenter_080,CareCenter_080_address,ACACIAS,59,PO,false,true,false
+RETIRO,CareCenter_081,CareCenter_081_address,LA REGALADA,7,CL,false,true,false
+RETIRO,CareCenter_082,CareCenter_082_address,MENENDEZ PELAYO,23,AV,false,true,false
+RETIRO,CareCenter_083,CareCenter_083_address,DOCE DE OCTUBRE,24,CL,false,true,false
+SALAMANCA,CareCenter_084,CareCenter_084_address,VELAZQUEZ,109,CL,false,true,false
+SALAMANCA,CareCenter_085,CareCenter_085_address,VELAZQUEZ,109,CL,false,true,false
+CHAMARTIN,CareCenter_086,CareCenter_086_address,LOPEZ DE HOYOS,100,CL,false,true,false
+CHAMARTIN,CareCenter_087,CareCenter_087_address,FRAY BERNARDINO SAHAGUN,9,CL,false,true,false
+TETUAN,CareCenter_088,CareCenter_088_address,CAPITAN BLANCO ARGIBAY,133,CL,false,false,true
+TETUAN,CareCenter_089,CareCenter_089_address,VILLAAMIL,74,CL,false,true,false
+CHAMBERI,CareCenter_090,CareCenter_090_address,MANUEL CORTINA,7,CL,false,true,false
+CHAMBERI,CareCenter_091,CareCenter_091_address,RIOS ROSAS,46,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_092,CareCenter_092_address,SARRIA,52,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_093,CareCenter_093_address,QUINTANA,2,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_094,CareCenter_094_address,QUINTANA,2,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_095,CareCenter_095_address,RIAZA,2,CL,false,true,false
+LATINA,CareCenter_096,CareCenter_096_address,QUERO,57,CL,false,true,false
+LATINA,CareCenter_097,CareCenter_097_address,RAFAEL FINAT,45,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_098,CareCenter_098_address,PABLO NERUDA,34,AV,false,true,false
+HORTALEZA,CareCenter_099,CareCenter_099_address,PUERTO DE SANTA MARIA,128,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0100,CareCenter_0100_address,PUENTELARRA,7,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0101,CareCenter_0101_address,PUENTELARRA,5,CL,false,true,false
+VILLAVERDE,CareCenter_0102,CareCenter_0102_address,CLARA SCHUMANN,22,CL,false,false,true
+CHAMBERI,CareCenter_0103,CareCenter_0103_address,ALONSO CANO,27,CL,false,true,false
+CARABANCHEL,CareCenter_0104,CareCenter_0104_address,IGLESIA,5,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0105,CareCenter_0105_address,TORRELAGUNA,61,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0106,CareCenter_0106_address,TORRELAGUNA,61,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0107,CareCenter_0107_address,FERRAZ,13,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0108,CareCenter_0108_address,FERRAZ,13,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0109,CareCenter_0109_address,ANGEL MUGICA,1,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0110,CareCenter_0110_address,ISLAS MARSHALL,3,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0111,CareCenter_0111_address,PABLO NERUDA,69,AV,false,true,false
+CHAMBERI,CareCenter_0112,CareCenter_0112_address,DONOSO CORTES,37,CL,false,false,true
+LATINA,CareCenter_0113,CareCenter_0113_address,ILLESCAS,42,CL,false,true,false
+LATINA,CareCenter_0114,CareCenter_0114_address,ILLESCAS,72,CL,false,true,false
+BARAJAS,CareCenter_0115,CareCenter_0115_address,BALANDRO,36,CL,false,false,true
+CARABANCHEL,CareCenter_0116,CareCenter_0116_address,ARGÜESO,30,CL,false,true,false
+RETIRO,CareCenter_0117,CareCenter_0117_address,CRUZ DEL SUR,7,CL,false,true,false
+TETUAN,CareCenter_0118,CareCenter_0118_address,ALEJANDRO RODRIGUEZ,10,CL,false,true,false
+RETIRO,CareCenter_0119,CareCenter_0119_address,DOCTOR CASTELO,16,CL,false,true,false
+LATINA,CareCenter_0120,CareCenter_0120_address,BOADILLA DEL MONTE,34,CR,false,true,false
+PUENTE DE VALLECAS,CareCenter_0121,CareCenter_0121_address,SIERRA TOLEDANA,5,CL,false,true,false
+LATINA,CareCenter_0122,CareCenter_0122_address,CAMARENA,251,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0123,CareCenter_0123_address,PUERTO DE MASPALOMAS,12,CL,true,false,false
+CARABANCHEL,CareCenter_0124,CareCenter_0124_address,JOAQUIN MARTINEZ BORREGUERO,16,CL,false,true,false
+BARAJAS,CareCenter_0125,CareCenter_0125_address,ARIES,4,CL,false,true,false
+HORTALEZA,CareCenter_0126,CareCenter_0126_address,MALAGON,2,CL,false,true,false
+LATINA,CareCenter_0127,CareCenter_0127_address,OCAÑA,201,CL,false,true,false
+LATINA,CareCenter_0128,CareCenter_0128_address,SAN MANUEL,3,CL,false,true,false
+RETIRO,CareCenter_0129,CareCenter_0129_address,MENENDEZ PELAYO,19,AV,false,false,true
+CIUDAD LINEAL,CareCenter_0130,CareCenter_0130_address,MARQUES DE CORBERA,54,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0131,CareCenter_0131_address,LA REVOLTOSA,8,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0132,CareCenter_0132_address,LA REVOLTOSA,8,CL,false,false,true
+USERA,CareCenter_0133,CareCenter_0133_address,GRAN AVENIDA,27,CL,false,false,true
+CHAMBERI,CareCenter_0134,CareCenter_0134_address,GENERAL ALVAREZ DE CASTRO,23,CL,false,false,true
+CENTRO,CareCenter_0135,CareCenter_0135_address,MANUELA MALASAÑA,4,CL,false,true,false
+ARGANZUELA,CareCenter_0136,CareCenter_0136_address,BEATA MARIA ANA DE JESUS,12,PZ,false,false,true
+MORATALAZ,CareCenter_0137,CareCenter_0137_address,CAÑADA,23,CL,false,true,false
+MORATALAZ,CareCenter_0138,CareCenter_0138_address,CAÑADA,23,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0139,CareCenter_0139_address,PEAL,20,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0140,CareCenter_0140_address,DOCTOR FEDERICO RUBIO Y GALI,108,AV,false,true,false
+MONCLOA-ARAVACA,CareCenter_0141,CareCenter_0141_address,VALLADOLID,43,AV,false,true,false
+MONCLOA-ARAVACA,CareCenter_0142,CareCenter_0142_address,VALLADOLID,43,AV,false,true,false
+CHAMARTIN,CareCenter_0143,CareCenter_0143_address,PRINCIPE DE VERGARA,208,CL,true,false,false
+CHAMBERI,CareCenter_0144,CareCenter_0144_address,GARCIA DE PAREDES,86,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0145,CareCenter_0145_address,SUECIA,11,CL,false,true,false
+SALAMANCA,CareCenter_0146,CareCenter_0146_address,VELAZQUEZ,105,CL,false,true,false
+SALAMANCA,CareCenter_0147,CareCenter_0147_address,VELAZQUEZ,105,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0148,CareCenter_0148_address,FERRAZ,28,CL,false,true,false
+CHAMARTIN,CareCenter_0149,CareCenter_0149_address,VELAZQUEZ,136,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_0150,CareCenter_0150_address,OLIVO,39,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0151,CareCenter_0151_address,OLIVO,39,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0152,CareCenter_0152_address,OLIVO,39,CL,false,true,false
+USERA,CareCenter_0153,CareCenter_0153_address,OLVIDO,123,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0154,CareCenter_0154_address,PUENTELARRA,18,CL,false,true,false
+ARGANZUELA,CareCenter_0155,CareCenter_0155_address,NAVES,9,CL,false,true,false
+ARGANZUELA,CareCenter_0156,CareCenter_0156_address,NAVES,9,CL,false,true,false
+CHAMARTIN,CareCenter_0157,CareCenter_0157_address,RAMON Y CAJAL,7,AV,false,true,false
+LATINA,CareCenter_0158,CareCenter_0158_address,VALMOJADO,117,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0159,CareCenter_0159_address,ANGEL MUGICA,9,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0160,CareCenter_0160_address,REAL DE ARGANDA,34,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0161,CareCenter_0161_address,CANDILEJAS,58,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0162,CareCenter_0162_address,SUECIA,65,CL,false,true,false
+LATINA,CareCenter_0163,CareCenter_0163_address,AZOR,13,CL,false,false,true
+CARABANCHEL,CareCenter_0164,CareCenter_0164_address,NUESTRA SEÑORA DE FATIMA,75,AV,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0165,CareCenter_0165_address,GINZO DE LIMIA,33,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0166,CareCenter_0166_address,MONFORTE DE LEMOS,169,AV,false,false,true
+LATINA,CareCenter_0167,CareCenter_0167_address,CEBREROS,101,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0168,CareCenter_0168_address,CONGOSTO,37,CL,false,false,true
+SAN BLAS-CANILLEJAS,CareCenter_0169,CareCenter_0169_address,BOLTAÑA,82,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0170,CareCenter_0170_address,ISLA DE TAVIRA,26,CL,false,false,true
+CHAMBERI,CareCenter_0171,CareCenter_0171_address,FERNANDO EL CATOLICO,78,CL,false,true,false
+LATINA,CareCenter_0172,CareCenter_0172_address,VIÑEGRA,6,CL,false,true,false
+HORTALEZA,CareCenter_0173,CareCenter_0173_address,TRIBALDOS,16,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0174,CareCenter_0174_address,CAMPO DE CALATRAVA,9,AV,false,true,false
+CHAMBERI,CareCenter_0175,CareCenter_0175_address,VALLEHERMOSO,98,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0176,CareCenter_0176_address,MIRADOR DE LA REINA,99,CL,false,true,false
+CHAMBERI,CareCenter_0177,CareCenter_0177_address,BRAVO MURILLO,84,CL,false,true,false
+ARGANZUELA,CareCenter_0178,CareCenter_0178_address,VIRGEN DEL PUERTO,9,PO,false,true,false
+ARGANZUELA,CareCenter_0179,CareCenter_0179_address,VIRGEN DEL PUERTO,9,PO,false,true,false
+TETUAN,CareCenter_0180,CareCenter_0180_address,GENERAL MARGALLO,22,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0181,CareCenter_0181_address,MARTINEZ DE LA RIVA,38,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0182,CareCenter_0182_address,TORRELAGUNA,106,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0183,CareCenter_0183_address,GINZO DE LIMIA,46,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0184,CareCenter_0184_address,GINZO DE LIMIA,46,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0185,CareCenter_0185_address,GINZO DE LIMIA,46,CL,false,false,true
+SALAMANCA,CareCenter_0186,CareCenter_0186_address,MARQUES DE ZAFRA,34,PO,false,true,false
+CIUDAD LINEAL,CareCenter_0187,CareCenter_0187_address,JOSE DEL HIERRO,41,CL,false,true,false
+LATINA,CareCenter_0188,CareCenter_0188_address,EXTREMADURA,55,PO,false,true,false
+CENTRO,CareCenter_0189,CareCenter_0189_address,AMANIEL,18,CL,false,true,false
+CENTRO,CareCenter_0190,CareCenter_0190_address,APODACA,11,CL,true,false,false
+CENTRO,CareCenter_0191,CareCenter_0191_address,APODACA,11,CL,true,false,false
+RETIRO,CareCenter_0192,CareCenter_0192_address,ANGEL GANIVET,28,CL,false,true,false
+CHAMBERI,CareCenter_0193,CareCenter_0193_address,GALILEO,51,CL,false,false,true
+SALAMANCA,CareCenter_0194,CareCenter_0194_address,NUÑEZ DE BALBOA,10,CL,false,false,true
+SALAMANCA,CareCenter_0195,CareCenter_0195_address,NUÑEZ DE BALBOA,10,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_0196,CareCenter_0196_address,ISLA DE OZA,59,CL,true,false,false
+CHAMBERI,CareCenter_0197,CareCenter_0197_address,DONOSO CORTES,58,CL,true,false,false
+HORTALEZA,CareCenter_0198,CareCenter_0198_address,FRANCISCO MOSQUEDA,7,CL,false,false,true
+VICALVARO,CareCenter_0199,CareCenter_0199_address,COMUNIDADES,28,AV,true,false,false
+CENTRO,CareCenter_0200,CareCenter_0200_address,TOLEDO,65,CL,false,false,true
+CENTRO,CareCenter_0201,CareCenter_0201_address,TOLEDO,65,CL,false,false,true
+TETUAN,CareCenter_0202,CareCenter_0202_address,OÑATE,7,CL,false,true,false
+CARABANCHEL,CareCenter_0203,CareCenter_0203_address,SAN DELFIN,4,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0204,CareCenter_0204_address,CAMPO DE LA ESTRELLA,7,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0205,CareCenter_0205_address,PEÑA RUBIA,5,CL,false,false,true
+CARABANCHEL,CareCenter_0206,CareCenter_0206_address,PEDRO DIEZ,20,AV,false,true,false
+PUENTE DE VALLECAS,CareCenter_0207,CareCenter_0207_address,PALOMERAS,145,AV,false,false,true
+CARABANCHEL,CareCenter_0208,CareCenter_0208_address,MERCEDES ARTEAGA,49,CL,false,true,false
+HORTALEZA,CareCenter_0209,CareCenter_0209_address,ALCALDE HENCHE DE LA PLATA,22,CL,false,false,true
+TETUAN,CareCenter_0210,CareCenter_0210_address,MOLINA,8,CL,false,true,false
+CHAMBERI,CareCenter_0211,CareCenter_0211_address,BLASCO DE GARAY,75,CL,false,false,true
+CHAMBERI,CareCenter_0212,CareCenter_0212_address,BLASCO DE GARAY,75,CL,true,false,false
+PUENTE DE VALLECAS,CareCenter_0213,CareCenter_0213_address,PUERTO DE CANFRANC,7,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0214,CareCenter_0214_address,ROBLES,2,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0215,CareCenter_0215_address,RAFAEL ALBERTI,16,AV,false,true,false
+CIUDAD LINEAL,CareCenter_0216,CareCenter_0216_address,ARTURO SORIA,319,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0217,CareCenter_0217_address,CERRO DE LA ALCAZABA,18,CL,false,true,false
+TETUAN,CareCenter_0218,CareCenter_0218_address,PEDRO TEIXEIRA,10,CL,false,false,true
+TETUAN,CareCenter_0219,CareCenter_0219_address,MARQUES DE VIANA,35,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0220,CareCenter_0220_address,ALAMEDA DEL VALLE,36,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0221,CareCenter_0221_address,ALAMEDA DEL VALLE,36,CL,false,false,true
+RETIRO,CareCenter_0222,CareCenter_0222_address,MEDITERRANEO,4,AV,false,false,true
+CHAMBERI,CareCenter_0223,CareCenter_0223_address,FERNANDEZ DE LOS RIOS,32,CL,false,true,false
+CHAMBERI,CareCenter_0224,CareCenter_0224_address,FERNANDEZ DE LOS RIOS,32,CL,false,true,false
+RETIRO,CareCenter_0225,CareCenter_0225_address,IBIZA,60,CL,false,false,true
+CARABANCHEL,CareCenter_0226,CareCenter_0226_address,GENERAL RICARDOS,218,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0227,CareCenter_0227_address,CIRAUQUI,4,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0228,CareCenter_0228_address,CIRAUQUI,4,CL,true,false,false
+ARGANZUELA,CareCenter_0229,CareCenter_0229_address,EMBAJADORES,192,CL,false,true,false
+CHAMBERI,CareCenter_0230,CareCenter_0230_address,GALILEO,90,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0231,CareCenter_0231_address,EL FERROL,32,AV,false,true,false
+MONCLOA-ARAVACA,CareCenter_0232,CareCenter_0232_address,GOLONDRINA,71,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0233,CareCenter_0233_address,GOLONDRINA,71,CL,false,true,false
+MORATALAZ,CareCenter_0234,CareCenter_0234_address,MARROQUINA,57,CL,false,false,true
+MORATALAZ,CareCenter_0235,CareCenter_0235_address,MARROQUINA,57,CL,false,false,true
+CARABANCHEL,CareCenter_0236,CareCenter_0236_address,PELICANO,21,CL,false,false,true
+ARGANZUELA,CareCenter_0237,CareCenter_0237_address,CACERES,48,CL,false,false,true
+CHAMARTIN,CareCenter_0238,CareCenter_0238_address,CORAZON DE MARIA,64,CL,false,true,false
+HORTALEZA,CareCenter_0239,CareCenter_0239_address,CESAR CORT BOTI,16,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0240,CareCenter_0240_address,QUINTANAPALLA,13,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0241,CareCenter_0241_address,NURIA,57,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0242,CareCenter_0242_address,MARIA DE MAEZTU,146,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0243,CareCenter_0243_address,VEREDA DE LA TORRE,25,CM,true,false,false
+FUENCARRAL-EL PARDO,CareCenter_0244,CareCenter_0244_address,VEREDA DE LA TORRE,25,CM,true,false,false
+HORTALEZA,CareCenter_0245,CareCenter_0245_address,MANUEL FRAGA IRIBARNE,35,AV,false,true,false
+TETUAN,CareCenter_0246,CareCenter_0246_address,RAIMUNDO FERNANDEZ VILLAVERDE,67,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0247,CareCenter_0247_address,MONTE CARMELO,88,CM,true,false,false
+MONCLOA-ARAVACA,CareCenter_0248,CareCenter_0248_address,GOLONDRINA,31,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0249,CareCenter_0249_address,GOLONDRINA,31,CL,false,true,false
+USERA,CareCenter_0250,CareCenter_0250_address,GUETARIA,83,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0251,CareCenter_0251_address,SANTURCE,25,CL,false,true,false
+ARGANZUELA,CareCenter_0252,CareCenter_0252_address,LAUREL,33,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0253,CareCenter_0253_address,M-607,607,AT,true,false,false
+VICALVARO,CareCenter_0254,CareCenter_0254_address,CONCEJAL VICTORINO GRANIZO,71,CL,false,true,false
+TETUAN,CareCenter_0255,CareCenter_0255_address,BRAVO MURILLO,194,CL,false,true,false
+RETIRO,CareCenter_0256,CareCenter_0256_address,TELLEZ,15,CL,false,false,true
+RETIRO,CareCenter_0257,CareCenter_0257_address,TELLEZ,15,CL,false,false,true
+LATINA,CareCenter_0258,CareCenter_0258_address,CONCEJAL FRANCISCO JOSE JIMENEZ MARTIN,164,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0259,CareCenter_0259_address,ALCALA,330,CL,false,true,false
+VICALVARO,CareCenter_0260,CareCenter_0260_address,IGUALDAD,3,CL,false,true,false
+VICALVARO,CareCenter_0261,CareCenter_0261_address,IGUALDAD,3,CL,false,true,false
+MORATALAZ,CareCenter_0262,CareCenter_0262_address,MARROQUINA,40,CL,false,false,true
+VILLAVERDE,CareCenter_0263,CareCenter_0263_address,LA ALEGRIA DE LA HUERTA,10,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0264,CareCenter_0264_address,COSTA BRAVA,36,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0265,CareCenter_0265_address,EL CALVERON,28,CM,true,false,false
+FUENCARRAL-EL PARDO,CareCenter_0266,CareCenter_0266_address,M-612,612,CR,true,false,false
+SAN BLAS-CANILLEJAS,CareCenter_0267,CareCenter_0267_address,AQUITANIA,8,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0268,CareCenter_0268_address,MONASTERIO DE SILOS,51,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0269,CareCenter_0269_address,TORRE DE JUAN ABAD,5,CL,false,true,false
+HORTALEZA,CareCenter_0270,CareCenter_0270_address,JORDI SOLE TURA,21,CL,false,false,true
+HORTALEZA,CareCenter_0271,CareCenter_0271_address,JORDI SOLE TURA,21,CL,false,false,true
+HORTALEZA,CareCenter_0272,CareCenter_0272_address,JORDI SOLE TURA,21,CL,false,false,true
+HORTALEZA,CareCenter_0273,CareCenter_0273_address,JUAN ANTONIO SAMARANCH,67,AV,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0274,CareCenter_0274_address,VALDECERBERO,4,CM,true,false,false
+FUENCARRAL-EL PARDO,CareCenter_0275,CareCenter_0275_address,VALDECERBERO,4,CM,true,false,false
+FUENCARRAL-EL PARDO,CareCenter_0276,CareCenter_0276_address,COSTA BRAVA,36,CL,false,false,true
+CENTRO,CareCenter_0277,CareCenter_0277_address,SANTO DOMINGO,4,CU,true,false,false
+CENTRO,CareCenter_0278,CareCenter_0278_address,SANTO DOMINGO,4,CU,true,false,false
+CENTRO,CareCenter_0279,CareCenter_0279_address,SANTO DOMINGO,4,CU,true,false,false
+CENTRO,CareCenter_0280,CareCenter_0280_address,ORIENTE,1,CL,false,true,false
+CENTRO,CareCenter_0281,CareCenter_0281_address,VALENCIA,20,CL,false,true,false
+CENTRO,CareCenter_0282,CareCenter_0282_address,SAN ILDEFONSO,16,CL,false,false,true
+CENTRO,CareCenter_0283,CareCenter_0283_address,SAN BARTOLOME,15,CL,false,true,false
+CENTRO,CareCenter_0284,CareCenter_0284_address,MARQUES DE VALDEIGLESIAS,5,CL,false,true,false
+CENTRO,CareCenter_0285,CareCenter_0285_address,MARQUES DE VALDEIGLESIAS,5,CL,false,true,false
+CENTRO,CareCenter_0286,CareCenter_0286_address,LARRA,21,CL,false,false,true
+CENTRO,CareCenter_0287,CareCenter_0287_address,LARRA,21,CL,false,false,true
+CENTRO,CareCenter_0288,CareCenter_0288_address,VALVERDE,48,CL,false,true,false
+CENTRO,CareCenter_0289,CareCenter_0289_address,PEZ,12,CL,false,false,true
+CENTRO,CareCenter_0290,CareCenter_0290_address,PEZ,12,CL,false,false,true
+CENTRO,CareCenter_0291,CareCenter_0291_address,SANTA ISABEL,5,CL,false,true,false
+CENTRO,CareCenter_0292,CareCenter_0292_address,SEÑORES DE LUZON,2,TR,false,true,false
+ARGANZUELA,CareCenter_0293,CareCenter_0293_address,MELILLA,10,CL,false,false,true
+ARGANZUELA,CareCenter_0294,CareCenter_0294_address,MELILLA,10,CL,false,false,true
+ARGANZUELA,CareCenter_0295,CareCenter_0295_address,MARTIN DE VARGAS,11,CL,true,false,false
+ARGANZUELA,CareCenter_0296,CareCenter_0296_address,MARTIN DE VARGAS,11,CL,true,false,false
+ARGANZUELA,CareCenter_0297,CareCenter_0297_address,MARTIN DE VARGAS,34,CL,false,true,false
+ARGANZUELA,CareCenter_0298,CareCenter_0298_address,EMBAJADORES,216,CL,false,false,true
+ARGANZUELA,CareCenter_0299,CareCenter_0299_address,MELANCOLICOS,75,PO,false,true,false
+ARGANZUELA,CareCenter_0300,CareCenter_0300_address,TOLEDO,166,CL,true,false,false
+ARGANZUELA,CareCenter_0301,CareCenter_0301_address,HIERRO,4,CL,false,true,false
+ARGANZUELA,CareCenter_0302,CareCenter_0302_address,NOGALES,7,CL,false,false,true
+ARGANZUELA,CareCenter_0303,CareCenter_0303_address,NOGALES,7,CL,false,false,true
+RETIRO,CareCenter_0304,CareCenter_0304_address,ANDRES TORREJON,10,CL,false,false,true
+RETIRO,CareCenter_0305,CareCenter_0305_address,REINA CRISTINA,36,PO,false,true,false
+RETIRO,CareCenter_0306,CareCenter_0306_address,MEDITERRANEO,16,AV,false,false,true
+RETIRO,CareCenter_0307,CareCenter_0307_address,ABTAO,25,CL,false,false,true
+RETIRO,CareCenter_0308,CareCenter_0308_address,O'DONNELL,4,CL,false,true,false
+CHAMARTIN,CareCenter_0309,CareCenter_0309_address,CANILLAS,20,CL,false,true,false
+CHAMARTIN,CareCenter_0310,CareCenter_0310_address,PRINCIPE DE VERGARA,210,CL,false,true,false
+CHAMARTIN,CareCenter_0311,CareCenter_0311_address,JUAN HURTADO DE MENDOZA,15,CL,false,true,false
+CHAMARTIN,CareCenter_0312,CareCenter_0312_address,BURGOS,40,AV,false,true,false
+CHAMARTIN,CareCenter_0313,CareCenter_0313_address,TRUEBA Y FERNANDEZ,3,CL,true,false,false
+BARAJAS,CareCenter_0314,CareCenter_0314_address,LA RIOJA,15,CL,false,false,true
+TETUAN,CareCenter_0315,CareCenter_0315_address,SAN AMARO,8,PZ,false,false,true
+TETUAN,CareCenter_0316,CareCenter_0316_address,FRANCISCO MEDRANO,5,CL,false,true,false
+TETUAN,CareCenter_0317,CareCenter_0317_address,GENERAL PINTOS,60,CL,false,true,false
+TETUAN,CareCenter_0318,CareCenter_0318_address,GENERAL PINTOS,60,CL,false,true,false
+CHAMBERI,CareCenter_0319,CareCenter_0319_address,GUZMAN EL BUENO,58,CL,false,true,false
+CHAMBERI,CareCenter_0320,CareCenter_0320_address,DONOSO CORTES,80,CL,true,false,false
+CHAMBERI,CareCenter_0321,CareCenter_0321_address,ESCOSURA,19,CL,false,true,false
+CHAMBERI,CareCenter_0322,CareCenter_0322_address,MAGALLANES,17,CL,false,false,true
+CHAMBERI,CareCenter_0323,CareCenter_0323_address,VALLEHERMOSO,40,CL,false,false,true
+CHAMBERI,CareCenter_0324,CareCenter_0324_address,VALLEHERMOSO,40,CL,false,false,true
+CHAMBERI,CareCenter_0325,CareCenter_0325_address,CARDENAL CISNEROS,16,CL,true,false,false
+CHAMBERI,CareCenter_0326,CareCenter_0326_address,ALBURQUERQUE,19,CL,false,true,false
+CHAMBERI,CareCenter_0327,CareCenter_0327_address,GENERAL ALVAREZ DE CASTRO,24,CL,false,true,false
+CHAMBERI,CareCenter_0328,CareCenter_0328_address,GENERAL ARRANDO,9,CL,false,true,false
+CHAMBERI,CareCenter_0329,CareCenter_0329_address,ESPRONCEDA,16,CL,false,false,true
+CHAMBERI,CareCenter_0330,CareCenter_0330_address,SAN JUAN DE LA CRUZ,9,PZ,false,false,true
+CHAMBERI,CareCenter_0331,CareCenter_0331_address,ESPRONCEDA,19,CL,false,false,true
+CHAMBERI,CareCenter_0332,CareCenter_0332_address,ESPRONCEDA,19,CL,false,false,true
+LATINA,CareCenter_0333,CareCenter_0333_address,LANCEROS,2,PO,false,false,true
+LATINA,CareCenter_0334,CareCenter_0334_address,LANCEROS,2,PO,false,false,true
+LATINA,CareCenter_0335,CareCenter_0335_address,DOÑA BERENGUELA,14,CL,false,false,true
+LATINA,CareCenter_0336,CareCenter_0336_address,JUAN ANTON,23,CL,false,true,false
+LATINA,CareCenter_0337,CareCenter_0337_address,MARCELINO CASTILLO,15,CL,false,false,true
+LATINA,CareCenter_0338,CareCenter_0338_address,ILLESCAS,209,CL,false,true,false
+LATINA,CareCenter_0339,CareCenter_0339_address,ILLESCAS,215,CL,false,true,false
+LATINA,CareCenter_0340,CareCenter_0340_address,QUERO,105,CL,false,true,false
+LATINA,CareCenter_0341,CareCenter_0341_address,MAQUEDA,26,CL,false,true,false
+LATINA,CareCenter_0342,CareCenter_0342_address,SANTA CRISTINA,2,PZ,false,true,false
+LATINA,CareCenter_0343,CareCenter_0343_address,SANTA CRISTINA,2,PZ,false,true,false
+LATINA,CareCenter_0344,CareCenter_0344_address,BERLANAS,9,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_0345,CareCenter_0345_address,EUROPA,25,AV,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0346,CareCenter_0346_address,LEOPOLDO ALAS CLARIN,8,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0347,CareCenter_0347_address,ISLA DE TABARCA,38,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0348,CareCenter_0348_address,ISLA DE TABARCA,46,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0349,CareCenter_0349_address,FERMIN CABALLERO,23,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0350,CareCenter_0350_address,SANGENJO,15,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0351,CareCenter_0351_address,MONFORTE DE LEMOS,139,AV,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0352,CareCenter_0352_address,FINISTERRE,9,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0353,CareCenter_0353_address,ISLA SUMATRA,1,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0354,CareCenter_0354_address,AFUERAS A VALVERDE,36,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0355,CareCenter_0355_address,RISCOS DE POLANCO,6,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0356,CareCenter_0356_address,AZOFRA,1,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0357,CareCenter_0357_address,VALDECERBERO,4,CM,true,false,false
+USERA,CareCenter_0358,CareCenter_0358_address,GRAN AVENIDA,29,CL,false,true,false
+USERA,CareCenter_0359,CareCenter_0359_address,ISABEL FORNIELES,4,CL,false,true,false
+USERA,CareCenter_0360,CareCenter_0360_address,MARCELO USERA,119,CL,false,false,true
+USERA,CareCenter_0361,CareCenter_0361_address,JESUS MONTOYA,5,CL,false,true,false
+CARABANCHEL,CareCenter_0362,CareCenter_0362_address,PARADOR DEL SOL,5,CL,false,true,false
+CARABANCHEL,CareCenter_0363,CareCenter_0363_address,MANZANARES,86,AV,false,false,true
+CARABANCHEL,CareCenter_0364,CareCenter_0364_address,CAMINO VIEJO DE LEGANES,131,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0365,CareCenter_0365_address,CAZORLA,11,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0366,CareCenter_0366_address,SANTA CRUZ DE RETAMAR,18,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0367,CareCenter_0367_address,PABLO NERUDA,8,AV,false,false,true
+PUENTE DE VALLECAS,CareCenter_0368,CareCenter_0368_address,ALTO DEL LEON,2,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0369,CareCenter_0369_address,ALBUFERA,19,AV,false,false,true
+PUENTE DE VALLECAS,CareCenter_0370,CareCenter_0370_address,MOGAMBO,9,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0371,CareCenter_0371_address,BUENOS AIRES,19,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0372,CareCenter_0372_address,PUERTO DE ALAZORES,30,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0373,CareCenter_0373_address,SIERRA DE SABIÑAR,1,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0374,CareCenter_0374_address,GRAN VIA DEL SURESTE,32,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0375,CareCenter_0375_address,CABEZA MESADA,32,CL,false,true,false
+MORATALAZ,CareCenter_0376,CareCenter_0376_address,CORREGIDOR ALONSO DE TOBAR,3,CL,true,false,false
+SAN BLAS-CANILLEJAS,CareCenter_0377,CareCenter_0377_address,DISCOBOLO,64,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0378,CareCenter_0378_address,IGNACIO GARCIA,2,CL,false,false,true
+SAN BLAS-CANILLEJAS,CareCenter_0379,CareCenter_0379_address,FERNANDO VII,3,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0380,CareCenter_0380_address,ELBA,15,CL,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0381,CareCenter_0381_address,ARRASTARIA,23,CL,false,true,false
+HORTALEZA,CareCenter_0382,CareCenter_0382_address,CANILLAS,116,CR,false,true,false
+HORTALEZA,CareCenter_0383,CareCenter_0383_address,ALCORISA,57,CL,false,false,true
+HORTALEZA,CareCenter_0384,CareCenter_0384_address,ALCORISA,57,CL,true,false,false
+HORTALEZA,CareCenter_0385,CareCenter_0385_address,LOPEZ DE HOYOS,363,CL,false,false,true
+HORTALEZA,CareCenter_0386,CareCenter_0386_address,SANTA VIRGILIA,33,CL,false,true,false
+HORTALEZA,CareCenter_0387,CareCenter_0387_address,VELEZ RUBIO,20,CL,false,true,false
+HORTALEZA,CareCenter_0388,CareCenter_0388_address,EL ALGABEÑO,57,CL,false,true,false
+HORTALEZA,CareCenter_0389,CareCenter_0389_address,EL ALGABEÑO,115,CL,false,true,false
+HORTALEZA,CareCenter_0390,CareCenter_0390_address,EL ALGABEÑO,117,CL,false,true,false
+HORTALEZA,CareCenter_0391,CareCenter_0391_address,PURCHENA,71,CL,false,false,true
+HORTALEZA,CareCenter_0392,CareCenter_0392_address,PRINCESA DE EBOLI,22,CL,false,true,false
+HORTALEZA,CareCenter_0393,CareCenter_0393_address,LOS EMIGRANTES,2,CL,false,true,false
+HORTALEZA,CareCenter_0394,CareCenter_0394_address,TANTALIS,10,CL,false,true,false
+HORTALEZA,CareCenter_0395,CareCenter_0395_address,ARROYO DE VALDEBEBAS,13,CM,true,false,false
+CIUDAD LINEAL,CareCenter_0396,CareCenter_0396_address,GUTIERRE DE CETINA,19,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0397,CareCenter_0397_address,EZEQUIEL SOLANA,82,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0398,CareCenter_0398_address,PAREDES DE NAVA,30,CL,true,false,false
+CIUDAD LINEAL,CareCenter_0399,CareCenter_0399_address,RIO ULLA,15,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0400,CareCenter_0400_address,VIRGEN DE LLUC,8,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0401,CareCenter_0401_address,ESTEBAN MORA,41,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0402,CareCenter_0402_address,CARLOTA O'NEILL,1,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0403,CareCenter_0403_address,DULZAINA,4,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0404,CareCenter_0404_address,HERMANOS GARCIA NOBLEJAS,192,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0405,CareCenter_0405_address,TORRELAGUNA,7,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0406,CareCenter_0406_address,ALCALA,412,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0407,CareCenter_0407_address,ALCALA,412,CL,false,false,true
+CENTRO,CareCenter_0408,CareCenter_0408_address,TORIJA,8,CL,true,false,false
+CENTRO,CareCenter_0409,CareCenter_0409_address,ZURITA,21,CL,true,false,false
+CENTRO,CareCenter_0410,CareCenter_0410_address,CEDACEROS,5,CL,false,true,false
+CENTRO,CareCenter_0411,CareCenter_0411_address,CEDACEROS,5,CL,false,true,false
+CENTRO,CareCenter_0412,CareCenter_0412_address,MARQUES DE SANTA ANA,30,CL,false,false,true
+ARGANZUELA,CareCenter_0413,CareCenter_0413_address,CHOPERA,3,PO,false,true,false
+ARGANZUELA,CareCenter_0414,CareCenter_0414_address,EMBAJADORES,136,CL,false,true,false
+RETIRO,CareCenter_0415,CareCenter_0415_address,REINA CRISTINA,18,PO,false,true,false
+RETIRO,CareCenter_0416,CareCenter_0416_address,GRANADA,34,CL,false,true,false
+RETIRO,CareCenter_0417,CareCenter_0417_address,CIUDAD DE BARCELONA,101,AV,false,true,false
+RETIRO,CareCenter_0418,CareCenter_0418_address,MENENDEZ PELAYO,43,AV,false,false,true
+RETIRO,CareCenter_0419,CareCenter_0419_address,DOCTOR CASTELO,14,CL,false,false,true
+RETIRO,CareCenter_0420,CareCenter_0420_address,O'DONNELL,4,CL,true,false,false
+CHAMARTIN,CareCenter_0421,CareCenter_0421_address,NUÑEZ MORGADO,15,CL,false,true,false
+TETUAN,CareCenter_0422,CareCenter_0422_address,JAEN,10,CL,false,false,true
+TETUAN,CareCenter_0423,CareCenter_0423_address,SAN AMARO,5,PZ,false,true,false
+TETUAN,CareCenter_0424,CareCenter_0424_address,BRAVO MURILLO,359,CL,false,true,false
+TETUAN,CareCenter_0425,CareCenter_0425_address,FELIX PORTONES,12,CL,false,false,true
+TETUAN,CareCenter_0426,CareCenter_0426_address,VILLAAMIL,51,CL,false,true,false
+TETUAN,CareCenter_0427,CareCenter_0427_address,DOCTOR MARIANI,1,CL,false,true,false
+CHAMBERI,CareCenter_0428,CareCenter_0428_address,ALBERTO AGUILERA,38,CL,false,false,true
+CHAMBERI,CareCenter_0429,CareCenter_0429_address,FEIJOO,10,CL,true,false,false
+CHAMBERI,CareCenter_0430,CareCenter_0430_address,ALONSO CANO,61,CL,false,false,true
+CHAMBERI,CareCenter_0431,CareCenter_0431_address,RIOS ROSAS,12,CL,false,true,false
+MONCLOA-ARAVACA,CareCenter_0432,CareCenter_0432_address,ARRIAZA,7,CL,false,false,true
+MONCLOA-ARAVACA,CareCenter_0433,CareCenter_0433_address,PLEYADES,1,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0434,CareCenter_0434_address,FERMIN CABALLERO,56,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0435,CareCenter_0435_address,RIBADAVIA,31,CL,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0436,CareCenter_0436_address,TRES OLIVOS,2,PZ,false,false,true
+FUENCARRAL-EL PARDO,CareCenter_0437,CareCenter_0437_address,LEOPOLDO ALAS CLARIN,43,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0438,CareCenter_0438_address,VALCARLOS,35,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0439,CareCenter_0439_address,VALCARLOS,35,CL,false,true,false
+FUENCARRAL-EL PARDO,CareCenter_0440,CareCenter_0440_address,MONASTERIO DE EL ESCORIAL,43,AV,false,true,false
+LATINA,CareCenter_0441,CareCenter_0441_address,MANZANARES,34,AV,false,false,true
+LATINA,CareCenter_0442,CareCenter_0442_address,EXTREMADURA,43,PO,false,false,true
+LATINA,CareCenter_0443,CareCenter_0443_address,INDUSTRIA,46,CL,false,false,true
+LATINA,CareCenter_0444,CareCenter_0444_address,INDUSTRIA,46,CL,false,false,true
+LATINA,CareCenter_0445,CareCenter_0445_address,INDUSTRIA,46,CL,false,false,true
+LATINA,CareCenter_0446,CareCenter_0446_address,VILLAMANIN,33,CL,false,false,true
+LATINA,CareCenter_0447,CareCenter_0447_address,VILLAGARCIA,20,CL,false,true,false
+LATINA,CareCenter_0448,CareCenter_0448_address,LOS YEBENES,89,CL,false,true,false
+LATINA,CareCenter_0449,CareCenter_0449_address,ILLESCAS,189,CL,false,false,true
+LATINA,CareCenter_0450,CareCenter_0450_address,QUERO,89,CL,false,false,true
+USERA,CareCenter_0451,CareCenter_0451_address,MANZANARES,216,AV,false,false,true
+USERA,CareCenter_0452,CareCenter_0452_address,GUETARIA,81,CL,false,true,false
+CARABANCHEL,CareCenter_0453,CareCenter_0453_address,MARQUES DE VADILLO,1,GT,false,false,true
+CARABANCHEL,CareCenter_0454,CareCenter_0454_address,MARQUES DE VADILLO,1,GT,false,true,false
+CARABANCHEL,CareCenter_0455,CareCenter_0455_address,VIA,7,CL,false,true,false
+CARABANCHEL,CareCenter_0456,CareCenter_0456_address,CAMINO VIEJO DE LEGANES,101,CL,false,false,true
+CARABANCHEL,CareCenter_0457,CareCenter_0457_address,MANZANARES,104,AV,false,false,true
+CARABANCHEL,CareCenter_0458,CareCenter_0458_address,CONSUELO GUZMAN,15,CL,false,false,true
+CARABANCHEL,CareCenter_0459,CareCenter_0459_address,ALFREDO ALEIX,52,CL,false,true,false
+CARABANCHEL,CareCenter_0460,CareCenter_0460_address,WITERICO,17,CL,false,true,false
+CARABANCHEL,CareCenter_0461,CareCenter_0461_address,CUEVAS DE ALTAMIRA,14,CL,false,true,false
+CARABANCHEL,CareCenter_0462,CareCenter_0462_address,PEPION,10,CL,false,false,true
+CARABANCHEL,CareCenter_0463,CareCenter_0463_address,EURO,6,AV,false,true,false
+MORATALAZ,CareCenter_0464,CareCenter_0464_address,MARROQUINA,98,CL,false,true,false
+MORATALAZ,CareCenter_0465,CareCenter_0465_address,CORREGIDOR JOSE DE PASAMONTE,23,CL,true,false,false
+MORATALAZ,CareCenter_0466,CareCenter_0466_address,DOCTOR GARCIA TAPIA,216,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0467,CareCenter_0467_address,MONTE AYA,20,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0468,CareCenter_0468_address,FUENTESPINA,12,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0469,CareCenter_0469_address,VILLA DE VALLECAS,21,AV,false,true,false
+VILLA DE VALLECAS,CareCenter_0470,CareCenter_0470_address,HONRUBIA,9,CL,false,false,true
+VILLA DE VALLECAS,CareCenter_0471,CareCenter_0471_address,PEÑARANDA DE BRACAMONTE,20,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0472,CareCenter_0472_address,PEÑARANDA DE BRACAMONTE,20,CL,false,true,false
+VILLA DE VALLECAS,CareCenter_0473,CareCenter_0473_address,CABEZA MESADA,27,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0474,CareCenter_0474_address,SIERRA DE CONTRAVIESA,47,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0475,CareCenter_0475_address,TENIENTE MUÑOZ DIAZ,19,CL,false,true,false
+PUENTE DE VALLECAS,CareCenter_0476,CareCenter_0476_address,VILLALOBOS,145,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0477,CareCenter_0477_address,SANTIAGO ALIO,2,CL,false,false,true
+PUENTE DE VALLECAS,CareCenter_0478,CareCenter_0478_address,PABLO NERUDA,75,AV,false,false,true
+HORTALEZA,CareCenter_0479,CareCenter_0479_address,PUERTO DE SANTA MARIA,130,CL,true,false,false
+HORTALEZA,CareCenter_0480,CareCenter_0480_address,SANTO ANGEL,110,CL,false,true,false
+HORTALEZA,CareCenter_0481,CareCenter_0481_address,MACHUPICHU,59,AV,false,true,false
+SAN BLAS-CANILLEJAS,CareCenter_0482,CareCenter_0482_address,SOFIA,209,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0483,CareCenter_0483_address,GONZALO DE BERCEO,74,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0484,CareCenter_0484_address,GARCIA SALAZAR,10,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0485,CareCenter_0485_address,IDIOMA ESPERANTO,11,CL,false,false,true
+CIUDAD LINEAL,CareCenter_0486,CareCenter_0486_address,GENERAL ARANAZ,25,CL,true,false,false
+CIUDAD LINEAL,CareCenter_0487,CareCenter_0487_address,VIRGEN DE LLUC,16,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0488,CareCenter_0488_address,MARQUES DE PICO VELASCO,60,CL,false,true,false
+CIUDAD LINEAL,CareCenter_0489,CareCenter_0489_address,ARTURO SORIA,316,CL,false,false,true

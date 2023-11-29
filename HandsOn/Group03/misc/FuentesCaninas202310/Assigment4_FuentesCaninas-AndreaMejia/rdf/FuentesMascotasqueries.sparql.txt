@@ -1,0 +1,7 @@
+#saca los rdf:Type
+
+SELECT ?id ?e
+WHERE {
+    ?id a ?e
+}                      
+'''

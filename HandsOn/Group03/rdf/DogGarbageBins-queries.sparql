@@ -1,0 +1,4 @@
+SELECT (COUNT(?bin) as ?bin_count)
+    WHERE {
+        ?bin rdf:type dog-ser:DogGarbageBin
+    }

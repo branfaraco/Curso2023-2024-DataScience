@@ -867,5 +867,61 @@
     "op": "core/column-removal",
     "columnName": "EQUIPAMIENTO",
     "description": "Remove column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PK",
+    "expression": "grel:value+\"_Address\"",
+    "onError": "set-to-blank",
+    "newColumnName": "ADDRESS_ID",
+    "columnInsertIndex": 1,
+    "description": "Create column ADDRESS_ID at index 1 based on column PK using expression grel:value+\"_Address\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PK",
+    "expression": "grel:value+\"_GEO\"",
+    "onError": "set-to-blank",
+    "newColumnName": "GEO_ID",
+    "columnInsertIndex": 1,
+    "description": "Create column GEO_ID at index 1 based on column PK using expression grel:value+\"_GEO\""
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCESIBILIDAD",
+    "description": "Remove column ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO-NUM",
+    "description": "Remove column TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD-BARRIO",
+    "description": "Remove column COD-BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD-DISTRITO",
+    "description": "Remove column COD-DISTRITO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-X",
+    "description": "Remove column COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-Y",
+    "description": "Remove column COORDENADA-Y"
   }
 ]

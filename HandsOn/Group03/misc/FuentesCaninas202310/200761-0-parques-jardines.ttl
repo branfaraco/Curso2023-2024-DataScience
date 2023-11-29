@@ -1,0 +1,314 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix transit: <http://vocab.org/transit/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix vocab: <http://example.org#> .
+@prefix dog-loc: <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix dog-det: <https://w3id.org/DogFriendlyMadrid/info/ontology/details#> .
+@prefix dog-ser: <https://w3id.org/DogFriendlyMadrid/info/ontology/services#> .
+@prefix schema-org: <http://schema.org/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+@base <https://w3id.org/DogFriendlyMadrid#> .
+
+# https://w3id.org/DogFriendlyMadrid/info/resource/[class name]/identifier
+
+
+
+<#Address> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{ADDRESS_ID}";
+    rr:class dog-loc:address
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate schema-org:postalCode;
+    rr:objectMap [
+      rml:reference "CODIGO-POSTAL";
+      rr:datatype xsd:string
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasState;
+    rr:objectMap [
+      rr:parentTriplesMap <#State>
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasCity;
+    rr:objectMap [
+      rr:parentTriplesMap <#City>
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasNeighborhood;
+    rr:objectMap [
+      rr:parentTriplesMap <#Neighborhood>
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasNeighborhood;
+    rr:objectMap [
+      rr:parentTriplesMap <#District>
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasThoroughfare;
+    rr:objectMap [
+      rr:parentTriplesMap <#Street>
+    ]
+  ];
+.
+
+<#State> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{PROVINCIA}";
+    rr:class schema-org:State
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate schema-org:name;
+    rr:objectMap [
+      rml:reference "LOCALIDAD";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#City> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{LOCALIDAD}";
+    rr:class schema-org:City
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate schema-org:name;
+    rr:objectMap [
+      rml:reference "LOCALIDAD";
+      rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema-org:containsPlace;
+    rr:objectMap [
+      rr:parentTriplesMap <#Park>
+    ]
+  ];
+.
+
+<#Neighborhood> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{BARRIO}";
+    rr:class dog-loc:Neighborhood
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "BARRIO";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#District> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{DISTRITO}";
+    rr:class dog-loc:District
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "DISTRITO";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#Street> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{NOMBRE-VIA}";
+    rr:class dbo:Street
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "NOMBRE-VIA";
+      rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:isOfStreetType;
+    rr:objectMap [
+      rml:reference "CLASE-VIAL";
+      rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasStreetNumber:;
+    rr:objectMap [
+      rml:reference "NUM";
+      rr:datatype xsd:string
+      ]
+  ];
+.
+
+<#GeoCoordinates> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/City/{GEO_ID}";
+    rr:class schema-org:GeoCoordinates
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate schema-org:latitude;
+    rr:objectMap [
+      rml:reference "LATITUD";
+      rr:datatype xsd:float
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema-org:longitude;
+    rr:objectMap [
+      rml:reference "LONGITUD";
+      rr:datatype xsd:float
+      ]
+  ];
+.
+
+
+<#Park> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./200761-0-parques-jardines-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://w3id.org/DogFriendlyMadrid/info/resource/Park/{PK}";
+    rr:class schema-org:Park
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate schema-org:name;
+    rr:objectMap [
+      rml:reference "NOMBRE";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate schema-org:description;
+    rr:objectMap [
+      rml:reference "DESCRIPCION-ENTIDAD";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:reachebleBy;
+    rr:objectMap [
+      rml:reference "TRANSPORTE";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:hasTrees;
+    rr:objectMap [
+      rml:reference "DESCRIPCION";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:isAccessible;
+    rr:objectMap [
+      rml:reference "TIPO-ACCESIBILIDAD";
+      rr:datatype xsd:string
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate schema-org:mainEntityOfPage;
+    rr:objectMap [
+      rml:reference "CONTENT-URL";
+      rr:datatype xsd:AnyURI
+      ]
+  ];
+
+# CAMBIAR DRAW IO
+rr:predicateObjectMap [
+    rr:predicate dog-det:hasSeniorZone;
+    rr:objectMap [
+      rml:reference "TIENE-ZONA-MAYORES";
+      rr:datatype xsd:boolean
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:hasChildrenZone;
+    rr:objectMap [
+      rml:reference "TIENE-ZONA-INFANTIL";
+      rr:datatype xsd:boolean
+      ]
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate dog-det:hasDogZone;
+    rr:objectMap [
+      rml:reference "TIENE-ZONA-CANINA";
+      rr:datatype xsd:boolean
+      ]
+  ];
+# FIN
+
+# COMPLICACIONES
+  rr:predicateObjectMap [
+    rr:predicate dog-loc:hasAddress;
+    rr:objectMap [
+      rr:parentTriplesMap <#Address>
+    ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate schema-org:geo;
+      rr:objectMap [
+        rr:parentTriplesMap <#GeoCoordinates>
+      ]
+    ];
+# FIN COMPLICACIONES
+.

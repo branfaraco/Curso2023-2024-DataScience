@@ -1,0 +1,459 @@
+@prefix : <https://w3id.org/DogFriendlyMadrid/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix base: <https://w3id.org/DogFriendlyMadrid/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix doc-ser: <http://www.owl-ontologies.com/doc-ser#> .
+@prefix dog-det: <https://w3id.org/DogFriendlyMadrid/info/ontology/details#> .
+@prefix dog-loc: <https://w3id.org/DogFriendlyMadrid/info/ontology/location#> .
+@prefix dog-ser: <https://w3id.org/DogFriendlyMadrid/info/ontology/services#> .
+@prefix schema-org: <https://schema.org/> .
+@base <https://w3id.org/DogFriendlyMadrid/> .
+
+<https://w3id.org/DogFriendlyMadrid/> rdf:type owl:Ontology ;
+                                       mod:createdWith <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/mod#createdWith
+mod:createdWith rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://schema-org#containsPlace
+<http://schema-org#containsPlace> rdf:type owl:ObjectProperty .
+
+
+###  http://schema-org#geo
+<http://schema-org#geo> rdf:type owl:ObjectProperty .
+
+
+###  http://schema-org#mainEntityOfPage
+<http://schema-org#mainEntityOfPage> rdf:type owl:ObjectProperty ;
+                                     rdfs:range xsd:AnyURI .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasAddress
+dog-loc:hasAddress rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCity
+dog-loc:hasCity rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasCityPosition
+dog-loc:hasCityPosition rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasDistrict
+dog-loc:hasDistrict rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasNeighborhood
+dog-loc:hasNeighborhood rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasState
+dog-loc:hasState rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreet
+dog-loc:hasStreet rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#hasService
+dog-ser:hasService rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://schema-org#description
+<http://schema-org#description> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <http://schema-org#Park> ,
+                                            dog-ser:DogZone ,
+                                            dog-ser:Services ;
+                                rdfs:range xsd:string .
+
+
+###  http://schema-org#identifier
+<http://schema-org#identifier> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <http://schema-org#Park> ,
+                                           dog-ser:DogZone ,
+                                           dog-ser:Services ;
+                               rdfs:range xsd:string .
+
+
+###  http://schema-org#latitude
+<http://schema-org#latitude> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <http://schema-org#GeoCoordinates> ;
+                             rdfs:range xsd:float .
+
+
+###  http://schema-org#longitude
+<http://schema-org#longitude> rdf:type owl:DatatypeProperty ;
+                              rdfs:domain <http://schema-org#GeoCoordinates> ;
+                              rdfs:range xsd:float .
+
+
+###  http://schema-org#mainEntityOfPage
+<http://schema-org#mainEntityOfPage> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain <http://schema-org#Park> .
+
+
+###  http://schema-org#name
+<http://schema-org#name> rdf:type owl:DatatypeProperty ;
+                         rdfs:domain <http://schema-org#City> ,
+                                     <http://schema-org#Park> ;
+                         rdfs:range xsd:string .
+
+
+###  http://schema-org#postalCode
+<http://schema-org#postalCode> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain dog-loc:address ;
+                               rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty ;
+           rdfs:domain dbo:Street ,
+                       dog-loc:District ,
+                       dog-loc:Neighborhood .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasAuxAddress
+dog-det:hasAuxAddress rdf:type owl:DatatypeProperty ;
+                      rdfs:domain dog-ser:Services ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasStatus
+dog-det:hasStatus rdf:type owl:DatatypeProperty ;
+                  rdfs:domain dog-ser:DogZone ,
+                              dog-ser:Services ;
+                  rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#hasTrees
+dog-det:hasTrees rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://schema-org#Park> ;
+                 rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#isAccessible
+dog-det:isAccessible rdf:type owl:DatatypeProperty ;
+                     rdfs:domain <http://schema-org#Park> ;
+                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#ofModelType
+dog-det:ofModelType rdf:type owl:DatatypeProperty ;
+                    rdfs:domain dog-ser:Services ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/details#reachebleBy
+dog-det:reachebleBy rdf:type owl:DatatypeProperty ;
+                    rdfs:domain <http://schema-org#Park> ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasLocationId
+dog-loc:hasLocationId rdf:type owl:DatatypeProperty ;
+                      rdfs:domain dog-loc:District ,
+                                  dog-loc:Neighborhood ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasStreetNumber
+dog-loc:hasStreetNumber rdf:type owl:DatatypeProperty ;
+                        rdfs:domain dbo:Street ;
+                        rdfs:range xsd:int .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasXCityPosition
+dog-loc:hasXCityPosition rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dog-loc:CityCoordinates ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#hasYCityPosition
+dog-loc:hasYCityPosition rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dog-loc:CityCoordinates ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#isOfStreetType
+dog-loc:isOfStreetType rdf:type owl:DatatypeProperty ;
+                       rdfs:domain dbo:Street ;
+                       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema-org#City
+<http://schema-org#City> rdf:type owl:Class .
+
+
+###  http://schema-org#GeoCoordinates
+<http://schema-org#GeoCoordinates> rdf:type owl:Class .
+
+
+###  http://schema-org#Park
+<http://schema-org#Park> rdf:type owl:Class .
+
+
+###  http://schema-org#State
+<http://schema-org#State> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2001/XMLSchema#AnyURI
+xsd:AnyURI rdf:type owl:Class .
+
+
+###  https://dbpedia.org/ontology/Street
+dbo:Street rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#CityCoordinates
+dog-loc:CityCoordinates rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#District
+dog-loc:District rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#Neighborhood
+dog-loc:Neighborhood rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/location#address
+dog-loc:address rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#ChildrenZone
+dog-ser:ChildrenZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogGarbageBin
+dog-ser:DogGarbageBin rdf:type owl:Class ;
+                      rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DogZone
+dog-ser:DogZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#DrinkingFountain
+dog-ser:DrinkingFountain rdf:type owl:Class ;
+                         rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#PetDrinkingFountain
+dog-ser:PetDrinkingFountain rdf:type owl:Class ;
+                            rdfs:subClassOf dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#SeniorZone
+dog-ser:SeniorZone rdf:type owl:Class .
+
+
+###  https://w3id.org/DogFriendlyMadrid/info/ontology/services#Services
+dog-ser:Services rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/DogFriendlyMadrid/America_Española
+base:America_Española rdf:type owl:NamedIndividual ,
+                               dbo:Street ;
+                      rdfs:label "America Española" ;
+                      dog-loc:hasStreetNumber "5" ;
+                      dog-loc:isOfStreetType "Plaza" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Calle_Velazquez
+base:Calle_Velazquez rdf:type owl:NamedIndividual ,
+                              dbo:Street ;
+                     rdfs:label "Calle Velazquez" ;
+                     dog-loc:hasStreetNumber "128" ;
+                     dog-loc:isOfStreetType "Calle" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Castellana
+base:Castellana rdf:type owl:NamedIndividual ,
+                         dog-loc:Neighborhood ;
+                rdfs:label "Castellana" ;
+                dog-loc:hasLocationId "46" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Centro
+base:Centro rdf:type owl:NamedIndividual ,
+                     dog-loc:District ;
+            rdfs:label "Centro" ;
+            dog-loc:hasLocationId "1" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Fuente_Salamanca
+base:Fuente_Salamanca rdf:type owl:NamedIndividual ,
+                               dog-ser:DrinkingFountain ;
+                      <http://schema-org#geo> base:geo_coor_fountaindrinking ;
+                      dog-loc:hasAddress base:address_DrinkingFountain ;
+                      <http://schema-org#description> "Fuentes de beber" ;
+                      <http://schema-org#identifier> "1118921" ;
+                      dog-det:hasAuxAddress "Entrada PARQUE SANCHO DÁVILA" ;
+                      dog-det:hasStatus "OPERATIVO" ;
+                      dog-det:ofModelType "BEBEDERO TERRIER" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Fuente_del_Berro
+base:Fuente_del_Berro rdf:type owl:NamedIndividual ,
+                               dog-loc:Neighborhood ;
+                      rdfs:label "Fuente del Berro" ;
+                      dog-loc:hasLocationId "43" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Jardin_de_la_Vega
+base:Jardin_de_la_Vega rdf:type owl:NamedIndividual ,
+                                dog-ser:DogZone ;
+                       <http://schema-org#geo> base:geo_coor_dogzone .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Jardines_de_la_Vega
+base:Jardines_de_la_Vega rdf:type owl:NamedIndividual ,
+                                  <http://schema-org#Park> ;
+                         <http://schema-org#containsPlace> base:Jardin_de_la_Vega ;
+                         <http://schema-org#geo> base:geo_coor_park ;
+                         dog-loc:hasAddress base:address_Park ;
+                         dog-loc:hasCityPosition base:city_coordenate_park ;
+                         <http://schema-org#description> "En la Cuesta de la Vega, bajo la catedral de la Almudena, se encuentran dos zonas" ;
+                         <http://schema-org#identifier> "6009972" ;
+                         <http://schema-org#mainEntityOfPage> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=" ;
+                         <http://schema-org#name> "Jardines de la Vega" ;
+                         dog-det:isAccessible """Instalación parcialmente accesible para personas con
+movilidad reducida""" ;
+                         dog-det:reachebleBy "Bus: 31 , 41 , 50 , 65  Servicio Bicimad, para consultar la estación más cercana," .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Madrid
+base:Madrid rdf:type owl:NamedIndividual ,
+                     <http://schema-org#City> ;
+            <http://schema-org#containsPlace> base:Jardin_de_la_Vega ,
+                                              base:Jardines_de_la_Vega ,
+                                              base:ServicesPet ;
+            <http://schema-org#name> "Madrid" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Palacio
+base:Palacio rdf:type owl:NamedIndividual ,
+                      dog-loc:Neighborhood ;
+             <http://schema-org#longitude> "1" ;
+             rdfs:label "Palacio" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Salamanca
+base:Salamanca rdf:type owl:NamedIndividual ,
+                        dog-loc:District ;
+               rdfs:label "Salamanca" ;
+               dog-loc:hasLocationId "4" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/ServicesPet
+base:ServicesPet rdf:type owl:NamedIndividual ,
+                          dog-ser:Services .
+
+
+###  https://w3id.org/DogFriendlyMadrid/Vega
+base:Vega rdf:type owl:NamedIndividual ,
+                   dbo:Street ;
+          rdfs:label "Vega" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/address_DogGarbageBin
+base:address_DogGarbageBin rdf:type owl:NamedIndividual ,
+                                    dog-loc:address ;
+                           dog-loc:hasDistrict base:Salamanca ;
+                           dog-loc:hasNeighborhood base:Castellana ;
+                           dog-loc:hasStreet base:Calle_Velazquez ;
+                           <http://schema-org#postalCode> "28006" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/address_DrinkingFountain
+base:address_DrinkingFountain rdf:type owl:NamedIndividual ,
+                                       dog-loc:address ;
+                              dog-loc:hasDistrict base:Salamanca ;
+                              dog-loc:hasNeighborhood base:Fuente_del_Berro ;
+                              dog-loc:hasStreet base:America_Española ;
+                              <http://schema-org#postalCode> "43" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/address_Park
+base:address_Park rdf:type owl:NamedIndividual ,
+                           dog-loc:address ;
+                  dog-loc:hasDistrict base:Centro ;
+                  dog-loc:hasNeighborhood base:Palacio ;
+                  dog-loc:hasStreet base:Vega ;
+                  <http://schema-org#postalCode> "28013" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/city_coordenate_park
+base:city_coordenate_park rdf:type owl:NamedIndividual ,
+                                   dog-loc:CityCoordinates ;
+                          dog-loc:hasXCityPosition 439301 ;
+                          dog-loc:hasYCityPosition 4474039 .
+
+
+###  https://w3id.org/DogFriendlyMadrid/geo_coor_doggarbage
+base:geo_coor_doggarbage rdf:type owl:NamedIndividual ,
+                                  <http://schema-org#GeoCoordinates> ;
+                         <http://schema-org#latitude> "40.43747016" ;
+                         <http://schema-org#longitude> "-3.68298002" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/geo_coor_dogzone
+base:geo_coor_dogzone rdf:type owl:NamedIndividual ,
+                               <http://schema-org#GeoCoordinates> ;
+                      <http://schema-org#latitude> "40.535814" ;
+                      <http://schema-org#longitude> "-3.634709" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/geo_coor_fountaindrinking
+base:geo_coor_fountaindrinking rdf:type owl:NamedIndividual ,
+                                        <http://schema-org#GeoCoordinates> ;
+                               <http://schema-org#latitude> "40,42906316" ;
+                               <http://schema-org#longitude> "-3,6615945" .
+
+
+###  https://w3id.org/DogFriendlyMadrid/geo_coor_park
+base:geo_coor_park rdf:type owl:NamedIndividual ,
+                            <http://schema-org#GeoCoordinates> ;
+                   <http://schema-org#latitude> 40.41476219795408 ;
+                   <http://schema-org#longitude> -3.7154411142835397 .
+
+
+###  https://w3id.org/DogFriendlyMadrid/papelera_Salamanca
+base:papelera_Salamanca rdf:type owl:NamedIndividual ,
+                                 dog-ser:DogGarbageBin ;
+                        <http://schema-org#geo> base:geo_coor_doggarbage ;
+                        dog-loc:hasAddress base:address_DogGarbageBin ;
+                        <http://schema-org#identifier> "498189" ;
+                        dog-det:hasAuxAddress "CALLE DE VELAZQUEZ,128" ;
+                        dog-det:hasStatus "OPERATIVO" ;
+                        dog-det:ofModelType "50_LTS_EX" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

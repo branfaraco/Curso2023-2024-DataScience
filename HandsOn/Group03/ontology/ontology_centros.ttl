@@ -1,0 +1,102 @@
+ @prefix adiestramiento: <http://www.owl-ontologies.com/adiestramiento#> .
+@prefix centro: <http://www.owl-ontologies.com/centro#> .
+@prefix distrito: <http://www.owl-ontologies.com/distrito#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix peluqueria: <http://www.owl-ontologies.com/peluqueria#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix veterinario: <http://www.owl-ontologies.com/veterinario#> .
+@prefix via: <http://www.owl-ontologies.com/via#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://www.owl-ontologies.com/ns#EsAdiestramiento> a owl:DatatypeProperty ;
+    rdfs:label "es adiestramiento" ;
+    rdfs:range xsd:boolean .
+
+<http://www.owl-ontologies.com/ns#EsPeluqueria> a owl:DatatypeProperty ;
+    rdfs:label "es peluqueria" ;
+    rdfs:range xsd:boolean .
+
+<http://www.owl-ontologies.com/ns#EsVeterinario> a owl:DatatypeProperty ;
+    rdfs:label "es veterinario" .
+
+<http://www.owl-ontologies.com/ns#ID> a owl:DatatypeProperty ;
+    rdfs:label "i d" ;
+    rdfs:range xsd:string .
+
+<http://www.owl-ontologies.com/ns#NombreVia> a owl:DatatypeProperty ;
+    rdfs:label "nombre via" ;
+    rdfs:range xsd:string .
+
+<http://www.owl-ontologies.com/ns#Número> a owl:DatatypeProperty ;
+    rdfs:label "número" .
+
+<http://www.owl-ontologies.com/ns#TipoVia> a owl:DatatypeProperty ;
+    rdfs:label "tipo via" ;
+    rdfs:range xsd:string .
+
+<http://www.owl-ontologies.com/ns#nombreDistrito> a owl:DatatypeProperty ;
+    rdfs:label "nombre distrito" ;
+    rdfs:range xsd:string .
+
+ns:Adiestramiento a owl:Class ;
+    rdfs:label "Adiestramiento" .
+
+ns:Centrosanimales a owl:Class ;
+    rdfs:label "Centrosanimales" .
+
+ns:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+ns:Peluqueria a owl:Class ;
+    rdfs:label "Peluqueria" .
+
+ns:SubclassOf a owl:ObjectProperty ;
+    rdfs:label "subclass of" ;
+    rdfs:domain centro:Centroanimales ;
+    rdfs:range adiestramiento:Adistramiento,
+        peluqueria:Peluqueria,
+        veterinario:Veterinario .
+
+ns:Veterinario a owl:Class ;
+    rdfs:label "Veterinario" .
+
+ns:Via a owl:Class ;
+    rdfs:label "Via" .
+
+ns:locationDistrict a owl:ObjectProperty ;
+    rdfs:label "location district" ;
+    rdfs:domain centro:Centroanimales ;
+    rdfs:range distrito:Distrito .
+
+ns:locationVia a owl:ObjectProperty ;
+    rdfs:label "location via" ;
+    rdfs:domain centro:Centroanimales ;
+    rdfs:range via:Vía .
+
+ns:partOf a owl:ObjectProperty ;
+    rdfs:label "part of" ;
+    rdfs:range distrito:Distrito .
+
+adiestramiento:Adistramiento a owl:Class ;
+    rdfs:label "Adistramiento" .
+
+peluqueria:Peluqueria a owl:Class ;
+    rdfs:label "Peluqueria" .
+
+veterinario:Veterinario a owl:Class ;
+    rdfs:label "Veterinario" .
+
+via:Vía a owl:Class ;
+    rdfs:label "Vía" .
+
+distrito:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+centro:Centroanimales a owl:Class ;
+    rdfs:label "Centroanimales" .
+

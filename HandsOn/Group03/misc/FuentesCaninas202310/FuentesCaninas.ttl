@@ -1,0 +1,141 @@
+ @prefix barrio: <http://www.owl-ontologies.com/barrio#> .
+@prefix codBarrio: <http://www.owl-ontologies.com/codBarrio#> .
+@prefix codigoDistrito: <http://www.owl-ontologies.com/codigoDistrito#> .
+@prefix cordxFuente: <http://www.owl-ontologies.com/cordxFuente#> .
+@prefix cordyFuente: <http://www.owl-ontologies.com/cordyFuente#> .
+@prefix distrito: <http://www.owl-ontologies.com/distrito#> .
+@prefix estadoFuente: <http://www.owl-ontologies.com/estadoFuente#> .
+@prefix fuente: <http://www.owl-ontologies.com/fuente#> .
+@prefix idFuente: <http://www.owl-ontologies.com/idFuente#> .
+@prefix latitudFuente: <http://www.owl-ontologies.com/latitudFuente#> .
+@prefix longitudFuente: <http://www.owl-ontologies.com/longitudFuente#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix via: <http://www.owl-ontologies.com/via#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+codBarrio:integer a owl:DatatypeProperty ;
+    rdfs:label "integer" .
+
+codigoDistrito:integer a owl:DatatypeProperty ;
+    rdfs:label "integer" .
+
+cordxFuente:float a owl:DatatypeProperty ;
+    rdfs:label "float" .
+
+cordyFuente:float a owl:DatatypeProperty ;
+    rdfs:label "float" .
+
+estadoFuente:String a owl:DatatypeProperty ;
+    rdfs:label "string" .
+
+idFuente:Integer a owl:DatatypeProperty ;
+    rdfs:label "integer" .
+
+latitudFuente:float a owl:DatatypeProperty ;
+    rdfs:label "float" .
+
+longitudFuente:float a owl:DatatypeProperty ;
+    rdfs:label "float" .
+
+ns: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://www.owl-ontologies.com/ns#codigopostalDistrito> a owl:DatatypeProperty ;
+    rdfs:label "codigopostal distrito" ;
+    rdfs:range xsd:integer .
+
+ns:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+ns:Fuente a owl:Class ;
+    rdfs:label "Fuente" .
+
+ns:SubclassOf a owl:ObjectProperty ;
+    rdfs:label "subclass of" ;
+    rdfs:domain ns:Avenida,
+        ns:Calle,
+        ns:Camino,
+        ns:Parque,
+        ns:Paseo,
+        ns:Plaza,
+        ns:Ronda ;
+    rdfs:range via:Via .
+
+ns:WhenInstalation a owl:ObjectProperty ;
+    rdfs:label "when instalation" ;
+    rdfs:domain fuente:Fuente ;
+    rdfs:range ns:Fecha .
+
+ns:locationBarrio a owl:ObjectProperty ;
+    rdfs:label "location barrio" ;
+    rdfs:domain fuente:Fuente ;
+    rdfs:range barrio:Barrio .
+
+ns:locationDistrito a owl:ObjectProperty ;
+    rdfs:label "location distrito" ;
+    rdfs:range distrito:Distrito .
+
+ns:locationVia a owl:ObjectProperty ;
+    rdfs:label "location via" ;
+    rdfs:domain fuente:Fuente ;
+    rdfs:range via:Via .
+
+ns:partOf a owl:ObjectProperty ;
+    rdfs:label "part of" ;
+    rdfs:domain ns:Barrio,
+        ns:Via ;
+    rdfs:range barrio:Barrio,
+        distrito:Distrito .
+
+ns:Avenida a owl:Class ;
+    rdfs:label "Avenida" .
+
+ns:Barrio a owl:Class ;
+    rdfs:label "Barrio" .
+
+ns:Calle a owl:Class ;
+    rdfs:label "Calle" .
+
+ns:Camino a owl:Class ;
+    rdfs:label "Camino" .
+
+ns:Fecha a owl:Class ;
+    rdfs:label "Fecha" .
+
+ns:Parque a owl:Class ;
+    rdfs:label "Parque" .
+
+ns:Paseo a owl:Class ;
+    rdfs:label "Paseo" .
+
+ns:Plaza a owl:Class ;
+    rdfs:label "Plaza" .
+
+ns:Ronda a owl:Class ;
+    rdfs:label "Ronda" .
+
+ns:Uso a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "Uso",
+        "uso" ;
+    rdfs:domain fuente:Fuente ;
+    rdfs:range ns:Uso .
+
+ns:Via a owl:Class ;
+    rdfs:label "Via" .
+
+barrio:Barrio a owl:Class ;
+    rdfs:label "Barrio" .
+
+distrito:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+via:Via a owl:Class ;
+    rdfs:label "Via" .
+
+fuente:Fuente a owl:Class ;
+    rdfs:label "Fuente" .
+

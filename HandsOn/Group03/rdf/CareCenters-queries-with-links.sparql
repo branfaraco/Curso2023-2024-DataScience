@@ -1,0 +1,7 @@
+SELECT (COUNT(?wiki) as ?center_count)
+WHERE {
+       ?DURI rdf:type dog-loc:District . 
+       ?DURI owl:sameAs ?wiki
+    }
+
+
