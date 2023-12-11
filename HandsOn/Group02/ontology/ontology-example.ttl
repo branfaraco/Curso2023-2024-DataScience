@@ -16,54 +16,67 @@
 ###  http://www.vascomap.com/ontology#belongsTo
 ns:belongsTo rdf:type owl:ObjectProperty ;
              rdfs:domain ns:Municipality ;
-             rdfs:range ns:Province .
+             rdfs:range ns:Province ;
+             rdfs:comment "Establishes the belonging of a Municipality to a Province" .
 
 
-###  http://www.vascomap.com/ontology#has
-ns:has rdf:type owl:ObjectProperty ;
-       rdfs:domain ns:Province ;
-       rdfs:range ns:Municipality .
+###  http://www.vascomap.com/ontology#hasMun
+ns:hasMun rdf:type owl:ObjectProperty ;
+          rdfs:domain ns:Province ;
+          rdfs:range ns:Municipality ;
+          rdfs:comment "Says that a Province has a Municipality. It's like belongsTo but the Domain and the Range switch" .
 
 
 ###  http://www.vascomap.com/ontology#takesPlaceInMun
 ns:takesPlaceInMun rdf:type owl:ObjectProperty ;
                    rdfs:domain ns:Observation ;
-                   rdfs:range ns:Municipality .
+                   rdfs:range ns:Municipality ;
+                   rdfs:comment "States the an Observation takes place in a Municipality" .
 
 
 ###  http://www.vascomap.com/ontology#takesPlaceInProv
 ns:takesPlaceInProv rdf:type owl:ObjectProperty ;
                     rdfs:domain ns:Observation ;
-                    rdfs:range ns:Province .
+                    rdfs:range ns:Province ;
+                    rdfs:comment "States that an Observation takes place in a Province" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.vascomap.com/ontology#code
-ns:code rdf:type owl:DatatypeProperty ;
-        rdfs:domain ns:Municipality ;
-        rdfs:range xsd:integer .
+###  http://www.vascomap.com/ontology#has_id
+ns:has_id rdf:type owl:DatatypeProperty ;
+          rdfs:domain ns:Observation ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Describes the Observation's ID" .
 
 
-###  http://www.vascomap.com/ontology#id
-ns:id rdf:type owl:DatatypeProperty ;
-      rdfs:domain ns:Observation ;
-      rdfs:range xsd:string .
+###  http://www.vascomap.com/ontology#has_mun_code
+ns:has_mun_code rdf:type owl:DatatypeProperty ;
+                rdfs:domain ns:Municipality ;
+                rdfs:range xsd:integer ;
+                rdfs:comment "Describes the Municipality's code" .
 
 
-###  http://www.vascomap.com/ontology#name
-ns:name rdf:type owl:DatatypeProperty ;
-        rdfs:domain ns:Municipality ,
-                    ns:Province ;
-        rdfs:range xsd:string .
+###  http://www.vascomap.com/ontology#has_mun_name
+ns:has_mun_name rdf:type owl:DatatypeProperty ;
+                rdfs:domain ns:Municipality ;
+                rdfs:comment "Describes the Municipality's name" .
 
 
-###  http://www.vascomap.com/ontology#value
-ns:value rdf:type owl:DatatypeProperty ;
-         rdfs:domain ns:Observation ;
-         rdfs:range xsd:float .
+###  http://www.vascomap.com/ontology#has_prov_name
+ns:has_prov_name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain ns:Province ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Describes the Province's name" .
+
+
+###  http://www.vascomap.com/ontology#has_value
+ns:has_value rdf:type owl:DatatypeProperty ;
+             rdfs:domain ns:Observation ;
+             rdfs:range xsd:float ;
+             rdfs:comment "Describes the Observation's value" .
 
 
 #################################################################
@@ -72,34 +85,41 @@ ns:value rdf:type owl:DatatypeProperty ;
 
 ###  http://www.vascomap.com/ontology#DotPol
 ns:DotPol rdf:type owl:Class ;
-          rdfs:subClassOf ns:Observation .
+          rdfs:subClassOf ns:Observation ;
+          rdfs:comment "Defines an Observation of the kind \"Dotacion Policial\"" .
 
 
 ###  http://www.vascomap.com/ontology#IndDel
 ns:IndDel rdf:type owl:Class ;
-          rdfs:subClassOf ns:Observation .
+          rdfs:subClassOf ns:Observation ;
+          rdfs:comment "Defines an Observation of the kind \"Indice de Delitos\"" .
 
 
 ###  http://www.vascomap.com/ontology#InfPen
 ns:InfPen rdf:type owl:Class ;
-          rdfs:subClassOf ns:Observation .
+          rdfs:subClassOf ns:Observation ;
+          rdfs:comment "Defines an Observation of the kind \"Infracciones Penales\"" .
 
 
 ###  http://www.vascomap.com/ontology#Municipality
-ns:Municipality rdf:type owl:Class .
+ns:Municipality rdf:type owl:Class ;
+                rdfs:comment "Defines a Municipality" .
 
 
 ###  http://www.vascomap.com/ontology#Observation
-ns:Observation rdf:type owl:Class .
+ns:Observation rdf:type owl:Class ;
+               rdfs:comment "Defines an Observation" .
 
 
 ###  http://www.vascomap.com/ontology#Province
-ns:Province rdf:type owl:Class .
+ns:Province rdf:type owl:Class ;
+            rdfs:comment "Defines a Province" .
 
 
 ###  http://www.vascomap.com/ontology#SegZon
 ns:SegZon rdf:type owl:Class ;
-          rdfs:subClassOf ns:Observation .
+          rdfs:subClassOf ns:Observation ;
+          rdfs:comment "Defines an Observation of the kind \"Seguridad de la Zona\"" .
 
 
 #################################################################
@@ -111,22 +131,26 @@ ns:SegZon rdf:type owl:Class ;
                                                            ns:DotPol ;
                                                   ns:takesPlaceInMun <http://www.vascomap.com/resource/Municipality/48001> ;
                                                   ns:takesPlaceInProv <http://www.vascomap.com/resource/Province/Biscay> ;
-                                                  ns:id "48001DP" ;
-                                                  ns:value "0.79"^^xsd:float .
+                                                  ns:has_id "48001DP" ;
+                                                  ns:has_value "0.79"^^xsd:float ;
+                                                  rdfs:comment "Observation of the kind \"Dotacion Policial\"" .
 
 
 ###  http://www.vascomap.com/resource/Municipality/48001
 <http://www.vascomap.com/resource/Municipality/48001> rdf:type owl:NamedIndividual ,
                                                                ns:Municipality ;
                                                       ns:belongsTo <http://www.vascomap.com/resource/Province/Biscay> ;
-                                                      ns:code 48001 ;
-                                                      ns:name "Abadiño" .
+                                                      ns:has_mun_code "48001" ;
+                                                      ns:has_mun_name "Abadiño" ;
+                                                      rdfs:comment "This is the Municipality of Abadiño" .
 
 
 ###  http://www.vascomap.com/resource/Province/Biscay
-<http://www.vascomap.com/resource/Province/Biscay> rdf:type owl:NamedIndividual ;
-                                                   ns:has <http://www.vascomap.com/resource/Municipality/48001> ;
-                                                   ns:name "Biscay" .
+<http://www.vascomap.com/resource/Province/Biscay> rdf:type owl:NamedIndividual ,
+                                                            ns:Province ;
+                                                   ns:hasMun <http://www.vascomap.com/resource/Municipality/48001> ;
+                                                   ns:has_prov_name "Biscay" ;
+                                                   rdfs:comment "This is the Province of Biscay" .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

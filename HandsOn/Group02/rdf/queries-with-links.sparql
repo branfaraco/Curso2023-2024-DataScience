@@ -11,41 +11,41 @@ PREFIX wd: <https://www.wikidata.org/wiki/>
     }
 
 # QUERY PARA VER TODAS LAS OBSERVACIONES DE DOTPOL POR MUNICIPIOS
-	SELECT distinct ?obs ?value ?id ?mun ?munLink 
+    SELECT distinct ?obs ?value ?id ?mun ?munLink 
     WHERE {
         ?obs a ns:DotPol;
-            ns:value ?value;
-            ns:id ?id;
+            ns:has_value ?value;
+            ns:has_id ?id;
             ns:takesPlaceInMun ?mun.
         ?mun owl:sameAs ?munLink.
     }
 
 # QUERY PARA VER TODAS LAS OBSERVACIONES DE INDDEL POR PROVINCIAS
-	SELECT distinct ?obs ?value ?id ?prov ?provLink
-    WHERE {
-        ?obs a ns:IndDel;
-            ns:value ?value;
-            ns:id ?id;
-            ns:takesPlaceInProv ?prov.
-        ?prov owl:sameAs ?provLink.
-    }
-	
-# QUERY PARA VER TODAS LAS OBSERVACIONES DE SEGZON
     SELECT distinct ?obs ?value ?id ?prov ?provLink
     WHERE {
-        ?obs a ns:SegZon;
-            ns:value ?value;
-            ns:id ?id;
+        ?obs a ns:IndDel;
+            ns:has_value ?value;
+            ns:has_id ?id;
             ns:takesPlaceInProv ?prov.
         ?prov owl:sameAs ?provLink.
     }
 	
-# QUERY PARA VER TODAS LAS OBSERVACIONES DE INFPEN
+# QUERY PARA VER TODAS LAS OBSERVACIONES DE SEGZON POR MUNICIPIOS
+    SELECT distinct ?obs ?value ?id ?mun ?munLink
+    WHERE {
+        ?obs a ns:SegZon;
+            ns:has_value ?value;
+            ns:has_id ?id;
+            ns:takesPlaceInMun ?mun.
+        ?mun owl:sameAs ?munLink.
+    }
+	
+# QUERY PARA VER TODAS LAS OBSERVACIONES DE INFPEN POR PROVINCIAS
     SELECT distinct ?obs ?value ?id ?prov ?provLink
     WHERE {
         ?obs a ns:InfPen;
-            ns:value ?value;
-            ns:id ?id;
+            ns:has_value ?value;
+            ns:has_id ?id;
             ns:takesPlaceInProv ?prov.
         ?prov owl:sameAs ?provLink.
     }
@@ -54,8 +54,8 @@ PREFIX wd: <https://www.wikidata.org/wiki/>
     SELECT distinct ?prov ?name ?link ?mun
     WHERE {
         ?prov a ns:Province;
-            ns:name ?name;
-            ns:has ?mun;
+            ns:has_prov_name ?name;
+            ns:hasMun ?mun;
             owl:sameAs ?link.
     }
 
@@ -63,8 +63,8 @@ PREFIX wd: <https://www.wikidata.org/wiki/>
     SELECT distinct ?mun ?name ?code ?prov ?link
     WHERE {
         ?mun a ns:Municipality;
-            ns:name ?name;
-            ns:code ?code;
+            ns:has_mun_name ?name;
+            ns:has_mun_code ?code;
             ns:belongsTo ?prov;
             owl:sameAs ?link.
     }
@@ -73,19 +73,19 @@ PREFIX wd: <https://www.wikidata.org/wiki/>
     SELECT distinct ?obs ?id ?value ?mun ?prov ?provLink
     WHERE {
         ?obs a ns:DotPol;
-            ns:id ?id;
-            ns:value ?value;
+            ns:has_id ?id;
+            ns:has_value ?value;
             ns:takesPlaceInMun ?mun.
         ?mun owl:sameAs wd:Q744893;
             ns:belongsTo ?prov.
         ?prov owl:sameAs ?provLink.
     }
 	
-# QUERY PARA OBTENER LOS MUNICIPIOS CON UN ÍNDICE DE DELITOS MAYOR A 50
+# QUERY PARA OBTENER LOS MUNICIPIOS(NOMBRES) CON UN ÍNDICE DE DELITOS MAYOR A 50
     SELECT distinct ?obs ?value ?mun ?link
     WHERE {
         ?obs a ns:IndDel;
-            ns:value ?value;
+            ns:has_value ?value;
             ns:takesPlaceInMun ?mun.
         FILTER(?value > 50).
         ?mun owl:sameAs ?link.
@@ -95,10 +95,10 @@ PREFIX wd: <https://www.wikidata.org/wiki/>
     SELECT distinct ?mun ?munName ?code ?munLink
     WHERE {
         ?prov a ns:Province;
-            ns:name "Biscay";
-            ns:has ?mun.
+            ns:has_prov_name "Biscay";
+            ns:hasMun ?mun.
         ?mun a ns:Municipality;
-            ns:name ?munName;
-            ns:code ?code;
+            ns:has_mun_name ?munName;
+            ns:has_mun_code ?code;
             owl:sameAs ?munLink.
     }

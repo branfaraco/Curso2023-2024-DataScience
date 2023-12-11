@@ -15,8 +15,8 @@ mappings:
     s: http://www.vascomap.com/resource/DotPol/$(ID)
     po:
       - [a, ns:DotPol]
-      - [ns:id, $(ID)]
-      - [ns:value, $(2020), xsd:float]
+      - [ns:has_id, $(ID)]
+      - [ns:has_value, $(2020), xsd:float]
       - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
       - [ns:takesPlaceInMun, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
 
@@ -26,8 +26,8 @@ mappings:
     s: http://www.vascomap.com/resource/IndDel/$(ID)
     po:
       - [a, ns:IndDel]
-      - [ns:id, $(ID)]
-      - [ns:value, $(2020), xsd:float]
+      - [ns:has_id, $(ID)]
+      - [ns:has_value, $(2020), xsd:float]
       - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
       - [ns:takesPlaceInMun, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
 
@@ -37,8 +37,8 @@ mappings:
     s: http://www.vascomap.com/resource/SegZon/$(PROVINCIA)
     po:
       - [a, ns:SegZon]
-      - [ns:id, $(PROVINCIA)]
-      - [ns:value, $(2020), xsd:float]
+      - [ns:has_id, $(PROVINCIA)]
+      - [ns:has_value, $(2020), xsd:float]
       - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
 
   mapInfraccionesPenales:
@@ -47,8 +47,8 @@ mappings:
     s: http://www.vascomap.com/resource/InfPen/$(PROVINCIA)
     po:
       - [a, ns:InfPen]
-      - [ns:id, $(PROVINCIA)]
-      - [ns:value, $(2020), xsd:float]
+      - [ns:has_id, $(PROVINCIA)]
+      - [ns:has_value, $(2020), xsd:float]
       - [ns:takesPlaceInProv, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]
 
   mapProvincia:
@@ -57,8 +57,8 @@ mappings:
     s: http://www.vascomap.com/resource/Province/$(PROVINCIA)
     po:
       - [a, ns:Province]
-      - [ns:name, $(PROVINCIA)]
-      - [ns:has, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
+      - [ns:has_prov_name, $(PROVINCIA)]
+      - [ns:hasMun, http://www.vascomap.com/resource/Municipality/$(CODE)~iri]
 
   mapMunicipio:
     sources:
@@ -66,6 +66,6 @@ mappings:
     s: http://www.vascomap.com/resource/Municipality/$(CODE)
     po:
       - [a, ns:Municipality]
-      - [ns:name, $(MUNICIPIO)]
-      - [ns:code, $(CODE)]	
+      - [ns:has_mun_name, $(MUNICIPIO)]
+      - [ns:has_mun_code, $(CODE)]	
       - [ns:belongsTo, http://www.vascomap.com/resource/Province/$(PROVINCIA)~iri]

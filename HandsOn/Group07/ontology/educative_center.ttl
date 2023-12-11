@@ -32,32 +32,46 @@
 
 ## Clases ##
 
-geo:SpatialThing a owl:Class ;
-    rdfs:label "Spatial Thing" .
 
 ns:OtherEntity a owl:Class ;
     rdfs:label "Other Entity" .
 
 ns:Municipality a owl:Class ;
-    rdfs:label "Municipality" .
+    rdfs:label "Municipality" ;
+    rdfs:subClassOf ns:Entity .
+
+geo:SpatialThing a owl:Class ;
+    rdfs:label "Spatial Thing" .
+
+ns:OtherEntity a owl:Class ;
+    rdfs:label "Other Entity" ;
+    rdfs:subClassOf ns:Entity .
 
 ns:Owner a owl:Class ;
-    rdfs:label "Owner" .
+    rdfs:label "Owner" ;
+    rdfs:subClassOf ns:Entity .
 
 ns:District a owl:Class ;
-    rdfs:label "District" .
+    rdfs:label "District" ;
+    rdfs:subClassOf ns:Entity .
 
 ns:Contact a owl:Class ;
     rdfs:label "Contact" .
 
 ns:Address a owl:Class ;
-    rdfs:label "Address" .
+    rdfs:label "Address" ;
+    rdfs:subClassOf geo:SpatialThing .
 
 ns:EducativeCenter a owl:Class ;
-    rdfs:label "Educative Center" .
+    rdfs:label "Educative Center" ;
+    rdfs:subClassOf ns:Entity .
+
+ns:Entity a owl:Class ;
+    rdfs:label "Entity" .
 
 
 ## ObjectProperties ##
+
 ns:hasAddress a owl:ObjectProperty ;
     rdfs:label "has address" ;
     rdfs:domain ns:EducativeCenter ;
@@ -80,7 +94,8 @@ ns:isInDistrict a owl:ObjectProperty ;
 
 ns:isInMunicipality a owl:ObjectProperty ;
     rdfs:label "is in municipality" ;
-    rdfs:domain ns:Address .
+    rdfs:domain ns:Address ;
+    rdfs:range ns:Municipality .
 
 ns:refersTo a owl:ObjectProperty ;
     rdfs:label "refers to" ;
@@ -106,15 +121,12 @@ geo:long a owl:DatatypeProperty ;
 
 foaf:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
-    rdfs:domain ns:District,
-        ns:EducativeCenter,
-        ns:Municipality,
-        ns:Owner ;
+    rdfs:domain ns:Entity ;
     rdfs:range xsd:string .
 
-ns:hasCenterCode a owl:DatatypeProperty ;
-    rdfs:label "has center code" ;
-    rdfs:domain ns:EducativeCenter ;
+ns:hasid a owl:DatatypeProperty ;
+    rdfs:label "has id" ;
+    rdfs:domain ns:Entity ;
     rdfs:range xsd:string .
 
 ns:hasCompleteAddress a owl:DatatypeProperty ;
@@ -127,20 +139,12 @@ ns:hasDescription a owl:DatatypeProperty ;
     rdfs:domain ns:EducativeCenter ;
     rdfs:range xsd:string .
 
-ns:hasDistrictNumber a owl:DatatypeProperty ;
-    rdfs:label "has district number" ;
-    rdfs:domain ns:District ;
-    rdfs:range xsd:string .
 
 ns:hasEmailContact a owl:DatatypeProperty ;
     rdfs:label "has email contact" ;
     rdfs:domain ns:Contact ;
     rdfs:range xsd:string .
 
-ns:hasMunicipalityNumber a owl:DatatypeProperty ;
-    rdfs:label "has municipality number" ;
-    rdfs:domain ns:Municipality ;
-    rdfs:range xsd:string .
 
 ns:hasShortDescription a owl:DatatypeProperty ;
     rdfs:label "has short description" ;

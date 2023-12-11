@@ -153,10 +153,10 @@ map:pm_000 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_001 rdf:type rr:PredicateMap ;
-	rr:constant ns:id .
+	rr:constant ns:has_id .
 
 map:pm_002 rdf:type rr:PredicateMap ;
-	rr:constant ns:value .
+	rr:constant ns:has_value .
 
 map:pm_003 rdf:type rr:PredicateMap ;
 	rr:constant ns:takesPlaceInProv .
@@ -168,10 +168,10 @@ map:pm_005 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_006 rdf:type rr:PredicateMap ;
-	rr:constant ns:id .
+	rr:constant ns:has_id .
 
 map:pm_007 rdf:type rr:PredicateMap ;
-	rr:constant ns:value .
+	rr:constant ns:has_value .
 
 map:pm_008 rdf:type rr:PredicateMap ;
 	rr:constant ns:takesPlaceInProv .
@@ -183,10 +183,10 @@ map:pm_010 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_011 rdf:type rr:PredicateMap ;
-	rr:constant ns:id .
+	rr:constant ns:has_id .
 
 map:pm_012 rdf:type rr:PredicateMap ;
-	rr:constant ns:value .
+	rr:constant ns:has_value .
 
 map:pm_013 rdf:type rr:PredicateMap ;
 	rr:constant ns:takesPlaceInProv .
@@ -195,10 +195,10 @@ map:pm_014 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_015 rdf:type rr:PredicateMap ;
-	rr:constant ns:id .
+	rr:constant ns:has_id .
 
 map:pm_016 rdf:type rr:PredicateMap ;
-	rr:constant ns:value .
+	rr:constant ns:has_value .
 
 map:pm_017 rdf:type rr:PredicateMap ;
 	rr:constant ns:takesPlaceInProv .
@@ -207,19 +207,19 @@ map:pm_018 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_019 rdf:type rr:PredicateMap ;
-	rr:constant ns:name .
+	rr:constant ns:has_prov_name .
 
 map:pm_020 rdf:type rr:PredicateMap ;
-	rr:constant ns:has .
+	rr:constant ns:hasMun .
 
 map:pm_021 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_022 rdf:type rr:PredicateMap ;
-	rr:constant ns:name .
+	rr:constant ns:has_mun_name .
 
 map:pm_023 rdf:type rr:PredicateMap ;
-	rr:constant ns:code .
+	rr:constant ns:has_mun_code .
 
 map:pm_024 rdf:type rr:PredicateMap ;
 	rr:constant ns:belongsTo .
