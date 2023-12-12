@@ -10,7 +10,7 @@
 
 <http://datos.comunidad.madrid/centros_educativos/ontology> a owl:Ontology .
 
-<http://datos.comunidad.madrid/centros_educativos/resource/EducativeCenter/EducativeCenter2800029> rdfs:type  ns:EducativeCenter ;
+<http://datos.comunidad.madrid/centros_educativos/resource/EducativeCenter/2800029> rdfs:type  ns:EducativeCenter ;
     foaf:name "SAN BLAS";
     ns:hasid "28000029" ;
     ns:hasDescription "COLEGIO DE EDUCACIÓN INFANTIL, PRIMARIA Y SECUNDARIA" ;
@@ -21,15 +21,15 @@
         foaf:name "COMUNIDAD DE MADRID" ;
     ns:refersTo <http://datos.comunidad.madrid/centros_educativos/resource/OtherEntity/COMUNIDAD%20DE%20MADRID>; 
         foaf:name "COMUNIDAD DE MADRID";
-    ns:hasAdress <http://datos.comunidad.madrid/centros_educativos/resource/Adress/Adress2800029>;
+    ns:hasAdress <http://datos.comunidad.madrid/centros_educativos/resource/Adress/2800029>;
         ns:hasCompleteAdress 'CALLE VICTOR HURTADO, s/n, 28864';
         geo:lat 40.53989856 ;
         geo:long -3.48613787 ;
         dbpediaowl:postalCode "28864" ;
-        ns:isInMunicipality <http://datos.comunidad.madrid/centros_educativos/resource/Municipality/Municipality002> ;
+        ns:isInMunicipality <http://datos.comunidad.madrid/centros_educativos/resource/Municipality/002> ;
             foaf:name "Ajalvir";
             ns:hasMunicipalityNumber "002" ;           
-    ns:hasContact <http://datos.comunidad.madrid/centros_educativos/resource/Contact/Contact2800029>;
+    ns:hasContact <http://datos.comunidad.madrid/centros_educativos/resource/Contact/2800029>;
         ns:hasWebsite " http://www.educa.madrid.org/cp.sanblas.ajalvir" ;
         ns:hasTelefoneNumber "918844589" ;
         ns:hasEmailContact "cp.sanblas.ajalvir@educa.madrid.org".
